@@ -1,0 +1,12 @@
+# API response cache — regenerated on demand, not committed (85 MB)
+.apicache.json
+
+# intermediate resolution passes
+libs.spec.resolved.json
+libs.spec.canonical.json
+libs.spec.work.json
+libs.resolve-report.json
+
+# python
+__pycache__/
+*.pyc

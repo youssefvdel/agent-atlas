@@ -1,0 +1,230 @@
+tree:
+  agents:
+    delegation-and-orchestration:
+      claude-code:
+      - claude-code
+      codex:
+      - codex
+      computer-use:
+      - computer-use
+      hermes-agent:
+      - hermes-agent
+      opencode:
+      - opencode
+      provider-adapters:
+      - protocol-translation
+      - provider-recon
+  comms:
+    email-and-messaging:
+      custom-domain-email:
+      - custom-domain-email
+      email-inbox-triage:
+      - email-inbox-triage
+      himalaya:
+      - himalaya
+      self-hosted-mail-server:
+      - self-hosted-mail-server
+      xurl:
+      - xurl
+  creative:
+    motion:
+      animation-philosophy:
+      - animate
+      - animation-vocabulary
+      - emil-design-eng
+      - improve-animations
+    design-and-media:
+      architecture-diagram:
+      - architecture-diagram
+      ascii-video:
+      - ascii-video
+      baoyu-infographic:
+      - baoyu-infographic
+      claude-design:
+      - claude-design
+      design-md:
+      - design-md
+      design-systems:
+      - apple-design
+      - brand-guidelines
+      - theme-factory
+      generative-art:
+      - algorithmic-art
+      - canvas-design
+      humanizer:
+      - humanizer
+      impeccable:
+      - impeccable
+      interface-design:
+      - design-taste-frontend
+      - frontend-design
+      - ui-ux-craft-kit
+      - ui-ux-dev-paid
+      - ui-ux-pro-max
+      - ux-design-pro-max
+      manim-video:
+      - manim-video
+      p5js:
+      - p5js
+      popular-web-designs:
+      - popular-web-designs
+      songwriting-and-ai-music:
+      - songwriting-and-ai-music
+  engineering:
+    web-and-network:
+      api-clients:
+      - riot-client-api
+      - riot-client-local-api
+      blocked-page-recovery:
+      - blocked-page-recovery
+      browser-automation:
+      - browser-automation
+      - browser-file-harvest
+      - stealth-browser
+      extensions:
+      - chromium-extension
+      networking:
+      - recon-pure-vpn
+      performance:
+      - live-view-flicker
+    software-development:
+      architecture:
+      - system-architect
+      cli-tooling:
+      - go-cli
+      - rust-cli
+      code-style:
+      - ponytail
+      codebase-inspection:
+      - codebase-inspection
+      dogfood:
+      - dogfood
+      frontend-frameworks:
+      - react-best-practices
+      github:
+      - github
+      hermes-agent-skill-authoring:
+      - hermes-agent-skill-authoring
+      inspecting-hermes-desktop-dom:
+      - inspecting-hermes-desktop-dom
+      linux-system-administration:
+      - linux-system-administration
+      node-inspect-debugger:
+      - node-inspect-debugger
+      python-debugpy:
+      - python-debugpy
+      requesting-code-review:
+      - requesting-code-review
+      rust-fuse-filesystem:
+      - rust-fuse-filesystem
+      simplify-code:
+      - simplify-code
+      spike:
+      - spike
+      static-site-ci-deploy:
+      - static-site-ci-deploy
+      systematic-debugging:
+      - systematic-debugging
+      test-driven-development:
+      - test-driven-development
+      twin-drives-windows:
+      - twin-drives-windows
+      twin-link:
+      - twin-link
+      usb-hid-recovery:
+      - usb-hid-recovery
+      webview-desktop-shipping:
+      - webview-desktop-shipping
+    desktop-and-mobile:
+      tauri:
+      - tauri-live-debug
+      - tauri-v2
+  media:
+    audio-and-social:
+      gif-search:
+      - gif-search
+      songsee:
+      - songsee
+      youtube-content:
+      - youtube-content
+  productivity:
+    office-and-docs:
+      academic-project-delivery:
+      - academic-project-delivery
+      airtable:
+      - airtable
+      box:
+      - box
+      document-to-action-items:
+      - document-to-action-items
+      docx:
+      - docx
+      google-workspace:
+      - google-workspace
+      maps:
+      - maps
+      meeting-action-items:
+      - meeting-action-items
+      naming:
+      - name-availability
+      notion:
+      - notion
+      obsidian:
+      - obsidian
+      pdf:
+      - pdf
+      powerpoint:
+      - powerpoint
+      product-price-monitor:
+      - product-price-monitor
+      teams-meeting-pipeline:
+      - teams-meeting-pipeline
+      weekly-review-planning:
+      - weekly-review-planning
+      word-online-editing:
+      - word-online-editing
+      xlsx:
+      - xlsx
+  research:
+    discovery-and-citation:
+      arxiv:
+      - arxiv
+      competitor-news-monitor:
+      - competitor-news-monitor
+      grounded-citations:
+      - grounded-citations
+      llm-wiki:
+      - llm-wiki
+  unclassified:
+    unclassified:
+      apple-notes:
+      - apple-notes
+      apple-reminders:
+      - apple-reminders
+      findmy:
+      - findmy
+      imessage:
+      - imessage
+      mail-server-ops:
+      - mail-server-ops
+      sdlc-review:
+      - sdlc-review
+      vercel-web-design-guidelines:
+      - web-design-guidelines
+      windows-interop:
+      - windows-interop
+      windows-workstation-setup:
+      - windows-workstation-setup
+stats:
+  total: 107
+  domains: 8
+  with_links: 16
+  with_code: 65
+  total_code_blocks: 1014
+  total_body_chars: 1012430
+  total_linked_files: 310
+  avg_description_len: 110.6
+generated_at: '2026-10-20T10:43:33.114407+00:00'
+roots:
+- /home/youssefvdel/.hermes/skills
+- /home/youssefvdel/.hermes/plugins

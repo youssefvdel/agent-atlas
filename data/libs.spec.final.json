@@ -1,0 +1,2945 @@
+{
+  "$comment": "Target list for tools/scrape_libs.py. Every entry is resolved live against the npm registry + GitHub API. Names/packages here are hand-verified; stars/versions are never trusted from this file.",
+  "libraries": [
+    {
+      "name": "GSAP",
+      "npm": "gsap",
+      "repo": "greensock/GSAP",
+      "category": "animation-core",
+      "tags": [
+        "timeline",
+        "scrolltrigger",
+        "commercial-plugin-tier"
+      ],
+      "repo_stars": 29518,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Motion (motion.dev)",
+      "npm": "motion",
+      "repo": "motiondivision/motion",
+      "category": "animation-core",
+      "tags": [
+        "react",
+        "vanilla",
+        "hybrid"
+      ],
+      "repo_stars": 34379,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Motion One",
+      "npm": "@motionone/dom",
+      "repo": "motiondivision/motion",
+      "category": "animation-core",
+      "tags": [
+        "web-animations",
+        "legacy-lineage"
+      ],
+      "repo_stars": 34379,
+      "repo_resolution": "recorded(canonical)",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "anime.js v4",
+      "npm": "animejs",
+      "repo": "juliangarnier/anime",
+      "category": "animation-core",
+      "tags": [
+        "timeline",
+        "svg",
+        "waapi"
+      ],
+      "repo_stars": 73727,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "react-spring",
+      "npm": "@react-spring/web",
+      "repo": "pmndrs/react-spring",
+      "category": "animation-core",
+      "tags": [
+        "react",
+        "physics"
+      ],
+      "repo_stars": 29175,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "@react-spring/three",
+      "npm": "@react-spring/three",
+      "repo": "pmndrs/react-spring",
+      "category": "animation-core",
+      "tags": [
+        "react",
+        "3d"
+      ],
+      "repo_stars": 29175,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Popmotion",
+      "npm": "popmotion",
+      "repo": "Popmotion/popmotion",
+      "category": "animation-core",
+      "tags": [
+        "legacy-lineage",
+        "superseded-by-motion"
+      ],
+      "repo_stars": 20150,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Tween.js",
+      "npm": "@tweenjs/tween.js",
+      "repo": "tweenjs/tween.js",
+      "category": "animation-core",
+      "tags": [
+        "tweening",
+        "maintained-fork"
+      ],
+      "repo_stars": 10149,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "TweenMax (legacy)",
+      "npm": "greensock",
+      "repo": "greensock/GSAP",
+      "category": "animation-core",
+      "tags": [
+        "legacy",
+        "free-only"
+      ],
+      "repo_stars": 29518,
+      "repo_resolution": "npm-field/fork->greensock/GSAP",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Velocity.js",
+      "npm": "velocity-animate",
+      "repo": "julianshapiro/velocity",
+      "category": "animation-core",
+      "tags": [
+        "jquery-era",
+        "maintenance-mode"
+      ],
+      "repo_stars": 17188,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "gauss",
+      "npm": "gauss",
+      "repo": "wayoutmind/gauss",
+      "category": "animation-core",
+      "tags": [
+        "small"
+      ],
+      "repo_stars": 427,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "mo.js",
+      "npm": "mo-js",
+      "repo": "legomushroom/mojs",
+      "category": "animation-core",
+      "tags": [
+        "timeline",
+        "older"
+      ],
+      "repo_stars": 18821,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "ScrollReveal",
+      "npm": "scrollreveal",
+      "repo": "jlmakes/scrollreveal",
+      "category": "scroll-and-reveal",
+      "tags": [
+        "scroll",
+        "simple"
+      ],
+      "repo_stars": 22472,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Lenis",
+      "npm": "lenis",
+      "repo": "darkroomengineering/lenis",
+      "category": "scroll-and-reveal",
+      "tags": [
+        "smooth-scroll",
+        "modern"
+      ],
+      "repo_stars": 16740,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Locomotive Scroll",
+      "npm": "locomotive-scroll",
+      "repo": "locomotivemtl/locomotive-scroll",
+      "category": "scroll-and-reveal",
+      "tags": [
+        "scroll",
+        "v4"
+      ],
+      "repo_stars": 8882,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "smooth-scrollbar",
+      "npm": "smooth-scrollbar",
+      "repo": "idiotWu/smooth-scrollbar",
+      "category": "scroll-and-reveal",
+      "tags": [
+        "scroll",
+        "older"
+      ],
+      "repo_stars": 3341,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Barba.js",
+      "npm": "@barba/core",
+      "repo": "barbajs/barba",
+      "category": "page-transitions",
+      "tags": [
+        "page-transition",
+        "pjax"
+      ],
+      "repo_stars": 13000,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Swiper",
+      "npm": "swiper",
+      "repo": "nolimits4web/Swiper",
+      "category": "carousel-and-ui",
+      "tags": [
+        "carousel",
+        "mature"
+      ],
+      "repo_stars": 41902,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Embla Carousel",
+      "npm": "embla-carousel-react",
+      "repo": "davidjerleke/embla-carousel",
+      "category": "carousel-and-ui",
+      "tags": [
+        "carousel",
+        "lightweight",
+        "accessible"
+      ],
+      "repo_stars": 8453,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Vaul",
+      "npm": "vaul",
+      "repo": "emilkowalski/vaul",
+      "category": "carousel-and-ui",
+      "tags": [
+        "drawer",
+        "gesture",
+        "mobile"
+      ],
+      "repo_stars": 8646,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "use-gesture",
+      "npm": "@use-gesture/react",
+      "repo": "pmndrs/use-gesture",
+      "category": "gesture-and-drag",
+      "tags": [
+        "gesture",
+        "react",
+        "drag"
+      ],
+      "repo_stars": 9622,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Auto-Animate",
+      "npm": "@formkit/auto-animate",
+      "repo": "formkit/auto-animate",
+      "category": "gesture-and-drag",
+      "tags": [
+        "list-reorder",
+        "tiny",
+        "framework-agnostic"
+      ],
+      "repo_stars": 13934,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Draggable (interact.js)",
+      "npm": "interactjs",
+      "repo": "taye/interact.js",
+      "category": "gesture-and-drag",
+      "tags": [
+        "drag",
+        "resize",
+        "pointer"
+      ],
+      "repo_stars": 12939,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "SortableJS",
+      "npm": "sortablejs",
+      "repo": "SortableJS/Sortable",
+      "category": "gesture-and-drag",
+      "tags": [
+        "sortable",
+        "mature"
+      ],
+      "repo_stars": 31198,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "SplitType",
+      "npm": "split-type",
+      "repo": "lukePeavey/SplitType",
+      "category": "text-and-svg",
+      "tags": [
+        "text-split",
+        "commercial"
+      ],
+      "repo_stars": 733,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "GSAP SplitText (club)",
+      "npm": "gsap",
+      "repo": "greensock/GSAP",
+      "category": "text-and-svg",
+      "tags": [
+        "text-split",
+        "club-plugin"
+      ],
+      "repo_stars": 29518,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "svg.js",
+      "npm": "svg.js",
+      "repo": "svgdotjs/svg.js",
+      "category": "text-and-svg",
+      "tags": [
+        "svg",
+        "manipulation"
+      ],
+      "repo_stars": 11836,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Two.js",
+      "npm": "two.js",
+      "repo": "jonobr1/two.js",
+      "category": "text-and-svg",
+      "tags": [
+        "svg",
+        "canvas",
+        "renderer-agnostic"
+      ],
+      "repo_stars": 8672,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "D3",
+      "npm": "d3",
+      "repo": "d3/d3",
+      "category": "data-and-visualization",
+      "tags": [
+        "dataviz",
+        "scales",
+        "transitions"
+      ],
+      "repo_stars": 113780,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "D3-interpolate",
+      "npm": "d3-interpolate",
+      "repo": "d3/d3-interpolate",
+      "category": "data-and-visualization",
+      "tags": [
+        "interpolation"
+      ],
+      "repo_stars": 498,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "D3-transition",
+      "npm": "d3-transition",
+      "repo": "d3/d3-transition",
+      "category": "data-and-visualization",
+      "tags": [
+        "transitions"
+      ],
+      "repo_stars": 226,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "p5.js",
+      "npm": "p5",
+      "repo": "processing/p5.js",
+      "category": "creative-and-3d",
+      "tags": [
+        "generative",
+        "canvas",
+        "education"
+      ],
+      "repo_stars": 24149,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Three.js",
+      "npm": "three",
+      "repo": "mrdoob/three.js",
+      "category": "creative-and-3d",
+      "tags": [
+        "webgl",
+        "3d"
+      ],
+      "repo_stars": 116659,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "PixiJS",
+      "npm": "pixi.js",
+      "repo": "pixijs/pixijs",
+      "category": "creative-and-3d",
+      "tags": [
+        "webgl",
+        "2d",
+        "fast"
+      ],
+      "repo_stars": 48429,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "OGL",
+      "npm": "ogl",
+      "repo": "oframe/ogl",
+      "category": "creative-and-3d",
+      "tags": [
+        "webgl",
+        "tiny"
+      ],
+      "repo_stars": 4676,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "regl",
+      "npm": "regl",
+      "repo": "regl-project/regl",
+      "category": "creative-and-3d",
+      "tags": [
+        "webgl",
+        "functional",
+        "older"
+      ],
+      "repo_stars": 5587,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Pixi Filters",
+      "npm": "pixi-filters",
+      "repo": "pixijs/filters",
+      "category": "creative-and-3d",
+      "tags": [
+        "shaders",
+        "post-fx"
+      ],
+      "repo_stars": 1139,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Lottie Web",
+      "npm": "lottie-web",
+      "repo": "airbnb/lottie-web",
+      "category": "lottie-and-rive",
+      "tags": [
+        "lottie",
+        "vector",
+        "runtime"
+      ],
+      "repo_stars": 32250,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Lottie React",
+      "npm": "lottie-react",
+      "repo": "Gamote/lottie-react",
+      "category": "lottie-and-rive",
+      "tags": [
+        "lottie",
+        "react"
+      ],
+      "repo_stars": 969,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "dotlottie-react",
+      "npm": "@lottiefiles/dotlottie-react",
+      "repo": "LottieFiles/dotlottie-web",
+      "category": "lottie-and-rive",
+      "tags": [
+        "lottie",
+        "wasm",
+        "themed"
+      ],
+      "repo_stars": 920,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "dotlottie-web",
+      "npm": "@lottiefiles/dotlottie-web",
+      "repo": "LottieFiles/dotlottie-web",
+      "category": "lottie-and-rive",
+      "tags": [
+        "lottie",
+        "wasm"
+      ],
+      "repo_stars": 920,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Rive React",
+      "npm": "@rive-app/react-canvas",
+      "repo": "rive-app/rive-react",
+      "category": "lottie-and-rive",
+      "tags": [
+        "rive",
+        "state-machine",
+        "interactive"
+      ],
+      "repo_stars": 1174,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Rive Web",
+      "npm": "@rive-app/canvas",
+      "repo": "rive-app/rive-wasm",
+      "category": "lottie-and-rive",
+      "tags": [
+        "rive",
+        "runtime"
+      ],
+      "repo_stars": 1008,
+      "repo_resolution": "recorded(canonical)",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Remotion",
+      "npm": "remotion",
+      "repo": "remotion-dev/remotion",
+      "category": "code-to-video",
+      "tags": [
+        "react-to-video",
+        "programmatic",
+        "commercial-tier"
+      ],
+      "repo_stars": 65515,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "@remotion/player",
+      "npm": "@remotion/player",
+      "repo": "remotion-dev/remotion",
+      "category": "code-to-video",
+      "tags": [
+        "react-to-video",
+        "playback"
+      ],
+      "repo_stars": 65515,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Revideo",
+      "npm": "@revideo/core",
+      "repo": "midrender/revideo",
+      "category": "code-to-video",
+      "tags": [
+        "react-to-video",
+        "open-source"
+      ],
+      "repo_stars": 4124,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "@ffmpeg/ffmpeg",
+      "npm": "@ffmpeg/ffmpeg",
+      "repo": "ffmpegwasm/ffmpeg.wasm",
+      "category": "code-to-video",
+      "tags": [
+        "wasm",
+        "video-processing"
+      ],
+      "repo_stars": 17891,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "@ffmpeg/core",
+      "npm": "@ffmpeg/core",
+      "repo": "ffmpegwasm/ffmpeg.wasm",
+      "category": "code-to-video",
+      "tags": [
+        "wasm",
+        "codec-core"
+      ],
+      "repo_stars": 17891,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "ffmpeg.js",
+      "npm": "ffmpeg.js",
+      "repo": "Kagami/ffmpeg.js",
+      "category": "code-to-video",
+      "tags": [
+        "wasm",
+        "older"
+      ],
+      "repo_stars": 3460,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "mp4box.js",
+      "npm": "mp4box",
+      "repo": "gpac/mp4box.js",
+      "category": "code-to-video",
+      "tags": [
+        "muxing",
+        "webcodecs"
+      ],
+      "repo_stars": 2475,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "MediaRecorder polyfill",
+      "npm": "media-recorder-stream",
+      "repo": "mafintosh/media-recorder-stream",
+      "category": "code-to-video",
+      "tags": [
+        "mediarecorder"
+      ],
+      "repo_stars": 105,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "React Three Fiber",
+      "npm": "@react-three/fiber",
+      "repo": "pmndrs/react-three-fiber",
+      "category": "creative-and-3d",
+      "tags": [
+        "react",
+        "3d",
+        "three"
+      ],
+      "repo_stars": 33099,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Drei",
+      "npm": "@react-three/drei",
+      "repo": "pmndrs/drei",
+      "category": "creative-and-3d",
+      "tags": [
+        "react",
+        "3d",
+        "helpers"
+      ],
+      "repo_stars": 10007,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Three.js Journey (types)",
+      "npm": "@types/three",
+      "repo": "DefinitelyTyped/DefinitelyTyped",
+      "category": "creative-and-3d",
+      "tags": [
+        "types"
+      ],
+      "repo_stars": 51448,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "GSAP Draggable",
+      "npm": "gsap",
+      "repo": "greensock/GSAP",
+      "category": "gesture-and-drag",
+      "tags": [
+        "drag",
+        "club-plugin"
+      ],
+      "repo_stars": 29518,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "anime.js v3 (legacy)",
+      "npm": "animejs",
+      "repo": "juliangarnier/anime",
+      "category": "animation-core",
+      "tags": [
+        "legacy",
+        "v3"
+      ],
+      "repo_stars": 73727,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Motion One (legacy pkg)",
+      "npm": "motion",
+      "repo": "motiondivision/motion",
+      "category": "animation-core",
+      "tags": [
+        "legacy-lineage"
+      ],
+      "repo_stars": 34379,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "animejs-easing",
+      "npm": "animejs",
+      "repo": "juliangarnier/anime",
+      "category": "animation-core",
+      "tags": [
+        "easing"
+      ],
+      "repo_stars": 73727,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Svelte Motion One",
+      "npm": "svelte-motion",
+      "repo": "micha-lmxt/svelte-motion",
+      "category": "animation-core",
+      "tags": [
+        "svelte",
+        "legacy"
+      ],
+      "repo_stars": 662,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "VueUse useTransition",
+      "npm": "@vueuse/core",
+      "repo": "vueuse/vueuse",
+      "category": "animation-core",
+      "tags": [
+        "vue",
+        "transitions"
+      ],
+      "repo_stars": 22391,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Solid Transition",
+      "npm": "solid-transition-group",
+      "repo": "solidjs/solid-transition-group",
+      "category": "animation-core",
+      "tags": [
+        "solid"
+      ],
+      "repo_stars": 299,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Astro View Transitions",
+      "npm": "astro",
+      "repo": "withastro/astro",
+      "category": "page-transitions",
+      "tags": [
+        "astro",
+        "view-transitions"
+      ],
+      "repo_stars": 63345,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Framer Motion (legacy name)",
+      "npm": "framer-motion",
+      "repo": "motiondivision/motion",
+      "category": "animation-core",
+      "tags": [
+        "react",
+        "legacy-name"
+      ],
+      "repo_stars": 34379,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Popmotion legacy v11",
+      "npm": "popmotion",
+      "repo": "Popmotion/popmotion",
+      "category": "animation-core",
+      "tags": [
+        "legacy"
+      ],
+      "repo_stars": 20150,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Tween.js v18",
+      "npm": "@tweenjs/tween.js",
+      "repo": "tweenjs/tween.js",
+      "category": "animation-core",
+      "tags": [
+        "tweening"
+      ],
+      "repo_stars": 10149,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "ScrollSmoother (club)",
+      "npm": "gsap",
+      "repo": "greensock/GSAP",
+      "category": "scroll-and-reveal",
+      "tags": [
+        "club-plugin",
+        "scroll"
+      ],
+      "repo_stars": 29518,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "ScrollToPlugin (club)",
+      "npm": "gsap",
+      "repo": "greensock/GSAP",
+      "category": "scroll-and-reveal",
+      "tags": [
+        "club-plugin"
+      ],
+      "repo_stars": 29518,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Observer (club)",
+      "npm": "gsap",
+      "repo": "greensock/GSAP",
+      "category": "scroll-and-reveal",
+      "tags": [
+        "club-plugin"
+      ],
+      "repo_stars": 29518,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "SplitText v3.13 free",
+      "npm": "gsap",
+      "repo": "greensock/GSAP",
+      "category": "text-and-svg",
+      "tags": [
+        "now-free",
+        "gsap-3-13"
+      ],
+      "repo_stars": 29518,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "MorphSVG (club)",
+      "npm": "gsap",
+      "repo": "greensock/GSAP",
+      "category": "text-and-svg",
+      "tags": [
+        "club-plugin",
+        "svg"
+      ],
+      "repo_stars": 29518,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "DrawSVG (club)",
+      "npm": "gsap",
+      "repo": "greensock/GSAP",
+      "category": "text-and-svg",
+      "tags": [
+        "club-plugin",
+        "svg"
+      ],
+      "repo_stars": 29518,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "InertiaPlugin (club)",
+      "npm": "gsap",
+      "repo": "greensock/GSAP",
+      "category": "gesture-and-drag",
+      "tags": [
+        "club-plugin"
+      ],
+      "repo_stars": 29518,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Motion One Dom",
+      "npm": "@motionone/dom",
+      "repo": "motiondivision/motion",
+      "category": "animation-core",
+      "tags": [
+        "legacy-lineage"
+      ],
+      "repo_stars": 34379,
+      "repo_resolution": "recorded(canonical)",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "@vueuse/motion",
+      "npm": "@vueuse/motion",
+      "repo": "vueuse/motion",
+      "category": "animation-core",
+      "tags": [
+        "vue",
+        "spring"
+      ],
+      "repo_stars": 2768,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "anime v4 esm",
+      "npm": "animejs",
+      "repo": "juliangarnier/anime",
+      "category": "animation-core",
+      "tags": [
+        "esm"
+      ],
+      "repo_stars": 73727,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "tsParticles",
+      "npm": "tsparticles",
+      "repo": "tsparticles/tsparticles",
+      "category": "creative-and-3d",
+      "tags": [
+        "particles",
+        "canvas"
+      ],
+      "repo_stars": 8996,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Canvas Confetti",
+      "npm": "canvas-confetti",
+      "repo": "catdad/canvas-confetti",
+      "category": "creative-and-3d",
+      "tags": [
+        "tiny",
+        "confetti"
+      ],
+      "repo_stars": 12821,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "PartyKit",
+      "npm": "partykit",
+      "repo": "partykit/partykit",
+      "category": "creative-and-3d",
+      "tags": [
+        "realtime",
+        "multiplayer"
+      ],
+      "repo_stars": 5733,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Rough.js",
+      "npm": "roughjs",
+      "repo": "pshihn/rough",
+      "category": "creative-and-3d",
+      "tags": [
+        "sketchy",
+        "svg",
+        "handdrawn"
+      ],
+      "repo_stars": 21294,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Zdog",
+      "npm": "zdog",
+      "repo": "metafizzy/zdog",
+      "category": "creative-and-3d",
+      "tags": [
+        "3d",
+        "svg",
+        "tiny"
+      ],
+      "repo_stars": 10674,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Rough.js canvas",
+      "npm": "roughjs",
+      "repo": "pshihn/rough",
+      "category": "creative-and-3d",
+      "tags": [
+        "sketchy",
+        "canvas"
+      ],
+      "repo_stars": 21294,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "ECharts",
+      "npm": "echarts",
+      "repo": "apache/echarts",
+      "category": "data-and-visualization",
+      "tags": [
+        "charts",
+        "animation"
+      ],
+      "repo_stars": 67552,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Framer Motion canvas",
+      "npm": "framer-motion",
+      "repo": "motiondivision/motion",
+      "category": "data-and-visualization",
+      "tags": [
+        "legacy"
+      ],
+      "repo_stars": 34379,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "GSAP easings",
+      "npm": "gsap",
+      "repo": "greensock/GSAP",
+      "category": "animation-core",
+      "tags": [
+        "easing"
+      ],
+      "repo_stars": 29518,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Tweakpane",
+      "npm": "tweakpane",
+      "repo": "cocopon/tweakpane",
+      "category": "creative-and-3d",
+      "tags": [
+        "gui",
+        "debug"
+      ],
+      "repo_stars": 4609,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Leva",
+      "npm": "leva",
+      "repo": "pmndrs/leva",
+      "category": "creative-and-3d",
+      "tags": [
+        "gui",
+        "react"
+      ],
+      "repo_stars": 6257,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Stats.js",
+      "npm": "stats.js",
+      "repo": "mrdoob/stats.js",
+      "category": "creative-and-3d",
+      "tags": [
+        "perf",
+        "debug"
+      ],
+      "repo_stars": 9150,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "lil-gui",
+      "npm": "lil-gui",
+      "repo": "georgealways/lil-gui",
+      "category": "creative-and-3d",
+      "tags": [
+        "gui",
+        "debug"
+      ],
+      "repo_stars": 1649,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Motion Canvas",
+      "npm": "@motion-canvas/core",
+      "repo": "motion-canvas/motion-canvas",
+      "category": "code-to-video",
+      "tags": [
+        "typescript-animation",
+        "scripted",
+        "paperjs"
+      ],
+      "repo_stars": 19398,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Manim (js port)",
+      "npm": "manim-web",
+      "repo": "maloyan/manim-web",
+      "category": "code-to-video",
+      "tags": [
+        "math-animation"
+      ],
+      "repo_override": "canonical-upstream (npm repository field points at an impersonator/low-signal repo)",
+      "repo_stars": 488,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Glaxnimate",
+      "npm": "glaxnimate",
+      "repo": "mbasaglia/glaxnimate",
+      "category": "code-to-video",
+      "tags": [
+        "lottie-to-svg",
+        "rasterization"
+      ],
+      "repo_override": "canonical-upstream (npm repository field points at an impersonator/low-signal repo)",
+      "repo_stars": 85,
+      "repo_resolution": "recorded(canonical)",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Rive WASM",
+      "npm": "@rive-app/canvas",
+      "repo": "rive-app/rive-wasm",
+      "category": "lottie-and-rive",
+      "tags": [
+        "wasm"
+      ],
+      "repo_stars": 1008,
+      "repo_resolution": "recorded(canonical)",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "SVG Animation (svg-animation)",
+      "npm": null,
+      "repo": "SVG-Edit/svgedit",
+      "category": "text-and-svg",
+      "tags": [
+        "svg",
+        "draw"
+      ],
+      "repo_stars": 7882,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Svg-Animation-Draw",
+      "npm": "svg-draw",
+      "repo": "VladislavPetyukevich/svg-draw",
+      "category": "text-and-svg",
+      "tags": [
+        "svg",
+        "draw"
+      ],
+      "repo_stars": 7,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "animejs v4 timer",
+      "npm": "animejs",
+      "repo": "juliangarnier/anime",
+      "category": "animation-core",
+      "tags": [
+        "timer",
+        "engine"
+      ],
+      "repo_stars": 73727,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "ScrollTrigger (npm)",
+      "npm": "gsap",
+      "repo": "greensock/GSAP",
+      "category": "scroll-and-reveal",
+      "tags": [
+        "scrolltrigger"
+      ],
+      "repo_stars": 29518,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Flip (npm)",
+      "npm": "gsap",
+      "repo": "greensock/GSAP",
+      "category": "animation-core",
+      "tags": [
+        "flip",
+        "layout"
+      ],
+      "repo_stars": 29518,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "MotionPathPlugin (npm)",
+      "npm": "gsap",
+      "repo": "greensock/GSAP",
+      "category": "creative-and-3d",
+      "tags": [
+        "motionpath",
+        "club"
+      ],
+      "repo_stars": 29518,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Custom Easing (npm)",
+      "npm": "gsap",
+      "repo": "greensock/GSAP",
+      "category": "animation-core",
+      "tags": [
+        "easing",
+        "club"
+      ],
+      "repo_stars": 29518,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Svelte transitions",
+      "npm": "svelte",
+      "repo": "sveltejs/svelte",
+      "category": "animation-core",
+      "tags": [
+        "svelte",
+        "builtin"
+      ],
+      "repo_stars": 88415,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "View Transitions API polyfill",
+      "npm": null,
+      "repo": "shuding/next-view-transitions",
+      "category": "page-transitions",
+      "tags": [
+        "polyfill"
+      ],
+      "repo_stars": 2382,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "same-document VT helper",
+      "npm": null,
+      "repo": "shuding/next-view-transitions",
+      "category": "page-transitions",
+      "tags": [
+        "view-transitions",
+        "modern"
+      ],
+      "repo_stars": 2382,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Pug-slides",
+      "npm": null,
+      "repo": "pugjs/pug",
+      "category": "code-to-video",
+      "tags": [
+        "slides"
+      ],
+      "repo_stars": 21826,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Mark.js",
+      "npm": "mark.js",
+      "repo": "julmot/mark.js",
+      "category": "text-and-svg",
+      "tags": [
+        "text",
+        "highlight"
+      ],
+      "repo_stars": 2590,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Popmotion legacy",
+      "npm": "popmotion",
+      "repo": "Popmotion/popmotion",
+      "category": "animation-core",
+      "tags": [
+        "legacy"
+      ],
+      "repo_stars": 20150,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Waapi Polyfill",
+      "npm": null,
+      "repo": "animationatwork/web-animate",
+      "category": "animation-core",
+      "tags": [
+        "polyfill",
+        "waapi"
+      ],
+      "repo_stars": 11,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Motion Primitives",
+      "npm": "motion-primitives",
+      "repo": "ibelick/motion-primitives",
+      "category": "animation-core",
+      "tags": [
+        "react",
+        "shadcn",
+        "modern",
+        "hairline-adjacent"
+      ],
+      "repo_stars": 6763,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Motion Primitives (npm alt)",
+      "npm": "motion-primitives",
+      "repo": "ibelick/motion-primitives",
+      "category": "animation-core",
+      "tags": [
+        "react",
+        "modern"
+      ],
+      "repo_stars": 6763,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Magic UI",
+      "npm": "@magicuidesign/mcp",
+      "repo": "magicuidesign/mcp",
+      "category": "animation-core",
+      "tags": [
+        "react",
+        "shadcn",
+        "animated"
+      ],
+      "repo_stars": 206,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "React Bits",
+      "npm": "react-bits",
+      "repo": "DavidHDev/react-bits",
+      "category": "animation-core",
+      "tags": [
+        "react",
+        "animated",
+        "hairline-adjacent"
+      ],
+      "repo_override": "canonical-upstream (npm repository field points at an impersonator/low-signal repo)",
+      "repo_stars": 49772,
+      "repo_resolution": "recorded(canonical)",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Aceternity UI",
+      "npm": "aceternity-ui",
+      "repo": "arihantcodes/spectrum-ui",
+      "category": "animation-core",
+      "tags": [
+        "react",
+        "tailwind",
+        "animated"
+      ],
+      "repo_override": "canonical-upstream (npm repository field points at an impersonator/low-signal repo)",
+      "repo_stars": 1501,
+      "repo_resolution": "recorded(canonical)",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Cult UI",
+      "npm": null,
+      "repo": "nolly-studio/cult-ui",
+      "category": "animation-core",
+      "tags": [
+        "react",
+        "animated"
+      ],
+      "repo_stars": 6629,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Motion Primitives (ibelick)",
+      "npm": "motion-primitives",
+      "repo": "ibelick/motion-primitives",
+      "category": "animation-core",
+      "tags": [
+        "react",
+        "shadcn"
+      ],
+      "repo_stars": 6763,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Origin UI",
+      "npm": "origin-ui",
+      "repo": "origin-space/originui",
+      "category": "animation-core",
+      "tags": [
+        "react",
+        "tailwind"
+      ],
+      "repo_override": "canonical-upstream (npm repository field points at an impersonator/low-signal repo)",
+      "repo_stars": 10731,
+      "repo_resolution": "recorded(canonical)",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Kibo UI",
+      "npm": "kibo-ui",
+      "repo": "shadcnblocks/kibo",
+      "category": "animation-core",
+      "tags": [
+        "react",
+        "animated"
+      ],
+      "repo_stars": 3968,
+      "repo_resolution": "recorded(canonical)",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Base UI",
+      "npm": "@base-ui-components/react",
+      "repo": "mui/base-ui",
+      "category": "animation-core",
+      "tags": [
+        "react",
+        "headless"
+      ],
+      "repo_stars": 11185,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Ark UI",
+      "npm": "@ark-ui/react",
+      "repo": "chakra-ui/ark",
+      "category": "animation-core",
+      "tags": [
+        "react",
+        "headless"
+      ],
+      "repo_stars": 5426,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Zag.js",
+      "npm": "@zag-js/core",
+      "repo": "chakra-ui/zag",
+      "category": "animation-core",
+      "tags": [
+        "state-machines",
+        "headless"
+      ],
+      "repo_stars": 5235,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Motion Svelte",
+      "npm": "motion-svelte",
+      "repo": "micha-lmxt/svelte-motion",
+      "category": "animation-core",
+      "tags": [
+        "svelte",
+        "modern"
+      ],
+      "repo_stars": 662,
+      "repo_resolution": "recorded(canonical)",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Motion Vue",
+      "npm": "motion-vue",
+      "repo": "motiondivision/motion",
+      "category": "animation-core",
+      "tags": [
+        "vue",
+        "modern"
+      ],
+      "repo_stars": 34379,
+      "repo_resolution": "recorded(canonical)",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Motion One Dom pkg",
+      "npm": "@motionone/dom",
+      "repo": "motiondivision/motion",
+      "category": "animation-core",
+      "tags": [
+        "legacy"
+      ],
+      "repo_stars": 34379,
+      "repo_resolution": "recorded(canonical)",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Popmotion (npm v11)",
+      "npm": "popmotion",
+      "repo": "Popmotion/popmotion",
+      "category": "animation-core",
+      "tags": [
+        "legacy"
+      ],
+      "repo_stars": 20150,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Rough.js bin",
+      "npm": "roughjs",
+      "repo": "pshihn/rough",
+      "category": "creative-and-3d",
+      "tags": [
+        "sketchy"
+      ],
+      "repo_stars": 21294,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Zdog (npm alt)",
+      "npm": "zdog",
+      "repo": "metafizzy/zdog",
+      "category": "creative-and-3d",
+      "tags": [
+        "3d",
+        "svg"
+      ],
+      "repo_stars": 10674,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "tsParticles Slim",
+      "npm": "@tsparticles/slim",
+      "repo": "tsparticles/tsparticles",
+      "category": "creative-and-3d",
+      "tags": [
+        "particles",
+        "slim"
+      ],
+      "repo_stars": 8996,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "tsParticles Three",
+      "npm": "@tsparticles/engine",
+      "repo": "tsparticles/tsparticles",
+      "category": "creative-and-3d",
+      "tags": [
+        "particles",
+        "three"
+      ],
+      "repo_stars": 8996,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "p5js (npm alias)",
+      "npm": "p5",
+      "repo": "processing/p5.js",
+      "category": "creative-and-3d",
+      "tags": [
+        "generative"
+      ],
+      "repo_stars": 24149,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Pixi.js v8",
+      "npm": "pixi.js",
+      "repo": "pixijs/pixijs",
+      "category": "creative-and-3d",
+      "tags": [
+        "webgl",
+        "v8"
+      ],
+      "repo_stars": 48429,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Three.js examples",
+      "npm": "three",
+      "repo": "mrdoob/three.js",
+      "category": "creative-and-3d",
+      "tags": [
+        "3d"
+      ],
+      "repo_stars": 116659,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Stats.js (npm alt)",
+      "npm": "stats.js",
+      "repo": "mrdoob/stats.js",
+      "category": "creative-and-3d",
+      "tags": [
+        "perf"
+      ],
+      "repo_stars": 9150,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Tweakpane (npm alt)",
+      "npm": "tweakpane",
+      "repo": "cocopon/tweakpane",
+      "category": "creative-and-3d",
+      "tags": [
+        "gui"
+      ],
+      "repo_stars": 4609,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Leva (npm alt)",
+      "npm": "leva",
+      "repo": "pmndrs/leva",
+      "category": "creative-and-3d",
+      "tags": [
+        "gui"
+      ],
+      "repo_stars": 6257,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Drei (npm alt)",
+      "npm": "@react-three/drei",
+      "repo": "pmndrs/drei",
+      "category": "creative-and-3d",
+      "tags": [
+        "3d",
+        "helpers"
+      ],
+      "repo_stars": 10007,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "R3F (npm alt)",
+      "npm": "@react-three/fiber",
+      "repo": "pmndrs/react-three-fiber",
+      "category": "creative-and-3d",
+      "tags": [
+        "react",
+        "3d"
+      ],
+      "repo_stars": 33099,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "ECharts (npm alt)",
+      "npm": "echarts",
+      "repo": "apache/echarts",
+      "category": "data-and-visualization",
+      "tags": [
+        "charts"
+      ],
+      "repo_stars": 67552,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Rough.js (npm alt)",
+      "npm": "roughjs",
+      "repo": "pshihn/rough",
+      "category": "creative-and-3d",
+      "tags": [
+        "sketchy"
+      ],
+      "repo_stars": 21294,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Motion Canvas (npm alt)",
+      "npm": "@motion-canvas/core",
+      "repo": "motion-canvas/motion-canvas",
+      "category": "code-to-video",
+      "tags": [
+        "scripted-animation"
+      ],
+      "repo_stars": 19398,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "mp4box (npm alt)",
+      "npm": "mp4box",
+      "repo": "gpac/mp4box.js",
+      "category": "code-to-video",
+      "tags": [
+        "muxing"
+      ],
+      "repo_stars": 2475,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Revideo (npm alt)",
+      "npm": "@revideo/core",
+      "repo": "midrender/revideo",
+      "category": "code-to-video",
+      "tags": [
+        "remotion-fork"
+      ],
+      "repo_stars": 4124,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "xyflow",
+      "npm": null,
+      "repo": "xyflow/xyflow",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "flowchart",
+        "graph",
+        "javascript",
+        "node-based-ui"
+      ],
+      "notes": "React Flow ",
+      "repo_stars": 38726,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "anatomy",
+      "npm": null,
+      "repo": "wheresryan22/anatomy",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "JavaScript",
+        "agent-skill",
+        "open-source",
+        "svg",
+        "vizualization"
+      ],
+      "notes": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+      "repo_stars": 17340,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "ScrollMagic",
+      "npm": null,
+      "repo": "janpaepke/ScrollMagic",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript"
+      ],
+      "notes": "The javascript library for magical scroll interactions.",
+      "repo_stars": 14952,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "scroll-world",
+      "npm": null,
+      "repo": "oso95/scroll-world",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "JavaScript"
+      ],
+      "notes": "A skill that turn any brand into a scrollable 3D world landing page",
+      "repo_stars": 10294,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "icons",
+      "npm": null,
+      "repo": "pqoqubbw/icons",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript"
+      ],
+      "notes": "beautifully crafted animated icons",
+      "repo_stars": 8226,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "css-doodle",
+      "npm": null,
+      "repo": "css-doodle/css-doodle",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "JavaScript",
+        "creative-coding",
+        "css",
+        "css-doodle",
+        "generative"
+      ],
+      "notes": "A web component for visual art and creative coding",
+      "repo_stars": 6066,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "transitions.dev",
+      "npm": null,
+      "repo": "Jakubantalik/transitions.dev",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "HTML",
+        "design",
+        "motion",
+        "motionskill",
+        "product"
+      ],
+      "notes": "UI motion agent, a library of 43+ crafted transitions, a skill that fits your workflow.",
+      "repo_stars": 5435,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "shaders",
+      "npm": null,
+      "repo": "shader-effects-inc/shaders",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "cli",
+        "javascript",
+        "mcp",
+        "react"
+      ],
+      "notes": "WebGPU components for React, Vue, Svelte, Solid, JS & Framer",
+      "repo_stars": 5200,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Libraries.dev",
+      "npm": null,
+      "repo": "Jakubantalik/Libraries.dev",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "beam",
+        "design",
+        "effect",
+        "glow"
+      ],
+      "notes": "High-crafted UI libraries for AI agents: Border beam, Orbs, Metal, Gooey, Voice, Image, Avatar bots",
+      "repo_stars": 4371,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "cursor-effects",
+      "npm": null,
+      "repo": "tholman/cursor-effects",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "JavaScript",
+        "90s",
+        "canvas",
+        "javascript",
+        "library"
+      ],
+      "notes": "Old-school cursor effects for your browser built with modern JavaScript",
+      "repo_stars": 4079,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "shaders",
+      "npm": null,
+      "repo": "paper-design/shaders",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "react",
+        "shaders",
+        "webgl"
+      ],
+      "notes": "Zero-dependency canvas shaders that can be installed from npm or designed in Paper",
+      "repo_stars": 3788,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "scroll-craft",
+      "npm": null,
+      "repo": "nateherkai/scroll-craft",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "JavaScript",
+        "accessibility",
+        "agent-skills",
+        "ai-web-design",
+        "anthropic"
+      ],
+      "notes": "An agent skill for building premium, immersive, scroll-driven websites. Works with Codex, Claude Code, and other coding agents. Also available as a Claude Code plugin.",
+      "repo_stars": 3739,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "jump.js",
+      "npm": null,
+      "repo": "callmecavs/jump.js",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "JavaScript",
+        "scroll",
+        "smooth"
+      ],
+      "notes": "A modern smooth scrolling library.",
+      "repo_stars": 3422,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "tegaki",
+      "npm": null,
+      "repo": "gkurt/tegaki",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "animation",
+        "calligraphy",
+        "cursive",
+        "font"
+      ],
+      "notes": "Handwriting animation for the web. Supports any font or text.",
+      "repo_stars": 3254,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "pattern-craft",
+      "npm": null,
+      "repo": "megh-bari/pattern-craft",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "background",
+        "background-pattern",
+        "background-snippets",
+        "backgrounds"
+      ],
+      "notes": "Professional-grade background patterns and gradients for your websites and apps. Easily copy and paste into your next project. Crafted with modern CSS and Tailwind for seamless integration.",
+      "repo_stars": 3088,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "gl-react",
+      "npm": null,
+      "repo": "gre/gl-react",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "glsl",
+        "react",
+        "react-native",
+        "universal"
+      ],
+      "notes": "gl-react – React library to write and compose WebGL shaders",
+      "repo_stars": 3011,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "morphicons",
+      "npm": null,
+      "repo": "guillermolg00/morphicons",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "animation",
+        "icons",
+        "morphing",
+        "react"
+      ],
+      "notes": "Any icon morphs into any other — universal morphing for stroke-based icons with spring physics. Zero dependencies, ~7 KB gzip.",
+      "repo_stars": 2893,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "itshover",
+      "npm": null,
+      "repo": "itshover/itshover",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "animation",
+        "icons",
+        "motion",
+        "shadcn"
+      ],
+      "notes": "Icons that move with intent",
+      "repo_stars": 2697,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "oil-motion",
+      "npm": null,
+      "repo": "oil-oil/oil-motion",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "Python",
+        "agent-skill",
+        "agent-skills",
+        "ai-video",
+        "animation"
+      ],
+      "notes": "Web animation skill for Claude Code & Codex. 帮你做跟着滚动和鼠标动的网页动画。",
+      "repo_stars": 2642,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "vgpu",
+      "npm": null,
+      "repo": "vercel-labs/vgpu",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript"
+      ],
+      "notes": "Modular cross-runtime WebGPU library for shaders, 3D scenes, GPU tensors, neural networks, and math viz",
+      "repo_stars": 2566,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "hairline",
+      "npm": null,
+      "repo": "lucasmarkes/hairline",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "animation",
+        "isometric",
+        "react",
+        "shadcn"
+      ],
+      "notes": "Six isometric line figures that answer the pointer. For React and for anything with a DOM.",
+      "repo_stars": 2486,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "react-rewards",
+      "npm": null,
+      "repo": "thedevelobear/react-rewards",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "balloons",
+        "confetti",
+        "emoji",
+        "front-end"
+      ],
+      "notes": "A package containing a few micro-interactions you can use to reward your users for little things and make them smile!",
+      "repo_stars": 1677,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "meteocons",
+      "npm": null,
+      "repo": "basmilius/meteocons",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "animations",
+        "figma",
+        "icon",
+        "icon-pack"
+      ],
+      "notes": "Beautiful, hand-crafted animated weather icons that feel alive.",
+      "repo_stars": 1675,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "meteocons",
+      "npm": null,
+      "repo": "basmilius/meteocons",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "animations",
+        "figma",
+        "icon",
+        "icon-pack"
+      ],
+      "notes": "Beautiful, hand-crafted animated weather icons that feel alive.",
+      "repo_stars": 1675,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "goey-toast",
+      "npm": null,
+      "repo": "anl331/goey-toast",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "animation",
+        "blob",
+        "component",
+        "framer-motion"
+      ],
+      "notes": "A gooey, morphing toast component built on Sonner with Framer Motion animations",
+      "repo_stars": 1340,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "fieldplay",
+      "npm": null,
+      "repo": "anvaka/fieldplay",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "JavaScript",
+        "glsl",
+        "gpu",
+        "particles",
+        "vector-field"
+      ],
+      "notes": "A vector field explorer",
+      "repo_stars": 1332,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "animateicons",
+      "npm": null,
+      "repo": "Avijit07x/animateicons",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "animated-icons",
+        "animation",
+        "framer-motion",
+        "icons"
+      ],
+      "notes": "1,170 animated SVG icons with hover and imperative triggers, and configurable size, color and duration. Built on motion.",
+      "repo_stars": 1316,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "cursor-shaders",
+      "npm": null,
+      "repo": "sahaj-b/cursor-shaders",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "GLSL"
+      ],
+      "notes": "Custom cursor shaders for ghostty & kitty terminals (trails and ripple/pulse effects)",
+      "repo_stars": 1169,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "interior",
+      "npm": null,
+      "repo": "ddoemonn/interior",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "animation",
+        "micro-interactions",
+        "motion",
+        "react"
+      ],
+      "notes": "micro-interactions for react, built for the half-second after a click",
+      "repo_stars": 1120,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "ssgoi",
+      "npm": null,
+      "repo": "meursyphus/ssgoi",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "animation",
+        "nextjs",
+        "page-animation",
+        "react"
+      ],
+      "notes": "animated page transition for major ssr frameworks and browsers, including Safari",
+      "repo_stars": 1011,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "anidoodle",
+      "npm": null,
+      "repo": "alexgreensh/anidoodle",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "agent-skills",
+        "animation",
+        "canvas",
+        "claude-code"
+      ],
+      "notes": "Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.",
+      "repo_stars": 1010,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "motion-skills",
+      "npm": null,
+      "repo": "iart-ai/motion-skills",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "HTML",
+        "ai-agents",
+        "claude-code",
+        "motion-graphics",
+        "remotion"
+      ],
+      "notes": "50 open-source skills that teach your AI coding agent to make motion graphics, animation & video — kinetic typography, data-viz, explainers, TikTok/Reels, WebGL, Manim. 14 installable packs. By iart.ai, the AI motion agent.",
+      "repo_stars": 912,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "superdesign-skill",
+      "npm": null,
+      "repo": "superdesigndev/superdesign-skill",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "JavaScript",
+        "agent-skills",
+        "ai-design",
+        "claude-code",
+        "claude-skill"
+      ],
+      "notes": "The design skill for Claude Code, Cursor and any coding agent. Stop shipping AI-slop UI: turn it into shippable, tasteful frontend. Install: npx skills add superdesigndev/superdesign-skill. Powered by superdesign.dev",
+      "repo_stars": 860,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "scroll-snap",
+      "npm": null,
+      "repo": "lucafalasco/scroll-snap",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "scroll",
+        "scroll-events",
+        "scrolling",
+        "snap"
+      ],
+      "notes": "↯ Snap page when user stops scrolling, with a customizable configuration and a consistent cross browser behaviour",
+      "repo_stars": 854,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "shader-park-core",
+      "npm": null,
+      "repo": "shader-park/shader-park-core",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "JavaScript",
+        "computer-graphics",
+        "creative-coding",
+        "glsl",
+        "gpu"
+      ],
+      "notes": "A JavaScript library for creating real-time 2D and 3D shaders. JS -> Shader. https://shaderpark.com/  https://twitter.com/shaderpark",
+      "repo_stars": 828,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "3dviz-pro-max",
+      "npm": null,
+      "repo": "viettranx/3dviz-pro-max",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "JavaScript",
+        "3d",
+        "agent-skill",
+        "blender",
+        "claude-code"
+      ],
+      "notes": "Agent skill for creative 3D visualization: turn an idea into a Three.js/Blender scene worth exploring. Claude Code + Codex plugin, 223 recipes, 440 knowledge records, 22 proved kits, 37 runnable studies.",
+      "repo_stars": 825,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "ui",
+      "npm": null,
+      "repo": "bazzalabs/ui",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "data-table",
+        "filters",
+        "motion",
+        "nextjs"
+      ],
+      "notes": "React component library with hand-crafted, powerful, modern components.",
+      "repo_stars": 814,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "uselayouts",
+      "npm": null,
+      "repo": "iurvish/uselayouts",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "animated-components",
+        "components-library-web-development",
+        "nextjs-ui-components",
+        "open-source"
+      ],
+      "notes": "Free premium animated React components and micro-interactions built with Framer Motion and Tailwind CSS",
+      "repo_stars": 688,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "heerich",
+      "npm": null,
+      "repo": "meodai/heerich",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "JavaScript",
+        "3d",
+        "generative-art",
+        "isometric",
+        "isometric-graphics"
+      ],
+      "notes": "Tiny engine for 3D voxel scenes rendered to SVG — boolean ops, oblique/perspective cameras, zero dependencies. Inspired by the geometric cardboard sculptures of Erwin Heerich.",
+      "repo_stars": 627,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "threejs-architecture-effects",
+      "npm": null,
+      "repo": "lhlGitHub/threejs-architecture-effects",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript"
+      ],
+      "notes": "An Agent Skill for building interactive, self-assembling 3D architecture with Three.js.  一个用 Three.js 生成可交互、可动态建造 3D 建筑的 Agent Skill。",
+      "repo_stars": 595,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "shader-doodle",
+      "npm": null,
+      "repo": "mmmerl/shader-doodle",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "JavaScript",
+        "canvas",
+        "creative-coding",
+        "fragment-shader",
+        "glsl"
+      ],
+      "notes": "A friendly web-component for writing and rendering shaders.",
+      "repo_stars": 588,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "3dicon",
+      "npm": null,
+      "repo": "samyost1/3dicon",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "Python"
+      ],
+      "notes": "One prompt in, a looping animated 3D icon out — with real transparency. A Claude Code skill.",
+      "repo_stars": 563,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "RuiC-card-skill",
+      "npm": null,
+      "repo": "HRuiCcc/RuiC-card-skill",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "JavaScript",
+        "agent-skill",
+        "agent-skills",
+        "blender",
+        "collectible-card"
+      ],
+      "notes": "全息闪卡通用 Agent Skill，不挑宿主、多模态模型都能用：一句话生成可拖转、会流光、带层次景深的 3D 闪卡网页，附可编辑 Blender 工程 · A host-agnostic Agent Skill: turn one sentence into an interactive 3D holographic card page with layered parallax, plus an editable Blender project.",
+      "repo_stars": 563,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "metal-fx",
+      "npm": null,
+      "repo": "Jakubantalik/metal-fx",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript"
+      ],
+      "notes": "Animated WebGL liquid-metal effect for React buttons and UI components",
+      "repo_stars": 497,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "system-atlas",
+      "npm": null,
+      "repo": "inkboard/system-atlas",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "HTML"
+      ],
+      "notes": "An agent skill that turns an architecture discussion into an explorable isometric atlas: one data file, an interactive map and a generated SYSTEM.md",
+      "repo_stars": 446,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "dioramas",
+      "npm": null,
+      "repo": "blendi-remade/dioramas",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "JavaScript",
+        "3d",
+        "creative-coding",
+        "fal",
+        "generative-ai"
+      ],
+      "notes": "A free, open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy 7.1 on fal). 20 example sites.",
+      "repo_stars": 382,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "next-transition-router",
+      "npm": null,
+      "repo": "ismamz/next-transition-router",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "animation",
+        "app-router",
+        "framer-motion",
+        "gsap"
+      ],
+      "notes": "Easily add animated transitions between pages using Next.js App Router and your favorite animation library.",
+      "repo_stars": 367,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "lumenshaders",
+      "npm": null,
+      "repo": "Leonxlnx/lumenshaders",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "JavaScript",
+        "creative-coding",
+        "generative-art",
+        "gif",
+        "glsl"
+      ],
+      "notes": "LUMEN, a generative shader studio. 9 WebGL2 art modes plus synth style blending, perfect-loop animation, gradient sets, share codes and PNG/WebM/GIF export. Zero dependencies.",
+      "repo_stars": 362,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "threejs-particle-fluids",
+      "npm": null,
+      "repo": "dgreenheck/threejs-particle-fluids",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript"
+      ],
+      "notes": "Particle Based Fluids (PBF) library for Three.js",
+      "repo_stars": 312,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "riso-windowseat",
+      "npm": null,
+      "repo": "sevenevesai/riso-windowseat",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "HTML",
+        "canvas",
+        "claude-code",
+        "claude-code-skills",
+        "creative-coding"
+      ],
+      "notes": "Procedural risograph films in single HTML files (Window Seat, Roost and more), with the Claude Code skills, docs and tools to make your own.",
+      "repo_stars": 298,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "ai-iso-skill",
+      "npm": null,
+      "repo": "MrBongoC/ai-iso-skill",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "-",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "isometric"
+      ],
+      "notes": "Claude skill that draws interactive isometric figures in a single HTML file",
+      "repo_stars": 256,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "isometric",
+      "npm": null,
+      "repo": "elchininet/isometric",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "2d",
+        "2d-graphics",
+        "2d-library",
+        "coordinates"
+      ],
+      "notes": "A lightweight JavaScript library, written in TypeScript, to create isometric projections using SVGs",
+      "repo_stars": 242,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Kinesis.js",
+      "npm": null,
+      "repo": "amineyarman/Kinesis.js",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "animation",
+        "css",
+        "css-custom-properties",
+        "drag"
+      ],
+      "notes": "Interactive motion, written in CSS. Tilt, parallax, magnetic, drag, and scroll effects as CSS properties, animated with springs. 14 KB, no dependencies.",
+      "repo_stars": 239,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "anima",
+      "npm": null,
+      "repo": "Garinmckayl/anima",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "JavaScript",
+        "biology",
+        "claude-code",
+        "claude-skill",
+        "data-visualization"
+      ],
+      "notes": "Anima: a Claude Code skill that turns a biology idea into an interactive, sourced, isometric figure. Dopamine receptors, stimulants, addiction circuits, semaglutide.",
+      "repo_stars": 220,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "ba-click-fx",
+      "npm": null,
+      "repo": "CialloKing/ba-click-fx",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "JavaScript",
+        "blue-archive",
+        "bluearchive",
+        "canvas",
+        "canvas2d"
+      ],
+      "notes": "Blue Archive-inspired web click effects, mouse effects & cursor trail｜蔚蓝档案风格网页点击特效、鼠标特效与光标拖尾｜WebGL2 · WebGPU · Canvas 2D · npm/CDN",
+      "repo_stars": 205,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "textmode.js",
+      "npm": null,
+      "repo": "humanbydefinition/textmode.js",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "art",
+        "ascii",
+        "canvas",
+        "creative-coding"
+      ],
+      "notes": "textmode.js is a lightweight creative coding library for creating real-time ASCII art on the web.",
+      "repo_stars": 174,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "academic-figure-skills",
+      "npm": null,
+      "repo": "Azhi-ss/academic-figure-skills",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "Python",
+        "academic-writing",
+        "agent-skills",
+        "claude-code",
+        "codex"
+      ],
+      "notes": "三个 skill 画论文图：fig-analyze 看材料，fig-draw 先看 6 种风格再出图。交付后询问要不要做成可编辑 PPT，同意后 fig-pptx 才做。npx skills add Azhi-ss/academic-figure-skills",
+      "repo_stars": 163,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "shadercn",
+      "npm": null,
+      "repo": "shadcn-labs/shadercn",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "gpgpu",
+        "gpu",
+        "gpu-computing",
+        "gpu-programming"
+      ],
+      "notes": "Beautiful shader components, built on vgpu and TypeGPU. 100% Free, Zero config, one command setup.",
+      "repo_stars": 161,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "particular-drift",
+      "npm": null,
+      "repo": "collidingScopes/particular-drift",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "JavaScript",
+        "2d",
+        "3d",
+        "animation",
+        "flow-field"
+      ],
+      "notes": "Turn images into flowing particle animations. Built with js, webgl / glsl, and html5 canvas",
+      "repo_stars": 159,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "c2.js",
+      "npm": null,
+      "repo": "ren-yuan/c2.js",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "algorithm",
+        "convexhull",
+        "delaunay",
+        "evolution"
+      ],
+      "notes": "JavaScript library for creative coding",
+      "repo_stars": 154,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "transition-kit",
+      "npm": null,
+      "repo": "shadcn-labs/transition-kit",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript"
+      ],
+      "notes": "Transition Kit is a page transition and theme toggle library for the modern web, powered by the View Transitions API.",
+      "repo_stars": 94,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "gradient-gl",
+      "npm": null,
+      "repo": "metaory/gradient-gl",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "JavaScript",
+        "animation",
+        "background",
+        "canvas",
+        "deterministic"
+      ],
+      "notes": "Tiny WebGL library for Deterministic seed-driven Procedural Gradient Animations",
+      "repo_stars": 59,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "web-animation-skills",
+      "npm": null,
+      "repo": "iart-ai/web-animation-skills",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "HTML",
+        "accessibility",
+        "claude-skill",
+        "css-animation",
+        "gsap"
+      ],
+      "notes": "Web animation skills for Claude Code — GSAP, SVG, Lottie, micro-interactions, page transitions, and 60fps performance, installed straight into your agent.",
+      "repo_stars": 46,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "motes",
+      "npm": null,
+      "repo": "lucasmarkes/motes",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "animation",
+        "ascii",
+        "ascii-art",
+        "creative-coding"
+      ],
+      "notes": "Procedural, pointer-reactive ASCII backgrounds for the web. WebGL2, zero dependencies, drop-in React.",
+      "repo_stars": 44,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "holo-card",
+      "npm": null,
+      "repo": "codeweb-dev/holo-card",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "TypeScript",
+        "3d-tilt",
+        "animation",
+        "card-effect",
+        "css"
+      ],
+      "notes": "A lightweight React component for pointer-reactive holographic cards with smooth 3D tilt, dynamic glare, rainbow foil, and customizable effects.",
+      "repo_stars": 41,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "ink-graph",
+      "npm": null,
+      "repo": "qaz1230sp/ink-graph",
+      "category": "creative-craft",
+      "tags": [
+        "creative-libs",
+        "Python"
+      ],
+      "notes": "AI Agent Skill — Generate animated SVG technical diagrams from natural language. 11 themes, 14 diagram types,  zero runtime. Works with Copilot CLI, Claude Code, Cursor & more",
+      "repo_stars": 1,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    }
+  ]
+}
