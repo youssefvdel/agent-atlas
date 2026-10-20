@@ -13,7 +13,7 @@ _41 entries._
 | [impeccable](https://github.com/pbakaus/impeccable) | `—` | — | 83.6k | — | Apache-2.0 |
 | [diagram-design](https://github.com/cathrynlavery/diagram-design) | `—` | — | 58.8k | — | MIT |
 | [skills (emilkowalski)](https://github.com/emilkowalski/skills) | `—` | — | 47.9k | — | MIT |
-| [skills (vercel-labs)](https://github.com/vercel-labs/skills) | `—` | 1.7.4 | 35.8k | 2.3M | MIT |
+| [skills (vercel-labs)](https://github.com/vercel-labs/skills) | `skills` | 1.7.4 | 35.8k | 2.3M | MIT |
 | [agent-skills (vercel-labs)](https://github.com/vercel-labs/agent-skills) | `—` | — | 32.7k | — | — |
 | [huashu-design](https://github.com/alchaincyf/huashu-design) | `—` | — | 25.5k | — | MIT |
 | [gsap-skills](https://github.com/greensock/gsap-skills) | `—` | — | 16.7k | — | MIT |

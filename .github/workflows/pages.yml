@@ -23,6 +23,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      # the site is a React + Vite + Tailwind app; build it from source
+      - name: Build the site
+        working-directory: web
+        run: |
+          npm ci
+          mkdir -p ../site/assets
+          cp -f ../data/skills.raw.json /tmp/ 2>/dev/null || true
+          bash build.sh
+
       - uses: actions/configure-pages@v5
         with:
           path: site

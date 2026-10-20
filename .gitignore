@@ -10,3 +10,17 @@ libs.resolve-report.json
 # python
 __pycache__/
 *.pyc
+
+# web build inputs
+web/node_modules/
+web/public/atlas.json
+
+# The site is a React + Vite + Tailwind app in web/. CI builds it and
+# deploys the bundle. The generated output is not committed.
+# site/assets/atlas.json IS committed: the Python pipeline generates it
+# and the React build reads it as its input.
+site/app/
+site/atlas.json
+site/docs/
+site/data/
+site/index.html

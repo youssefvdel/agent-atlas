@@ -78,25 +78,37 @@ def bytes_fmt(n) -> str:
 def build_libs_payload(libs: list[dict]) -> dict:
     out = []
     for l in libs:
+        # The scraper's raw field names are npm_package / npm_latest /
+        # downloads_last_week. The site reads short names, so map them
+        # explicitly — guessing the key silently produced an empty
+        # "npm" column for every row.
+        pkg = l.get("npm_package") or l.get("npm")
+        version = l.get("npm_latest") or l.get("version")
+        dl = l.get("downloads_last_week")
+        if dl is None:
+            dl = l.get("dl")
+        npm_license = l.get("npm_license")
+        desc = l.get("npm_description") or l.get("repo_description")
+        homepage = l.get("npm_homepage") or l.get("homepage")
         out.append(
             {
                 "name": l.get("name"),
-                "npm": l.get("npm"),
+                "npm": pkg,
                 "repo": l.get("repo"),
                 "category": l.get("category"),
                 "tags": l.get("tags", []),
                 "notes": l.get("notes", ""),
                 "stars": l.get("stars"),
                 "forks": l.get("forks"),
-                "dl": l.get("downloads_last_week"),
-                "version": l.get("npm_latest"),
-                "published": l.get("npm_latest_published"),
-                "license": l.get("npm_license") or l.get("license"),
-                "description": l.get("npm_description") or l.get("repo_description"),
-                "homepage": l.get("npm_homepage") or l.get("homepage"),
-                "unpacked": l.get("npm_unpacked_size"),
-                "deps": l.get("npm_dependencies"),
-                "pushed": l.get("pushed_at"),
+                "dl": dl,
+                "version": version,
+                "published": l.get("npm_latest_published") or l.get("published"),
+                "license": npm_license or l.get("license"),
+                "description": desc,
+                "homepage": homepage,
+                "unpacked": l.get("npm_unpacked_size") or l.get("unpacked"),
+                "deps": l.get("npm_dependencies") or l.get("deps"),
+                "pushed": l.get("pushed_at") or l.get("pushed"),
                 "archived": l.get("archived"),
                 "errors": l.get("errors", []),
             }
