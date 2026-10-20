@@ -31,7 +31,8 @@
       "tags": [
         "web-animations",
         "legacy-lineage"
-      ]
+      ],
+      "notes": "@motionone/dom is ARCHIVED - Motion One is dead. Use the `motion` package instead."
     },
     {
       "name": "anime.js v4",
@@ -472,8 +473,11 @@
       "category": "code-to-video",
       "tags": [
         "react-to-video",
-        "open-source"
-      ]
+        "open-source",
+        "motion-canvas-lineage",
+        "renamed-from-redotblue"
+      ],
+      "notes": "Repo was redotblue/revideo, renamed to midrender/revideo. NOT a Remotion fork - it is a Motion Canvas fork / independent TS rendering engine. MIT."
     },
     {
       "name": "@ffmpeg/ffmpeg",
@@ -582,7 +586,8 @@
       "category": "animation-core",
       "tags": [
         "legacy-lineage"
-      ]
+      ],
+      "notes": "@motionone/dom is ARCHIVED - Motion One is dead. Use the `motion` package instead."
     },
     {
       "name": "animejs-easing",
@@ -734,7 +739,8 @@
       "category": "animation-core",
       "tags": [
         "legacy-lineage"
-      ]
+      ],
+      "notes": "@motionone/dom is ARCHIVED - Motion One is dead. Use the `motion` package instead."
     },
     {
       "name": "@vueuse/motion",
@@ -1217,7 +1223,8 @@
       "category": "animation-core",
       "tags": [
         "legacy"
-      ]
+      ],
+      "notes": "@motionone/dom is ARCHIVED - Motion One is dead. Use the `motion` package instead."
     },
     {
       "name": "Popmotion (npm v11)",
@@ -1384,8 +1391,12 @@
       "repo": "midrender/revideo",
       "category": "code-to-video",
       "tags": [
-        "remotion-fork"
-      ]
+        "react-to-video",
+        "open-source",
+        "motion-canvas-lineage",
+        "renamed-from-redotblue"
+      ],
+      "notes": "Repo was redotblue/revideo, renamed to midrender/revideo. NOT a Remotion fork - it is a Motion Canvas fork / independent TS rendering engine. MIT."
     },
     {
       "name": "xyflow",
@@ -2325,6 +2336,119 @@
         "Python"
       ],
       "notes": "AI Agent Skill — Generate animated SVG technical diagrams from natural language. 11 themes, 14 diagram types,  zero runtime. Works with Copilot CLI, Claude Code, Cursor & more"
+    },
+    {
+      "name": "AOS (Animate On Scroll)",
+      "npm": "aos",
+      "repo": "michalsnik/aos",
+      "category": "scroll-and-reveal",
+      "tags": [
+        "scroll",
+        "dead-since-2018"
+      ]
+    },
+    {
+      "name": "react-transition-group",
+      "npm": "react-transition-group",
+      "repo": "reactjs/react-transition-group",
+      "category": "animation-core",
+      "tags": [
+        "react",
+        "mount-unmount"
+      ]
+    },
+    {
+      "name": "jotai",
+      "npm": "jotai",
+      "repo": "pmndrs/jotai",
+      "category": "animation-core",
+      "tags": [
+        "state",
+        "react"
+      ]
+    },
+    {
+      "name": "valtio",
+      "npm": "valtio",
+      "repo": "pmndrs/valtio",
+      "category": "animation-core",
+      "tags": [
+        "state",
+        "proxy"
+      ]
+    },
+    {
+      "name": "@gsap/react",
+      "npm": "@gsap/react",
+      "repo": "greensock/react",
+      "category": "animation-core",
+      "tags": [
+        "react",
+        "gsap"
+      ]
+    },
+    {
+      "name": "@theatre/core",
+      "npm": "@theatre/core",
+      "repo": "AriaMinaei/theatre",
+      "category": "animation-core",
+      "tags": [
+        "timeline-editor",
+        "stale"
+      ]
+    },
+    {
+      "name": "TypeGPU",
+      "npm": "typegpu",
+      "repo": "software-mansion/TypeGPU",
+      "category": "creative-and-3d",
+      "tags": [
+        "webgpu",
+        "wgsl",
+        "typescript"
+      ]
+    },
+    {
+      "name": "motion-v",
+      "npm": "motion-v",
+      "repo": "motiondivision/motion-vue",
+      "category": "animation-core",
+      "tags": [
+        "vue",
+        "the-real-motion-vue"
+      ]
+    },
+    {
+      "name": "Mediabunny",
+      "npm": "mediabunny",
+      "repo": "Vanilagy/mediabunny",
+      "category": "code-to-video",
+      "tags": [
+        "muxer",
+        "mp4",
+        "replaces-remotion-muxers",
+        "mpl-2.0"
+      ]
+    },
+    {
+      "name": "Playwright",
+      "npm": "playwright",
+      "repo": "microsoft/playwright",
+      "category": "code-to-video",
+      "tags": [
+        "deterministic-capture",
+        "video"
+      ]
+    },
+    {
+      "name": "Puppeteer",
+      "npm": "puppeteer",
+      "repo": "puppeteer/puppeteer",
+      "category": "code-to-video",
+      "tags": [
+        "screencast",
+        "capture"
+      ]
     }
   ]
 }

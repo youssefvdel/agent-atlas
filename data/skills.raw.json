@@ -56,6 +56,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 34687,
       "lines": 742,
@@ -201,6 +222,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 5527,
       "lines": 139,
@@ -275,6 +317,27 @@
         "category": "desktop",
         "related_skills": []
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 18643,
@@ -393,9 +456,30 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
-      "chars": 13824,
-      "lines": 207,
+      "chars": 14163,
+      "lines": 209,
       "h2": [
         "Scope & Verification",
         "Quick Start",
@@ -419,11 +503,11 @@
     "linked_files": [
       {
         "path": "references/background-systems.md",
-        "bytes": 5069
+        "bytes": 6882
       },
       {
         "path": "references/cli-reference.md",
-        "bytes": 7115
+        "bytes": 7287
       },
       {
         "path": "references/configuration.md",
@@ -434,12 +518,20 @@
         "bytes": 5900
       },
       {
+        "path": "references/dashboard-plugins.md",
+        "bytes": 6230
+      },
+      {
         "path": "references/delegate-task-concurrency-diagnosis.md",
         "bytes": 4660
       },
       {
         "path": "references/desktop-plugins.md",
         "bytes": 13073
+      },
+      {
+        "path": "references/harness-surface.md",
+        "bytes": 13101
       },
       {
         "path": "references/memory-providers.md",
@@ -504,6 +596,10 @@
       {
         "path": "references/windows-quirks.md",
         "bytes": 3290
+      },
+      {
+        "path": "scripts/harness_probe.py",
+        "bytes": 5752
       },
       {
         "path": "templates/clock.mjs",
@@ -576,6 +672,27 @@
           "hermes-agent"
         ]
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 7279,
@@ -659,6 +776,26 @@
         "related_skills": []
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "version"
+      ]
+    },
     "body": {
       "chars": 2114,
       "lines": 44,
@@ -695,6 +832,25 @@
     "allowed_tools": null,
     "license": "MIT",
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "version"
+      ]
+    },
     "body": {
       "chars": 2511,
       "lines": 44,
@@ -714,6 +870,72 @@
     }
   },
   {
+    "name": "i-have-adhd",
+    "slug": "i-have-adhd",
+    "description": "Shape output for a reader with ADHD and dyslexia: lead with the next action, number multi-step work, restate state across turns, one idea per sentence, short lines, no preamble/recap/closers. Invoke with /i-have-adhd; stays on until \"stop adhd mode\".",
+    "description_len": 250,
+    "path": "/home/youssefvdel/.hermes/skills/i-have-adhd/SKILL.md",
+    "relative_path": "i-have-adhd/SKILL.md",
+    "dir": "i-have-adhd",
+    "category_dir": "root",
+    "frontmatter": {
+      "license": "MIT",
+      "metadata": {
+        "tags": "ADHD, Dyslexia, Accessibility, Output Style, Productivity, Formatting",
+        "category": "productivity"
+      }
+    },
+    "allowed_tools": null,
+    "license": "MIT",
+    "metadata": {
+      "tags": "ADHD, Dyslexia, Accessibility, Output Style, Productivity, Formatting",
+      "category": "productivity"
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": []
+    },
+    "body": {
+      "chars": 8639,
+      "lines": 155,
+      "h2": [
+        "Persistence",
+        "What ADHD changes about reading",
+        "Rules",
+        "Dyslexia rules",
+        "When to break the rules",
+        "Pre-send check"
+      ],
+      "h3": [
+        "1. Lead with the next action",
+        "2. Number multi-step tasks",
+        "3. End with one concrete next action",
+        "4. Suppress tangents",
+        "5. Restate state every turn",
+        "6. Give specific time estimates",
+        "7. Make completed work visible",
+        "8. Matter-of-fact tone for errors",
+        "9. Cap lists to 5 items",
+        "10. No preamble, no recap, no closing pleasantries"
+      ],
+      "code_blocks": 2,
+      "external_links": []
+    },
+    "linked_files": [],
+    "taxonomy": {
+      "domain": "agents",
+      "subdomain": "delegation-and-orchestration",
+      "capability": "reader-preferences"
+    }
+  },
+  {
     "name": "custom-domain-email",
     "slug": "custom-domain-email",
     "description": "Use when setting up or fixing custom domain email routing.",
@@ -726,6 +948,15 @@
     "allowed_tools": null,
     "license": null,
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [],
+      "portable": [
+        "description",
+        "name"
+      ],
+      "extensions": []
+    },
     "body": {
       "chars": 7161,
       "lines": 59,
@@ -796,6 +1027,27 @@
           "google-workspace"
         ]
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 5092,
@@ -875,6 +1127,28 @@
         "homepage": "https://github.com/pimalaya/himalaya"
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, prerequisites, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "prerequisites",
+        "version"
+      ]
+    },
     "body": {
       "chars": 6930,
       "lines": 290,
@@ -923,6 +1197,50 @@
     }
   },
   {
+    "name": "mail-server-ops",
+    "slug": "mail-server-ops",
+    "description": "Set up TLS, webmail, and outbound relays on mail VPS.",
+    "description_len": 53,
+    "path": "/home/youssefvdel/.hermes/skills/mail-server-ops/SKILL.md",
+    "relative_path": "mail-server-ops/SKILL.md",
+    "dir": "mail-server-ops",
+    "category_dir": "root",
+    "frontmatter": {},
+    "allowed_tools": null,
+    "license": null,
+    "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [],
+      "portable": [
+        "description",
+        "name"
+      ],
+      "extensions": []
+    },
+    "body": {
+      "chars": 6183,
+      "lines": 86,
+      "h2": [
+        "1. TLS Certificate Provisioning & File Binding (Let's Encrypt)",
+        "2. DNS Propagation, DoH & Browser Socket Cache Gotchas",
+        "3. Webmail Deployment & Root Redirection (Bulwark on Stalwart)",
+        "4. Port 80 HTTP-to-HTTPS Automatic Redirect Daemon",
+        "5. Outbound Smart Host Relay (Bypassing Port 25 Blocks)",
+        "6. WebUI Reactive Input Traps"
+      ],
+      "h3": [],
+      "code_blocks": 0,
+      "external_links": []
+    },
+    "linked_files": [],
+    "taxonomy": {
+      "domain": "comms",
+      "subdomain": "email-and-messaging",
+      "capability": "mail-infrastructure"
+    }
+  },
+  {
     "name": "self-hosted-mail-server",
     "slug": "self-hosted-mail-server",
     "description": "Use when setting up self-hosted mail servers on cloud VPS.",
@@ -935,6 +1253,15 @@
     "allowed_tools": null,
     "license": null,
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [],
+      "portable": [
+        "description",
+        "name"
+      ],
+      "extensions": []
+    },
     "body": {
       "chars": 14170,
       "lines": 185,
@@ -1008,6 +1335,28 @@
         "upstream_skill": "https://github.com/openclaw/openclaw/blob/main/skills/xurl/SKILL.md"
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, prerequisites, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "prerequisites",
+        "version"
+      ]
+    },
     "body": {
       "chars": 15846,
       "lines": 421,
@@ -1065,6 +1414,21 @@
     "allowed_tools": null,
     "license": null,
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "name-dir-mismatch",
+          "severity": "warn",
+          "detail": "name='animate' but directory='kowalski-animate'"
+        }
+      ],
+      "portable": [
+        "description",
+        "name"
+      ],
+      "extensions": []
+    },
     "body": {
       "chars": 11270,
       "lines": 203,
@@ -1113,6 +1477,21 @@
     "allowed_tools": null,
     "license": null,
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "name-dir-mismatch",
+          "severity": "warn",
+          "detail": "name='animation-vocabulary' but directory='kowalski-animation-vocabulary'"
+        }
+      ],
+      "portable": [
+        "description",
+        "name"
+      ],
+      "extensions": []
+    },
     "body": {
       "chars": 12707,
       "lines": 177,
@@ -1160,6 +1539,21 @@
     "allowed_tools": null,
     "license": null,
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "name-dir-mismatch",
+          "severity": "warn",
+          "detail": "name='emil-design-eng' but directory='kowalski-design-eng'"
+        }
+      ],
+      "portable": [
+        "description",
+        "name"
+      ],
+      "extensions": []
+    },
     "body": {
       "chars": 26829,
       "lines": 670,
@@ -1255,6 +1649,21 @@
     "allowed_tools": null,
     "license": null,
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "name-dir-mismatch",
+          "severity": "warn",
+          "detail": "name='improve-animations' but directory='kowalski-improve-animations'"
+        }
+      ],
+      "portable": [
+        "description",
+        "name"
+      ],
+      "extensions": []
+    },
     "body": {
       "chars": 7652,
       "lines": 105,
@@ -1338,6 +1747,28 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, dependencies, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "dependencies",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 5409,
       "lines": 135,
@@ -1419,6 +1850,27 @@
         ],
         "related_skills": []
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 14608,
@@ -1539,6 +1991,27 @@
         ],
         "homepage": "https://github.com/JimLiu/baoyu-skills#baoyu-infographic"
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 9997,
@@ -1823,6 +2296,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 25051,
       "lines": 645,
@@ -1932,6 +2426,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 8051,
       "lines": 208,
@@ -1982,6 +2497,23 @@
     "allowed_tools": null,
     "license": null,
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "version"
+        }
+      ],
+      "portable": [
+        "description",
+        "name"
+      ],
+      "extensions": [
+        "version"
+      ]
+    },
     "body": {
       "chars": 10867,
       "lines": 335,
@@ -2036,6 +2568,16 @@
     "allowed_tools": null,
     "license": "Complete terms in LICENSE.txt",
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [],
+      "portable": [
+        "description",
+        "license",
+        "name"
+      ],
+      "extensions": []
+    },
     "body": {
       "chars": 1914,
       "lines": 68,
@@ -2065,43 +2607,6 @@
     }
   },
   {
-    "name": "theme-factory",
-    "slug": "theme-factory",
-    "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
-    "description_len": 262,
-    "path": "/home/youssefvdel/.hermes/skills/theme-factory/SKILL.md",
-    "relative_path": "theme-factory/SKILL.md",
-    "dir": "theme-factory",
-    "category_dir": "root",
-    "frontmatter": {
-      "license": "Complete terms in LICENSE.txt"
-    },
-    "allowed_tools": null,
-    "license": "Complete terms in LICENSE.txt",
-    "metadata": {},
-    "body": {
-      "chars": 2779,
-      "lines": 53,
-      "h2": [
-        "Purpose",
-        "Usage Instructions",
-        "Themes Available",
-        "Theme Details",
-        "Application Process",
-        "Create your Own Theme"
-      ],
-      "h3": [],
-      "code_blocks": 0,
-      "external_links": []
-    },
-    "linked_files": [],
-    "taxonomy": {
-      "domain": "creative",
-      "subdomain": "design-and-media",
-      "capability": "design-systems"
-    }
-  },
-  {
     "name": "algorithmic-art",
     "slug": "algorithmic-art",
     "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
@@ -2116,6 +2621,16 @@
     "allowed_tools": null,
     "license": "Complete terms in LICENSE.txt",
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [],
+      "portable": [
+        "description",
+        "license",
+        "name"
+      ],
+      "extensions": []
+    },
     "body": {
       "chars": 19327,
       "lines": 399,
@@ -2166,6 +2681,16 @@
     "allowed_tools": null,
     "license": "Complete terms in LICENSE.txt",
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [],
+      "portable": [
+        "description",
+        "license",
+        "name"
+      ],
+      "extensions": []
+    },
     "body": {
       "chars": 11566,
       "lines": 124,
@@ -2248,6 +2773,27 @@
           "songwriting-and-ai-music"
         ]
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 36265,
@@ -2341,6 +2887,24 @@
     "allowed_tools": null,
     "license": "Apache 2.0",
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "name"
+      ],
+      "extensions": [
+        "version"
+      ]
+    },
     "body": {
       "chars": 11291,
       "lines": 79,
@@ -2419,6 +2983,21 @@
     "allowed_tools": null,
     "license": null,
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "name-dir-mismatch",
+          "severity": "warn",
+          "detail": "name='design-taste-frontend' but directory='taste-skill'"
+        }
+      ],
+      "portable": [
+        "description",
+        "name"
+      ],
+      "extensions": []
+    },
     "body": {
       "chars": 28391,
       "lines": 410,
@@ -2466,17 +3045,30 @@
     "allowed_tools": null,
     "license": "Complete terms in LICENSE.txt",
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [],
+      "portable": [
+        "description",
+        "license",
+        "name"
+      ],
+      "extensions": []
+    },
     "body": {
-      "chars": 9075,
-      "lines": 66,
+      "chars": 12093,
+      "lines": 118,
       "h2": [
         "Ground your designs in the subject matter",
         "Design principles",
         "Process: plan, review against the brief, build, critique",
+        "Internal tool pages: dashboards, status, admin, developer tools",
         "Restraint and self-critique",
         "More on writing in design"
       ],
-      "h3": [],
+      "h3": [
+        "Measure it, do not imagine it"
+      ],
       "code_blocks": 0,
       "external_links": []
     },
@@ -2500,6 +3092,15 @@
     "allowed_tools": null,
     "license": null,
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [],
+      "portable": [
+        "description",
+        "name"
+      ],
+      "extensions": []
+    },
     "body": {
       "chars": 6305,
       "lines": 167,
@@ -2576,6 +3177,33 @@
     "allowed_tools": null,
     "license": "MIT",
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "category, tags, tools, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "name"
+      ],
+      "extensions": [
+        "category",
+        "displayName",
+        "edition",
+        "homepage",
+        "slug",
+        "summary",
+        "summary_zh",
+        "tags",
+        "tools",
+        "version"
+      ]
+    },
     "body": {
       "chars": 13856,
       "lines": 426,
@@ -2644,6 +3272,21 @@
     "allowed_tools": null,
     "license": null,
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "name-dir-mismatch",
+          "severity": "warn",
+          "detail": "name='ui-ux-pro-max' but directory='ui-ux-pro-max-plus'"
+        }
+      ],
+      "portable": [
+        "description",
+        "name"
+      ],
+      "extensions": []
+    },
     "body": {
       "chars": 3014,
       "lines": 140,
@@ -2715,6 +3358,15 @@
     "allowed_tools": null,
     "license": null,
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [],
+      "portable": [
+        "description",
+        "name"
+      ],
+      "extensions": []
+    },
     "body": {
       "chars": 15382,
       "lines": 210,
@@ -2751,6 +3403,64 @@
         "bytes": 24526
       }
     ],
+    "taxonomy": {
+      "domain": "creative",
+      "subdomain": "design-and-media",
+      "capability": "interface-design"
+    }
+  },
+  {
+    "name": "web-design-guidelines",
+    "slug": "web-design-guidelines",
+    "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+    "description_len": 184,
+    "path": "/home/youssefvdel/.hermes/skills/vercel-web-design-guidelines/SKILL.md",
+    "relative_path": "vercel-web-design-guidelines/SKILL.md",
+    "dir": "vercel-web-design-guidelines",
+    "category_dir": "root",
+    "frontmatter": {
+      "metadata": {
+        "author": "vercel",
+        "version": "1.0.0",
+        "argument-hint": "<file-or-pattern>"
+      }
+    },
+    "allowed_tools": null,
+    "license": null,
+    "metadata": {
+      "author": "vercel",
+      "version": "1.0.0",
+      "argument-hint": "<file-or-pattern>"
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "name-dir-mismatch",
+          "severity": "warn",
+          "detail": "name='web-design-guidelines' but directory='vercel-web-design-guidelines'"
+        }
+      ],
+      "portable": [
+        "description",
+        "metadata",
+        "name"
+      ],
+      "extensions": []
+    },
+    "body": {
+      "chars": 915,
+      "lines": 31,
+      "h2": [
+        "How It Works",
+        "Guidelines Source",
+        "Usage"
+      ],
+      "h3": [],
+      "code_blocks": 2,
+      "external_links": []
+    },
+    "linked_files": [],
     "taxonomy": {
       "domain": "creative",
       "subdomain": "design-and-media",
@@ -2799,6 +3509,27 @@
         ],
         "related_skills": []
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 11844,
@@ -2968,6 +3699,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 26999,
       "lines": 546,
@@ -3126,6 +3878,28 @@
     "allowed_tools": null,
     "license": "MIT",
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, tags, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "tags",
+        "triggers",
+        "version"
+      ]
+    },
     "body": {
       "chars": 9176,
       "lines": 194,
@@ -3373,6 +4147,52 @@
     }
   },
   {
+    "name": "agent-atlas",
+    "slug": "agent-atlas",
+    "description": "Use when choosing an animation library, CSS technique, video-generation tool, or agent skill for a front-end project — or when asked what tool to reach for before starting. Covers GSAP vs Motion vs anime.js, modern CSS (View Transitions, scroll-driven, @starting-style), Lottie/Rive, Remotion/code-to-video, and the Claude Code skill ecosystem, with live-verified versions, stars, licenses, and decision guides. Triggers on \"which animation library\", \"best library for\", \"before I start building\", \"design skills for Claude Code\", \"agent skills for frontend\".",
+    "description_len": 559,
+    "path": "/home/youssefvdel/.hermes/skills/agent-atlas/SKILL.md",
+    "relative_path": "agent-atlas/SKILL.md",
+    "dir": "agent-atlas",
+    "category_dir": "root",
+    "frontmatter": {},
+    "allowed_tools": null,
+    "license": null,
+    "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [],
+      "portable": [
+        "description",
+        "name"
+      ],
+      "extensions": []
+    },
+    "body": {
+      "chars": 4928,
+      "lines": 115,
+      "h2": [
+        "Use this skill when",
+        "The short version",
+        "Library routing",
+        "The two-clock rule",
+        "The hairline study",
+        "Where to look",
+        "Regenerating the data",
+        "Rules"
+      ],
+      "h3": [],
+      "code_blocks": 2,
+      "external_links": []
+    },
+    "linked_files": [],
+    "taxonomy": {
+      "domain": "creative",
+      "subdomain": "design-and-media",
+      "capability": "reference-atlas"
+    }
+  },
+  {
     "name": "songwriting-and-ai-music",
     "slug": "songwriting-and-ai-music",
     "description": "Songwriting craft and Suno AI music prompts.",
@@ -3411,6 +4231,28 @@
     "allowed_tools": null,
     "license": "MIT",
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, tags, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "tags",
+        "triggers",
+        "version"
+      ]
+    },
     "body": {
       "chars": 10506,
       "lines": 291,
@@ -3494,6 +4336,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 2547,
       "lines": 50,
@@ -3566,6 +4429,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 2388,
       "lines": 47,
@@ -3598,6 +4482,15 @@
     "allowed_tools": null,
     "license": null,
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [],
+      "portable": [
+        "description",
+        "name"
+      ],
+      "extensions": []
+    },
     "body": {
       "chars": 1616,
       "lines": 32,
@@ -3695,6 +4588,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 5413,
       "lines": 138,
@@ -3739,6 +4653,15 @@
     "allowed_tools": null,
     "license": null,
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [],
+      "portable": [
+        "description",
+        "name"
+      ],
+      "extensions": []
+    },
     "body": {
       "chars": 8944,
       "lines": 131,
@@ -3819,6 +4742,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 3285,
       "lines": 25,
@@ -3879,6 +4823,26 @@
         ],
         "related_skills": []
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "version"
+      ]
     },
     "body": {
       "chars": 3735,
@@ -3947,6 +4911,26 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "version"
+      ]
+    },
     "body": {
       "chars": 2545,
       "lines": 47,
@@ -4013,9 +4997,29 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "version"
+      ]
+    },
     "body": {
-      "chars": 3514,
-      "lines": 71,
+      "chars": 4357,
+      "lines": 87,
       "h2": [
         "When to Use",
         "Project conventions (user-mandated)",
@@ -4023,7 +5027,9 @@
         "Gate (every change)",
         "Pitfalls"
       ],
-      "h3": [],
+      "h3": [
+        "Editing a file with many hunks"
+      ],
       "code_blocks": 2,
       "external_links": []
     },
@@ -4071,6 +5077,26 @@
         ],
         "related_skills": []
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "version"
+      ]
     },
     "body": {
       "chars": 3288,
@@ -4148,6 +5174,28 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, prerequisites, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "prerequisites",
+        "version"
+      ]
+    },
     "body": {
       "chars": 3239,
       "lines": 102,
@@ -4217,6 +5265,27 @@
         ],
         "related_skills": []
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 6004,
@@ -4301,6 +5370,26 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "version"
+      ]
+    },
     "body": {
       "chars": 6745,
       "lines": 58,
@@ -4378,6 +5467,27 @@
           "live-view-flicker"
         ]
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 6975,
@@ -4470,6 +5580,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 2037,
       "lines": 43,
@@ -4555,6 +5686,58 @@
     }
   },
   {
+    "name": "headed-browser-on-xvfb",
+    "slug": "headed-browser-on-xvfb",
+    "description": "Run a real non-headless browser on the Z440 via Xvfb.",
+    "description_len": 53,
+    "path": "/home/youssefvdel/.hermes/skills/browser/headed-browser-on-xvfb/SKILL.md",
+    "relative_path": "browser/headed-browser-on-xvfb/SKILL.md",
+    "dir": "headed-browser-on-xvfb",
+    "category_dir": "browser",
+    "frontmatter": {},
+    "allowed_tools": null,
+    "license": null,
+    "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [],
+      "portable": [
+        "description",
+        "name"
+      ],
+      "extensions": []
+    },
+    "body": {
+      "chars": 10421,
+      "lines": 187,
+      "h2": [
+        "CloakBrowser (the real browser now)",
+        "Historical: the Chrome-for-Testing setup (removed, kept for the lessons)",
+        "Stack",
+        "Install (already done on Z440)",
+        "Run",
+        "Verified behaviour",
+        "GPU: real NVIDIA rendering (installed 2026-10-20)",
+        "LIVE DEPLOYMENT (done 2026-10-20)",
+        "The two fixes that made it actually usable (do not lose these)",
+        "Gotchas (each cost a debugging cycle)",
+        "Why this exists for me",
+        "Cleanup"
+      ],
+      "h3": [
+        "Windows fonts (required — the fingerprint trap)"
+      ],
+      "code_blocks": 8,
+      "external_links": []
+    },
+    "linked_files": [],
+    "taxonomy": {
+      "domain": "engineering",
+      "subdomain": "web-and-network",
+      "capability": "headed-browser-on-xvfb"
+    }
+  },
+  {
     "name": "hermes-agent-skill-authoring",
     "slug": "hermes-agent-skill-authoring",
     "description": "Author in-repo SKILL.md files: frontmatter and structure.",
@@ -4602,6 +5785,27 @@
           "requesting-code-review"
         ]
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 14120,
@@ -4700,6 +5904,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 5868,
       "lines": 147,
@@ -4768,6 +5993,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 33350,
       "lines": 362,
@@ -4835,6 +6081,15 @@
     "allowed_tools": null,
     "license": null,
     "metadata": {},
+    "spec_compliance": {
+      "ok": true,
+      "issues": [],
+      "portable": [
+        "description",
+        "name"
+      ],
+      "extensions": []
+    },
     "body": {
       "chars": 9207,
       "lines": 131,
@@ -4917,6 +6172,27 @@
           "python-debugpy"
         ]
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 10700,
@@ -5002,6 +6278,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 3312,
       "lines": 60,
@@ -5074,6 +6371,27 @@
           "node-inspect-debugger"
         ]
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 14636,
@@ -5171,6 +6489,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 11097,
       "lines": 318,
@@ -5249,9 +6588,29 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "version"
+      ]
+    },
     "body": {
-      "chars": 16423,
-      "lines": 254,
+      "chars": 17348,
+      "lines": 270,
       "h2": [
         "When to Use",
         "Setup",
@@ -5271,6 +6630,110 @@
       "domain": "engineering",
       "subdomain": "software-development",
       "capability": "rust-fuse-filesystem"
+    }
+  },
+  {
+    "name": "sdlc-review",
+    "slug": "sdlc-review",
+    "description": "Review Kanban handoffs and route verified outcomes.",
+    "description_len": 51,
+    "path": "/home/youssefvdel/.hermes/skills/devops/sdlc-review/SKILL.md",
+    "relative_path": "devops/sdlc-review/SKILL.md",
+    "dir": "sdlc-review",
+    "category_dir": "devops",
+    "frontmatter": {
+      "version": "1.1.0",
+      "author": "Jakub Wolniewicz (@frizikk) + Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "metadata": {
+        "hermes": {
+          "tags": [
+            "kanban",
+            "review",
+            "quality",
+            "verification"
+          ],
+          "category": "devops",
+          "requires_toolsets": [
+            "kanban"
+          ]
+        }
+      },
+      "environments": [
+        "kanban"
+      ]
+    },
+    "allowed_tools": null,
+    "license": "MIT",
+    "metadata": {
+      "hermes": {
+        "tags": [
+          "kanban",
+          "review",
+          "quality",
+          "verification"
+        ],
+        "category": "devops",
+        "requires_toolsets": [
+          "kanban"
+        ]
+      }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "environments",
+        "platforms",
+        "version"
+      ]
+    },
+    "body": {
+      "chars": 8711,
+      "lines": 166,
+      "h2": [
+        "When to Use",
+        "Prerequisites",
+        "How to Run",
+        "Quick Reference",
+        "Review Lenses",
+        "Procedure",
+        "Pitfalls",
+        "Verification"
+      ],
+      "h3": [
+        "Lens variation for ad-hoc review fan-outs",
+        "1. Orient from the durable task record",
+        "2. Compare requested behavior with delivered behavior",
+        "3. Choose one verdict",
+        "4. Preserve role separation"
+      ],
+      "code_blocks": 8,
+      "external_links": []
+    },
+    "linked_files": [],
+    "taxonomy": {
+      "domain": "engineering",
+      "subdomain": "platform-and-ops",
+      "capability": "sdlc-review"
     }
   },
   {
@@ -5327,6 +6790,27 @@
           "test-driven-development"
         ]
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 14216,
@@ -5412,6 +6896,27 @@
           "subagent-driven-development"
         ]
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 8194,
@@ -5502,6 +7007,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 10112,
       "lines": 162,
@@ -5584,6 +7110,27 @@
           "subagent-driven-development"
         ]
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 19946,
@@ -5696,6 +7243,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 5514,
       "lines": 96,
@@ -5771,6 +7339,27 @@
           "webview-desktop-shipping"
         ]
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 8632,
@@ -5877,6 +7466,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 9871,
       "lines": 350,
@@ -5962,9 +7572,29 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "version"
+      ]
+    },
     "body": {
-      "chars": 22661,
-      "lines": 350,
+      "chars": 32736,
+      "lines": 518,
       "h2": [
         "When to Use",
         "The contract: ZERO manual steps",
@@ -5975,10 +7605,15 @@
         "Replacing the engine (do not regress the user)",
         "Applying a code review from another agent",
         "USB hotplug (server side, flows to the PC automatically)",
+        "The twin protocol (the production engine)",
         "Verification checklist",
         "Deploy paths (per Windows user)"
       ],
-      "h3": [],
+      "h3": [
+        "One process, ONE connection, MANY drives",
+        "Protocol pitfalls",
+        "WinFsp's directory contract, exactly"
+      ],
       "code_blocks": 0,
       "external_links": []
     },
@@ -6047,6 +7682,26 @@
           "linux-system-administration"
         ]
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "version"
+      ]
     },
     "body": {
       "chars": 3318,
@@ -6120,6 +7775,27 @@
           "systematic-debugging"
         ]
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 1682,
@@ -6196,6 +7872,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 5070,
       "lines": 80,
@@ -6231,6 +7928,195 @@
       "domain": "engineering",
       "subdomain": "software-development",
       "capability": "webview-desktop-shipping"
+    }
+  },
+  {
+    "name": "windows-interop",
+    "slug": "windows-interop",
+    "description": "Drive Windows from WSL: shell, screenshots, MCP bridges.",
+    "description_len": 56,
+    "path": "/home/youssefvdel/.hermes/skills/windows-interop/SKILL.md",
+    "relative_path": "windows-interop/SKILL.md",
+    "dir": "windows-interop",
+    "category_dir": "root",
+    "frontmatter": {
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "linux"
+      ],
+      "metadata": {
+        "hermes": {
+          "tags": [
+            "windows",
+            "wsl",
+            "interop",
+            "mcp",
+            "screenshots"
+          ],
+          "related_skills": [
+            "computer-use",
+            "linux-system-administration"
+          ]
+        }
+      }
+    },
+    "allowed_tools": null,
+    "license": "MIT",
+    "metadata": {
+      "hermes": {
+        "tags": [
+          "windows",
+          "wsl",
+          "interop",
+          "mcp",
+          "screenshots"
+        ],
+        "related_skills": [
+          "computer-use",
+          "linux-system-administration"
+        ]
+      }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
+    "body": {
+      "chars": 6099,
+      "lines": 98,
+      "h2": [
+        "When to Use",
+        "Procedure",
+        "Pitfalls"
+      ],
+      "h3": [],
+      "code_blocks": 0,
+      "external_links": []
+    },
+    "linked_files": [
+      {
+        "path": "references/windows-sshd.md",
+        "bytes": 4219
+      }
+    ],
+    "taxonomy": {
+      "domain": "engineering",
+      "subdomain": "desktop-and-mobile",
+      "capability": "windows-bridge"
+    }
+  },
+  {
+    "name": "windows-workstation-setup",
+    "slug": "windows-workstation-setup",
+    "description": "Use when setting up Windows 11 dev machines.",
+    "description_len": 44,
+    "path": "/home/youssefvdel/.hermes/skills/windows-workstation-setup/SKILL.md",
+    "relative_path": "windows-workstation-setup/SKILL.md",
+    "dir": "windows-workstation-setup",
+    "category_dir": "root",
+    "frontmatter": {
+      "version": "1.0.0",
+      "author": "youssefvdel",
+      "license": "MIT",
+      "metadata": {
+        "hermes": {
+          "tags": [
+            "windows",
+            "provisioning",
+            "debloat",
+            "drivers",
+            "sleep",
+            "kanata"
+          ],
+          "related_skills": [
+            "linux-system-administration"
+          ]
+        }
+      }
+    },
+    "allowed_tools": null,
+    "license": "MIT",
+    "metadata": {
+      "hermes": {
+        "tags": [
+          "windows",
+          "provisioning",
+          "debloat",
+          "drivers",
+          "sleep",
+          "kanata"
+        ],
+        "related_skills": [
+          "linux-system-administration"
+        ]
+      }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "version"
+      ]
+    },
+    "body": {
+      "chars": 3533,
+      "lines": 43,
+      "h2": [
+        "When to Use",
+        "Procedure",
+        "Validation (laptops, day one)"
+      ],
+      "h3": [
+        "1. Decide stock vs custom ISO before wiping",
+        "2. Install stock without the bloat",
+        "3. Apply the rice repo",
+        "4. Keyboard via portable Kanata"
+      ],
+      "code_blocks": 0,
+      "external_links": []
+    },
+    "linked_files": [
+      {
+        "path": "references/chromium-profile-backup.md",
+        "bytes": 3915
+      }
+    ],
+    "taxonomy": {
+      "domain": "engineering",
+      "subdomain": "desktop-and-mobile",
+      "capability": "windows-bridge"
     }
   },
   {
@@ -6284,6 +8170,28 @@
           "API"
         ]
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, prerequisites, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "prerequisites",
+        "version"
+      ]
     },
     "body": {
       "chars": 2417,
@@ -6360,6 +8268,28 @@
         "homepage": "https://github.com/steipete/songsee"
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, prerequisites, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "prerequisites",
+        "version"
+      ]
+    },
     "body": {
       "chars": 1990,
       "lines": 69,
@@ -6425,6 +8355,27 @@
         ],
         "related_skills": []
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 4073,
@@ -6524,9 +8475,30 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
-      "chars": 8516,
-      "lines": 80,
+      "chars": 12112,
+      "lines": 137,
       "h2": [
         "When to Use",
         "Procedures",
@@ -6535,6 +8507,8 @@
       "h3": [
         "1. Specification & Marking Schema Deconstruction",
         "2. ADHD-Adapted Interaction & Execution Stance",
+        "2a. Dyslexia-Aware Delivery of Teaching Material",
+        "2b. The Study Contract",
         "3. Template Identification & Document Scaffolding",
         "4. Group Role Allocation & Accountability",
         "5. LMS / E-Learning Portal Reconcile & Resource Extraction"
@@ -6600,6 +8574,28 @@
         "homepage": "https://airtable.com/developers/web/api/introduction"
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, prerequisites, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "prerequisites",
+        "version"
+      ]
+    },
     "body": {
       "chars": 10888,
       "lines": 214,
@@ -6637,6 +8633,204 @@
       "domain": "productivity",
       "subdomain": "office-and-docs",
       "capability": "airtable"
+    }
+  },
+  {
+    "name": "apple-notes",
+    "slug": "apple-notes",
+    "description": "Manage Apple Notes via memo CLI: create, search, edit.",
+    "description_len": 54,
+    "path": "/home/youssefvdel/.hermes/skills/apple/apple-notes/SKILL.md",
+    "relative_path": "apple/apple-notes/SKILL.md",
+    "dir": "apple-notes",
+    "category_dir": "apple",
+    "frontmatter": {
+      "version": "1.0.1",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "macos"
+      ],
+      "metadata": {
+        "hermes": {
+          "tags": [
+            "Notes",
+            "Apple",
+            "macOS",
+            "note-taking"
+          ],
+          "related_skills": [
+            "obsidian"
+          ]
+        }
+      },
+      "prerequisites": {
+        "commands": [
+          "memo"
+        ]
+      }
+    },
+    "allowed_tools": null,
+    "license": "MIT",
+    "metadata": {
+      "hermes": {
+        "tags": [
+          "Notes",
+          "Apple",
+          "macOS",
+          "note-taking"
+        ],
+        "related_skills": [
+          "obsidian"
+        ]
+      }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, prerequisites, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "prerequisites",
+        "version"
+      ]
+    },
+    "body": {
+      "chars": 2085,
+      "lines": 80,
+      "h2": [
+        "Prerequisites",
+        "When to Use",
+        "When NOT to Use",
+        "Quick Reference",
+        "Limitations",
+        "Rules"
+      ],
+      "h3": [
+        "View Notes",
+        "Create Notes",
+        "Edit Notes",
+        "Delete Notes",
+        "Move Notes",
+        "Export Notes"
+      ],
+      "code_blocks": 12,
+      "external_links": []
+    },
+    "linked_files": [],
+    "taxonomy": {
+      "domain": "productivity",
+      "subdomain": "apple-ecosystem",
+      "capability": "apple-notes"
+    }
+  },
+  {
+    "name": "apple-reminders",
+    "slug": "apple-reminders",
+    "description": "Apple Reminders via remindctl: add, list, complete.",
+    "description_len": 51,
+    "path": "/home/youssefvdel/.hermes/skills/apple/apple-reminders/SKILL.md",
+    "relative_path": "apple/apple-reminders/SKILL.md",
+    "dir": "apple-reminders",
+    "category_dir": "apple",
+    "frontmatter": {
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "macos"
+      ],
+      "metadata": {
+        "hermes": {
+          "tags": [
+            "Reminders",
+            "tasks",
+            "todo",
+            "macOS",
+            "Apple"
+          ]
+        }
+      },
+      "prerequisites": {
+        "commands": [
+          "remindctl"
+        ]
+      }
+    },
+    "allowed_tools": null,
+    "license": "MIT",
+    "metadata": {
+      "hermes": {
+        "tags": [
+          "Reminders",
+          "tasks",
+          "todo",
+          "macOS",
+          "Apple"
+        ]
+      }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, prerequisites, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "prerequisites",
+        "version"
+      ]
+    },
+    "body": {
+      "chars": 3324,
+      "lines": 117,
+      "h2": [
+        "Prerequisites",
+        "When to Use",
+        "When NOT to Use",
+        "Quick Reference",
+        "Date Formats",
+        "Rules"
+      ],
+      "h3": [
+        "View Reminders",
+        "Manage Lists",
+        "Create Reminders",
+        "Due Time vs Alarm / Early Nudge",
+        "Complete / Delete",
+        "Output Formats"
+      ],
+      "code_blocks": 16,
+      "external_links": []
+    },
+    "linked_files": [],
+    "taxonomy": {
+      "domain": "productivity",
+      "subdomain": "apple-ecosystem",
+      "capability": "apple-reminders"
     }
   },
   {
@@ -6700,6 +8894,28 @@
         ],
         "homepage": "https://developer.box.com/"
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, prerequisites, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "prerequisites",
+        "version"
+      ]
     },
     "body": {
       "chars": 11265,
@@ -6823,6 +9039,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 3550,
       "lines": 69,
@@ -6910,6 +9147,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 16313,
       "lines": 239,
@@ -6974,6 +9232,96 @@
       "domain": "productivity",
       "subdomain": "office-and-docs",
       "capability": "docx"
+    }
+  },
+  {
+    "name": "findmy",
+    "slug": "findmy",
+    "description": "Track Apple devices/AirTags via FindMy.app on macOS.",
+    "description_len": 52,
+    "path": "/home/youssefvdel/.hermes/skills/apple/findmy/SKILL.md",
+    "relative_path": "apple/findmy/SKILL.md",
+    "dir": "findmy",
+    "category_dir": "apple",
+    "frontmatter": {
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "macos"
+      ],
+      "metadata": {
+        "hermes": {
+          "tags": [
+            "FindMy",
+            "AirTag",
+            "location",
+            "tracking",
+            "macOS",
+            "Apple"
+          ]
+        }
+      }
+    },
+    "allowed_tools": null,
+    "license": "MIT",
+    "metadata": {
+      "hermes": {
+        "tags": [
+          "FindMy",
+          "AirTag",
+          "location",
+          "tracking",
+          "macOS",
+          "Apple"
+        ]
+      }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
+    "body": {
+      "chars": 3572,
+      "lines": 120,
+      "h2": [
+        "Prerequisites",
+        "When to Use",
+        "Method 1: AppleScript + Screenshot (Basic)",
+        "Method 2: Peekaboo UI Automation (Recommended)",
+        "Workflow: Track AirTag Location Over Time",
+        "Limitations",
+        "Rules"
+      ],
+      "h3": [
+        "Open FindMy and Navigate",
+        "Switch Between Tabs"
+      ],
+      "code_blocks": 12,
+      "external_links": []
+    },
+    "linked_files": [],
+    "taxonomy": {
+      "domain": "productivity",
+      "subdomain": "apple-ecosystem",
+      "capability": "findmy"
     }
   },
   {
@@ -7045,6 +9393,28 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "required_credential_files",
+        "version"
+      ]
+    },
     "body": {
       "chars": 13541,
       "lines": 325,
@@ -7106,6 +9476,102 @@
       "domain": "productivity",
       "subdomain": "office-and-docs",
       "capability": "google-workspace"
+    }
+  },
+  {
+    "name": "imessage",
+    "slug": "imessage",
+    "description": "Send and receive iMessages/SMS via the imsg CLI on macOS.",
+    "description_len": 57,
+    "path": "/home/youssefvdel/.hermes/skills/apple/imessage/SKILL.md",
+    "relative_path": "apple/imessage/SKILL.md",
+    "dir": "imessage",
+    "category_dir": "apple",
+    "frontmatter": {
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "macos"
+      ],
+      "metadata": {
+        "hermes": {
+          "tags": [
+            "iMessage",
+            "SMS",
+            "messaging",
+            "macOS",
+            "Apple"
+          ]
+        }
+      },
+      "prerequisites": {
+        "commands": [
+          "imsg"
+        ]
+      }
+    },
+    "allowed_tools": null,
+    "license": "MIT",
+    "metadata": {
+      "hermes": {
+        "tags": [
+          "iMessage",
+          "SMS",
+          "messaging",
+          "macOS",
+          "Apple"
+        ]
+      }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, prerequisites, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "prerequisites",
+        "version"
+      ]
+    },
+    "body": {
+      "chars": 2156,
+      "lines": 89,
+      "h2": [
+        "Prerequisites",
+        "When to Use",
+        "When NOT to Use",
+        "Quick Reference",
+        "Service Options",
+        "Rules",
+        "Example Workflow"
+      ],
+      "h3": [
+        "List Chats",
+        "View History",
+        "Send Messages",
+        "Watch for New Messages"
+      ],
+      "code_blocks": 10,
+      "external_links": []
+    },
+    "linked_files": [],
+    "taxonomy": {
+      "domain": "productivity",
+      "subdomain": "apple-ecosystem",
+      "capability": "imessage"
     }
   },
   {
@@ -7178,6 +9644,27 @@
           "find-nearby"
         ]
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 6249,
@@ -7267,6 +9754,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 3430,
       "lines": 75,
@@ -7337,6 +9845,26 @@
         "category": "software-development",
         "related_skills": []
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "version"
+      ]
     },
     "body": {
       "chars": 1922,
@@ -7415,6 +9943,28 @@
         ],
         "homepage": "https://developers.notion.com"
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, prerequisites, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "prerequisites",
+        "version"
+      ]
     },
     "body": {
       "chars": 16950,
@@ -7520,6 +10070,27 @@
         "related_skills": []
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 2803,
       "lines": 56,
@@ -7608,6 +10179,27 @@
           "powerpoint"
         ]
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 12087,
@@ -7762,6 +10354,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 10424,
       "lines": 207,
@@ -7862,6 +10475,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 4067,
       "lines": 67,
@@ -7961,6 +10595,28 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, prerequisites, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "prerequisites",
+        "version"
+      ]
+    },
     "body": {
       "chars": 6349,
       "lines": 100,
@@ -8045,6 +10701,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 3579,
       "lines": 69,
@@ -8125,6 +10802,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 5715,
       "lines": 30,
@@ -8200,6 +10898,27 @@
           "powerpoint"
         ]
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 9323,
@@ -8309,6 +11028,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 9764,
       "lines": 270,
@@ -8407,6 +11147,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 4251,
       "lines": 76,
@@ -8495,6 +11256,27 @@
           "youtube-content"
         ]
       }
+    },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
     },
     "body": {
       "chars": 12711,
@@ -8595,6 +11377,27 @@
         ]
       }
     },
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, platforms, version"
+        }
+      ],
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ],
+      "extensions": [
+        "author",
+        "platforms",
+        "version"
+      ]
+    },
     "body": {
       "chars": 19556,
       "lines": 494,
@@ -8651,38 +11454,31 @@
     }
   },
   {
-    "name": "apple-notes",
-    "slug": "apple-notes",
-    "description": "Manage Apple Notes via memo CLI: create, search, edit.",
+    "name": "web-platform-support-verification",
+    "slug": "web-platform-support-verification",
+    "description": "Use when verifying browser support or Baseline status.",
     "description_len": 54,
-    "path": "/home/youssefvdel/.hermes/skills/apple/apple-notes/SKILL.md",
-    "relative_path": "apple/apple-notes/SKILL.md",
-    "dir": "apple-notes",
-    "category_dir": "apple",
+    "path": "/home/youssefvdel/.hermes/skills/research/web-platform-support-verification/SKILL.md",
+    "relative_path": "research/web-platform-support-verification/SKILL.md",
+    "dir": "web-platform-support-verification",
+    "category_dir": "research",
     "frontmatter": {
-      "version": "1.0.1",
+      "version": "1.0.0",
       "author": "Hermes Agent",
       "license": "MIT",
-      "platforms": [
-        "macos"
-      ],
       "metadata": {
         "hermes": {
           "tags": [
-            "Notes",
-            "Apple",
-            "macOS",
-            "note-taking"
+            "research",
+            "web-platform",
+            "browser-compat",
+            "baseline",
+            "mdn"
           ],
           "related_skills": [
-            "obsidian"
+            "grounded-citations"
           ]
         }
-      },
-      "prerequisites": {
-        "commands": [
-          "memo"
-        ]
       }
     },
     "allowed_tools": null,
@@ -8690,568 +11486,60 @@
     "metadata": {
       "hermes": {
         "tags": [
-          "Notes",
-          "Apple",
-          "macOS",
-          "note-taking"
+          "research",
+          "web-platform",
+          "browser-compat",
+          "baseline",
+          "mdn"
         ],
         "related_skills": [
-          "obsidian"
+          "grounded-citations"
         ]
       }
     },
-    "body": {
-      "chars": 2085,
-      "lines": 80,
-      "h2": [
-        "Prerequisites",
-        "When to Use",
-        "When NOT to Use",
-        "Quick Reference",
-        "Limitations",
-        "Rules"
-      ],
-      "h3": [
-        "View Notes",
-        "Create Notes",
-        "Edit Notes",
-        "Delete Notes",
-        "Move Notes",
-        "Export Notes"
-      ],
-      "code_blocks": 12,
-      "external_links": []
-    },
-    "linked_files": [],
-    "taxonomy": {
-      "domain": "unclassified",
-      "subdomain": "unclassified",
-      "capability": "apple-notes"
-    }
-  },
-  {
-    "name": "apple-reminders",
-    "slug": "apple-reminders",
-    "description": "Apple Reminders via remindctl: add, list, complete.",
-    "description_len": 51,
-    "path": "/home/youssefvdel/.hermes/skills/apple/apple-reminders/SKILL.md",
-    "relative_path": "apple/apple-reminders/SKILL.md",
-    "dir": "apple-reminders",
-    "category_dir": "apple",
-    "frontmatter": {
-      "version": "1.0.0",
-      "author": "Hermes Agent",
-      "license": "MIT",
-      "platforms": [
-        "macos"
-      ],
-      "metadata": {
-        "hermes": {
-          "tags": [
-            "Reminders",
-            "tasks",
-            "todo",
-            "macOS",
-            "Apple"
-          ]
+    "spec_compliance": {
+      "ok": true,
+      "issues": [
+        {
+          "code": "extension-fields-at-top-level",
+          "severity": "info",
+          "detail": "author, version"
         }
-      },
-      "prerequisites": {
-        "commands": [
-          "remindctl"
-        ]
-      }
-    },
-    "allowed_tools": null,
-    "license": "MIT",
-    "metadata": {
-      "hermes": {
-        "tags": [
-          "Reminders",
-          "tasks",
-          "todo",
-          "macOS",
-          "Apple"
-        ]
-      }
-    },
-    "body": {
-      "chars": 3324,
-      "lines": 117,
-      "h2": [
-        "Prerequisites",
-        "When to Use",
-        "When NOT to Use",
-        "Quick Reference",
-        "Date Formats",
-        "Rules"
       ],
-      "h3": [
-        "View Reminders",
-        "Manage Lists",
-        "Create Reminders",
-        "Due Time vs Alarm / Early Nudge",
-        "Complete / Delete",
-        "Output Formats"
+      "portable": [
+        "description",
+        "license",
+        "metadata",
+        "name"
       ],
-      "code_blocks": 16,
-      "external_links": []
-    },
-    "linked_files": [],
-    "taxonomy": {
-      "domain": "unclassified",
-      "subdomain": "unclassified",
-      "capability": "apple-reminders"
-    }
-  },
-  {
-    "name": "findmy",
-    "slug": "findmy",
-    "description": "Track Apple devices/AirTags via FindMy.app on macOS.",
-    "description_len": 52,
-    "path": "/home/youssefvdel/.hermes/skills/apple/findmy/SKILL.md",
-    "relative_path": "apple/findmy/SKILL.md",
-    "dir": "findmy",
-    "category_dir": "apple",
-    "frontmatter": {
-      "version": "1.0.0",
-      "author": "Hermes Agent",
-      "license": "MIT",
-      "platforms": [
-        "macos"
-      ],
-      "metadata": {
-        "hermes": {
-          "tags": [
-            "FindMy",
-            "AirTag",
-            "location",
-            "tracking",
-            "macOS",
-            "Apple"
-          ]
-        }
-      }
-    },
-    "allowed_tools": null,
-    "license": "MIT",
-    "metadata": {
-      "hermes": {
-        "tags": [
-          "FindMy",
-          "AirTag",
-          "location",
-          "tracking",
-          "macOS",
-          "Apple"
-        ]
-      }
-    },
-    "body": {
-      "chars": 3572,
-      "lines": 120,
-      "h2": [
-        "Prerequisites",
-        "When to Use",
-        "Method 1: AppleScript + Screenshot (Basic)",
-        "Method 2: Peekaboo UI Automation (Recommended)",
-        "Workflow: Track AirTag Location Over Time",
-        "Limitations",
-        "Rules"
-      ],
-      "h3": [
-        "Open FindMy and Navigate",
-        "Switch Between Tabs"
-      ],
-      "code_blocks": 12,
-      "external_links": []
-    },
-    "linked_files": [],
-    "taxonomy": {
-      "domain": "unclassified",
-      "subdomain": "unclassified",
-      "capability": "findmy"
-    }
-  },
-  {
-    "name": "imessage",
-    "slug": "imessage",
-    "description": "Send and receive iMessages/SMS via the imsg CLI on macOS.",
-    "description_len": 57,
-    "path": "/home/youssefvdel/.hermes/skills/apple/imessage/SKILL.md",
-    "relative_path": "apple/imessage/SKILL.md",
-    "dir": "imessage",
-    "category_dir": "apple",
-    "frontmatter": {
-      "version": "1.0.0",
-      "author": "Hermes Agent",
-      "license": "MIT",
-      "platforms": [
-        "macos"
-      ],
-      "metadata": {
-        "hermes": {
-          "tags": [
-            "iMessage",
-            "SMS",
-            "messaging",
-            "macOS",
-            "Apple"
-          ]
-        }
-      },
-      "prerequisites": {
-        "commands": [
-          "imsg"
-        ]
-      }
-    },
-    "allowed_tools": null,
-    "license": "MIT",
-    "metadata": {
-      "hermes": {
-        "tags": [
-          "iMessage",
-          "SMS",
-          "messaging",
-          "macOS",
-          "Apple"
-        ]
-      }
-    },
-    "body": {
-      "chars": 2156,
-      "lines": 89,
-      "h2": [
-        "Prerequisites",
-        "When to Use",
-        "When NOT to Use",
-        "Quick Reference",
-        "Service Options",
-        "Rules",
-        "Example Workflow"
-      ],
-      "h3": [
-        "List Chats",
-        "View History",
-        "Send Messages",
-        "Watch for New Messages"
-      ],
-      "code_blocks": 10,
-      "external_links": []
-    },
-    "linked_files": [],
-    "taxonomy": {
-      "domain": "unclassified",
-      "subdomain": "unclassified",
-      "capability": "imessage"
-    }
-  },
-  {
-    "name": "mail-server-ops",
-    "slug": "mail-server-ops",
-    "description": "Set up TLS, webmail, and outbound relays on mail VPS.",
-    "description_len": 53,
-    "path": "/home/youssefvdel/.hermes/skills/mail-server-ops/SKILL.md",
-    "relative_path": "mail-server-ops/SKILL.md",
-    "dir": "mail-server-ops",
-    "category_dir": "root",
-    "frontmatter": {},
-    "allowed_tools": null,
-    "license": null,
-    "metadata": {},
-    "body": {
-      "chars": 6183,
-      "lines": 86,
-      "h2": [
-        "1. TLS Certificate Provisioning & File Binding (Let's Encrypt)",
-        "2. DNS Propagation, DoH & Browser Socket Cache Gotchas",
-        "3. Webmail Deployment & Root Redirection (Bulwark on Stalwart)",
-        "4. Port 80 HTTP-to-HTTPS Automatic Redirect Daemon",
-        "5. Outbound Smart Host Relay (Bypassing Port 25 Blocks)",
-        "6. WebUI Reactive Input Traps"
-      ],
-      "h3": [],
-      "code_blocks": 0,
-      "external_links": []
-    },
-    "linked_files": [],
-    "taxonomy": {
-      "domain": "unclassified",
-      "subdomain": "unclassified",
-      "capability": "mail-server-ops"
-    }
-  },
-  {
-    "name": "sdlc-review",
-    "slug": "sdlc-review",
-    "description": "Review Kanban handoffs and route verified outcomes.",
-    "description_len": 51,
-    "path": "/home/youssefvdel/.hermes/skills/devops/sdlc-review/SKILL.md",
-    "relative_path": "devops/sdlc-review/SKILL.md",
-    "dir": "sdlc-review",
-    "category_dir": "devops",
-    "frontmatter": {
-      "version": "1.1.0",
-      "author": "Jakub Wolniewicz (@frizikk) + Hermes Agent",
-      "license": "MIT",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "metadata": {
-        "hermes": {
-          "tags": [
-            "kanban",
-            "review",
-            "quality",
-            "verification"
-          ],
-          "category": "devops",
-          "requires_toolsets": [
-            "kanban"
-          ]
-        }
-      },
-      "environments": [
-        "kanban"
+      "extensions": [
+        "author",
+        "version"
       ]
     },
-    "allowed_tools": null,
-    "license": "MIT",
-    "metadata": {
-      "hermes": {
-        "tags": [
-          "kanban",
-          "review",
-          "quality",
-          "verification"
-        ],
-        "category": "devops",
-        "requires_toolsets": [
-          "kanban"
-        ]
-      }
-    },
     "body": {
-      "chars": 8711,
-      "lines": 166,
+      "chars": 4625,
+      "lines": 88,
       "h2": [
         "When to Use",
-        "Prerequisites",
-        "How to Run",
-        "Quick Reference",
-        "Review Lenses",
-        "Procedure",
-        "Pitfalls",
-        "Verification"
+        "Sources (all fetchable)",
+        "Workflow",
+        "Traps",
+        "Verification script pattern",
+        "Writing it up"
       ],
       "h3": [
-        "Lens variation for ad-hoc review fan-outs",
-        "1. Orient from the durable task record",
-        "2. Compare requested behavior with delivered behavior",
-        "3. Choose one verdict",
-        "4. Preserve role separation"
+        "Reading BCD",
+        "Reading Baseline"
       ],
-      "code_blocks": 8,
-      "external_links": []
-    },
-    "linked_files": [],
-    "taxonomy": {
-      "domain": "unclassified",
-      "subdomain": "unclassified",
-      "capability": "sdlc-review"
-    }
-  },
-  {
-    "name": "web-design-guidelines",
-    "slug": "web-design-guidelines",
-    "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
-    "description_len": 184,
-    "path": "/home/youssefvdel/.hermes/skills/vercel-web-design-guidelines/SKILL.md",
-    "relative_path": "vercel-web-design-guidelines/SKILL.md",
-    "dir": "vercel-web-design-guidelines",
-    "category_dir": "root",
-    "frontmatter": {
-      "metadata": {
-        "author": "vercel",
-        "version": "1.0.0",
-        "argument-hint": "<file-or-pattern>"
-      }
-    },
-    "allowed_tools": null,
-    "license": null,
-    "metadata": {
-      "author": "vercel",
-      "version": "1.0.0",
-      "argument-hint": "<file-or-pattern>"
-    },
-    "body": {
-      "chars": 915,
-      "lines": 31,
-      "h2": [
-        "How It Works",
-        "Guidelines Source",
-        "Usage"
-      ],
-      "h3": [],
       "code_blocks": 2,
       "external_links": []
     },
     "linked_files": [],
     "taxonomy": {
-      "domain": "unclassified",
-      "subdomain": "unclassified",
-      "capability": "vercel-web-design-guidelines"
-    }
-  },
-  {
-    "name": "windows-interop",
-    "slug": "windows-interop",
-    "description": "Drive Windows from WSL: shell, screenshots, MCP bridges.",
-    "description_len": 56,
-    "path": "/home/youssefvdel/.hermes/skills/windows-interop/SKILL.md",
-    "relative_path": "windows-interop/SKILL.md",
-    "dir": "windows-interop",
-    "category_dir": "root",
-    "frontmatter": {
-      "version": "1.0.0",
-      "author": "Hermes Agent",
-      "license": "MIT",
-      "platforms": [
-        "linux"
-      ],
-      "metadata": {
-        "hermes": {
-          "tags": [
-            "windows",
-            "wsl",
-            "interop",
-            "mcp",
-            "screenshots"
-          ],
-          "related_skills": [
-            "computer-use",
-            "linux-system-administration"
-          ]
-        }
-      }
-    },
-    "allowed_tools": null,
-    "license": "MIT",
-    "metadata": {
-      "hermes": {
-        "tags": [
-          "windows",
-          "wsl",
-          "interop",
-          "mcp",
-          "screenshots"
-        ],
-        "related_skills": [
-          "computer-use",
-          "linux-system-administration"
-        ]
-      }
-    },
-    "body": {
-      "chars": 6099,
-      "lines": 98,
-      "h2": [
-        "When to Use",
-        "Procedure",
-        "Pitfalls"
-      ],
-      "h3": [],
-      "code_blocks": 0,
-      "external_links": []
-    },
-    "linked_files": [
-      {
-        "path": "references/windows-sshd.md",
-        "bytes": 4219
-      }
-    ],
-    "taxonomy": {
-      "domain": "unclassified",
-      "subdomain": "unclassified",
-      "capability": "windows-interop"
-    }
-  },
-  {
-    "name": "windows-workstation-setup",
-    "slug": "windows-workstation-setup",
-    "description": "Use when setting up Windows 11 dev machines.",
-    "description_len": 44,
-    "path": "/home/youssefvdel/.hermes/skills/windows-workstation-setup/SKILL.md",
-    "relative_path": "windows-workstation-setup/SKILL.md",
-    "dir": "windows-workstation-setup",
-    "category_dir": "root",
-    "frontmatter": {
-      "version": "1.0.0",
-      "author": "youssefvdel",
-      "license": "MIT",
-      "metadata": {
-        "hermes": {
-          "tags": [
-            "windows",
-            "provisioning",
-            "debloat",
-            "drivers",
-            "sleep",
-            "kanata"
-          ],
-          "related_skills": [
-            "linux-system-administration"
-          ]
-        }
-      }
-    },
-    "allowed_tools": null,
-    "license": "MIT",
-    "metadata": {
-      "hermes": {
-        "tags": [
-          "windows",
-          "provisioning",
-          "debloat",
-          "drivers",
-          "sleep",
-          "kanata"
-        ],
-        "related_skills": [
-          "linux-system-administration"
-        ]
-      }
-    },
-    "body": {
-      "chars": 3533,
-      "lines": 43,
-      "h2": [
-        "When to Use",
-        "Procedure",
-        "Validation (laptops, day one)"
-      ],
-      "h3": [
-        "1. Decide stock vs custom ISO before wiping",
-        "2. Install stock without the bloat",
-        "3. Apply the rice repo",
-        "4. Keyboard via portable Kanata"
-      ],
-      "code_blocks": 0,
-      "external_links": []
-    },
-    "linked_files": [
-      {
-        "path": "references/chromium-profile-backup.md",
-        "bytes": 3915
-      }
-    ],
-    "taxonomy": {
-      "domain": "unclassified",
-      "subdomain": "unclassified",
-      "capability": "windows-workstation-setup"
+      "domain": "research",
+      "subdomain": "discovery-and-citation",
+      "capability": "web-platform-support-verification"
     }
   }
 ]

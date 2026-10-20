@@ -1,6 +1,6 @@
 # Scroll & reveal
 
-_8 entries._
+_9 entries._
 
 | Library | Package | Version | Stars | DL/wk | License |
 |---|---|---|---|---|---|
@@ -8,6 +8,7 @@ _8 entries._
 | [ScrollSmoother (club)](https://github.com/greensock/GSAP) | `—` | 3.15.0 | 29.5k | 3.7M | Standard 'no charge' license: https://gsap.com/standard-license. |
 | [ScrollToPlugin (club)](https://github.com/greensock/GSAP) | `—` | 3.15.0 | 29.5k | 3.7M | Standard 'no charge' license: https://gsap.com/standard-license. |
 | [Observer (club)](https://github.com/greensock/GSAP) | `—` | 3.15.0 | 29.5k | 3.7M | Standard 'no charge' license: https://gsap.com/standard-license. |
+| [AOS (Animate On Scroll)](https://github.com/michalsnik/aos) | `—` | 2.3.4 | 28.1k | 173.8k | MIT |
 | [ScrollReveal](https://github.com/jlmakes/scrollreveal) | `—` | 4.0.9 | 22.5k | 5.0k | GPL-3.0 |
 | [Lenis](https://github.com/darkroomengineering/lenis) | `—` | 1.3.27 | 16.7k | 1.1M | MIT |
 | [Locomotive Scroll](https://github.com/locomotivemtl/locomotive-scroll) | `—` | 5.0.1 | 8.9k | 9.7k | MIT |

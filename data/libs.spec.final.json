@@ -11,7 +11,7 @@
         "scrolltrigger",
         "commercial-plugin-tier"
       ],
-      "repo_stars": 29518,
+      "repo_stars": 29519,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -25,7 +25,7 @@
         "vanilla",
         "hybrid"
       ],
-      "repo_stars": 34379,
+      "repo_stars": 34380,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -38,7 +38,8 @@
         "web-animations",
         "legacy-lineage"
       ],
-      "repo_stars": 34379,
+      "notes": "@motionone/dom is ARCHIVED - Motion One is dead. Use the `motion` package instead.",
+      "repo_stars": 34380,
       "repo_resolution": "recorded(canonical)",
       "verified_pkg_name": null
     },
@@ -65,7 +66,7 @@
         "react",
         "physics"
       ],
-      "repo_stars": 29175,
+      "repo_stars": 29176,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -78,7 +79,7 @@
         "react",
         "3d"
       ],
-      "repo_stars": 29175,
+      "repo_stars": 29176,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -117,7 +118,7 @@
         "legacy",
         "free-only"
       ],
-      "repo_stars": 29518,
+      "repo_stars": 29519,
       "repo_resolution": "npm-field/fork->greensock/GSAP",
       "verified_pkg_name": null
     },
@@ -233,7 +234,7 @@
         "carousel",
         "mature"
       ],
-      "repo_stars": 41902,
+      "repo_stars": 41903,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -303,7 +304,7 @@
         "resize",
         "pointer"
       ],
-      "repo_stars": 12939,
+      "repo_stars": 12938,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -316,7 +317,7 @@
         "sortable",
         "mature"
       ],
-      "repo_stars": 31198,
+      "repo_stars": 31199,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -342,7 +343,7 @@
         "text-split",
         "club-plugin"
       ],
-      "repo_stars": 29518,
+      "repo_stars": 29519,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -434,7 +435,7 @@
         "webgl",
         "3d"
       ],
-      "repo_stars": 116659,
+      "repo_stars": 116660,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -502,7 +503,7 @@
         "vector",
         "runtime"
       ],
-      "repo_stars": 32250,
+      "repo_stars": 32251,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -583,7 +584,7 @@
         "programmatic",
         "commercial-tier"
       ],
-      "repo_stars": 65515,
+      "repo_stars": 65521,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -596,7 +597,7 @@
         "react-to-video",
         "playback"
       ],
-      "repo_stars": 65515,
+      "repo_stars": 65521,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -607,8 +608,11 @@
       "category": "code-to-video",
       "tags": [
         "react-to-video",
-        "open-source"
+        "open-source",
+        "motion-canvas-lineage",
+        "renamed-from-redotblue"
       ],
+      "notes": "Repo was redotblue/revideo, renamed to midrender/revideo. NOT a Remotion fork - it is a Motion Canvas fork / independent TS rendering engine. MIT.",
       "repo_stars": 4124,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
@@ -726,7 +730,7 @@
         "drag",
         "club-plugin"
       ],
-      "repo_stars": 29518,
+      "repo_stars": 29519,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -751,7 +755,8 @@
       "tags": [
         "legacy-lineage"
       ],
-      "repo_stars": 34379,
+      "notes": "@motionone/dom is ARCHIVED - Motion One is dead. Use the `motion` package instead.",
+      "repo_stars": 34380,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -814,7 +819,7 @@
         "astro",
         "view-transitions"
       ],
-      "repo_stars": 63345,
+      "repo_stars": 63346,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -827,7 +832,7 @@
         "react",
         "legacy-name"
       ],
-      "repo_stars": 34379,
+      "repo_stars": 34380,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -864,7 +869,7 @@
         "club-plugin",
         "scroll"
       ],
-      "repo_stars": 29518,
+      "repo_stars": 29519,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -876,7 +881,7 @@
       "tags": [
         "club-plugin"
       ],
-      "repo_stars": 29518,
+      "repo_stars": 29519,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -888,7 +893,7 @@
       "tags": [
         "club-plugin"
       ],
-      "repo_stars": 29518,
+      "repo_stars": 29519,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -901,7 +906,7 @@
         "now-free",
         "gsap-3-13"
       ],
-      "repo_stars": 29518,
+      "repo_stars": 29519,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -914,7 +919,7 @@
         "club-plugin",
         "svg"
       ],
-      "repo_stars": 29518,
+      "repo_stars": 29519,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -927,7 +932,7 @@
         "club-plugin",
         "svg"
       ],
-      "repo_stars": 29518,
+      "repo_stars": 29519,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -939,7 +944,7 @@
       "tags": [
         "club-plugin"
       ],
-      "repo_stars": 29518,
+      "repo_stars": 29519,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -951,7 +956,8 @@
       "tags": [
         "legacy-lineage"
       ],
-      "repo_stars": 34379,
+      "notes": "@motionone/dom is ARCHIVED - Motion One is dead. Use the `motion` package instead.",
+      "repo_stars": 34380,
       "repo_resolution": "recorded(canonical)",
       "verified_pkg_name": null
     },
@@ -1081,7 +1087,7 @@
       "tags": [
         "legacy"
       ],
-      "repo_stars": 34379,
+      "repo_stars": 34380,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -1093,7 +1099,7 @@
       "tags": [
         "easing"
       ],
-      "repo_stars": 29518,
+      "repo_stars": 29519,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -1249,7 +1255,7 @@
       "tags": [
         "scrolltrigger"
       ],
-      "repo_stars": 29518,
+      "repo_stars": 29519,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -1262,7 +1268,7 @@
         "flip",
         "layout"
       ],
-      "repo_stars": 29518,
+      "repo_stars": 29519,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -1275,7 +1281,7 @@
         "motionpath",
         "club"
       ],
-      "repo_stars": 29518,
+      "repo_stars": 29519,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -1288,7 +1294,7 @@
         "easing",
         "club"
       ],
-      "repo_stars": 29518,
+      "repo_stars": 29519,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -1301,7 +1307,7 @@
         "svelte",
         "builtin"
       ],
-      "repo_stars": 88415,
+      "repo_stars": 88414,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -1433,7 +1439,7 @@
         "hairline-adjacent"
       ],
       "repo_override": "canonical-upstream (npm repository field points at an impersonator/low-signal repo)",
-      "repo_stars": 49772,
+      "repo_stars": 49773,
       "repo_resolution": "recorded(canonical)",
       "verified_pkg_name": null
     },
@@ -1461,7 +1467,7 @@
         "react",
         "animated"
       ],
-      "repo_stars": 6629,
+      "repo_stars": 6628,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -1514,7 +1520,7 @@
         "react",
         "headless"
       ],
-      "repo_stars": 11185,
+      "repo_stars": 11186,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -1566,7 +1572,7 @@
         "vue",
         "modern"
       ],
-      "repo_stars": 34379,
+      "repo_stars": 34380,
       "repo_resolution": "recorded(canonical)",
       "verified_pkg_name": null
     },
@@ -1578,7 +1584,8 @@
       "tags": [
         "legacy"
       ],
-      "repo_stars": 34379,
+      "notes": "@motionone/dom is ARCHIVED - Motion One is dead. Use the `motion` package instead.",
+      "repo_stars": 34380,
       "repo_resolution": "recorded(canonical)",
       "verified_pkg_name": null
     },
@@ -1678,7 +1685,7 @@
       "tags": [
         "3d"
       ],
-      "repo_stars": 116659,
+      "repo_stars": 116660,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -1798,8 +1805,12 @@
       "repo": "midrender/revideo",
       "category": "code-to-video",
       "tags": [
-        "remotion-fork"
+        "react-to-video",
+        "open-source",
+        "motion-canvas-lineage",
+        "renamed-from-redotblue"
       ],
+      "notes": "Repo was redotblue/revideo, renamed to midrender/revideo. NOT a Remotion fork - it is a Motion Canvas fork / independent TS rendering engine. MIT.",
       "repo_stars": 4124,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
@@ -1818,7 +1829,7 @@
         "node-based-ui"
       ],
       "notes": "React Flow ",
-      "repo_stars": 38726,
+      "repo_stars": 38724,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -1836,7 +1847,7 @@
         "vizualization"
       ],
       "notes": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
-      "repo_stars": 17340,
+      "repo_stars": 17350,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -1932,7 +1943,7 @@
         "react"
       ],
       "notes": "WebGPU components for React, Vue, Svelte, Solid, JS & Framer",
-      "repo_stars": 5200,
+      "repo_stars": 5203,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -2003,7 +2014,7 @@
         "anthropic"
       ],
       "notes": "An agent skill for building premium, immersive, scroll-driven websites. Works with Codex, Claude Code, and other coding agents. Also available as a Claude Code plugin.",
-      "repo_stars": 3739,
+      "repo_stars": 3741,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -2141,7 +2152,7 @@
         "TypeScript"
       ],
       "notes": "Modular cross-runtime WebGPU library for shaders, 3D scenes, GPU tensors, neural networks, and math viz",
-      "repo_stars": 2566,
+      "repo_stars": 2567,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -2159,7 +2170,7 @@
         "shadcn"
       ],
       "notes": "Six isometric line figures that answer the pointer. For React and for anything with a DOM.",
-      "repo_stars": 2486,
+      "repo_stars": 2490,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -2335,7 +2346,7 @@
         "claude-code"
       ],
       "notes": "Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.",
-      "repo_stars": 1010,
+      "repo_stars": 1011,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -2923,7 +2934,7 @@
         "css"
       ],
       "notes": "A lightweight React component for pointer-reactive holographic cards with smooth 3D tilt, dynamic glare, rainbow foil, and customizable effects.",
-      "repo_stars": 41,
+      "repo_stars": 42,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -2939,6 +2950,152 @@
       "notes": "AI Agent Skill — Generate animated SVG technical diagrams from natural language. 11 themes, 14 diagram types,  zero runtime. Works with Copilot CLI, Claude Code, Cursor & more",
       "repo_stars": 1,
       "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "AOS (Animate On Scroll)",
+      "npm": "aos",
+      "repo": "michalsnik/aos",
+      "category": "scroll-and-reveal",
+      "tags": [
+        "scroll",
+        "dead-since-2018"
+      ],
+      "repo_stars": 28052,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "react-transition-group",
+      "npm": "react-transition-group",
+      "repo": "reactjs/react-transition-group",
+      "category": "animation-core",
+      "tags": [
+        "react",
+        "mount-unmount"
+      ],
+      "repo_stars": 10210,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "jotai",
+      "npm": "jotai",
+      "repo": "pmndrs/jotai",
+      "category": "animation-core",
+      "tags": [
+        "state",
+        "react"
+      ],
+      "repo_stars": 21298,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "valtio",
+      "npm": "valtio",
+      "repo": "pmndrs/valtio",
+      "category": "animation-core",
+      "tags": [
+        "state",
+        "proxy"
+      ],
+      "repo_stars": 10242,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "@gsap/react",
+      "npm": "@gsap/react",
+      "repo": "greensock/react",
+      "category": "animation-core",
+      "tags": [
+        "react",
+        "gsap"
+      ],
+      "repo_stars": 342,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "@theatre/core",
+      "npm": "@theatre/core",
+      "repo": "AriaMinaei/theatre",
+      "category": "animation-core",
+      "tags": [
+        "timeline-editor",
+        "stale"
+      ],
+      "repo_stars": 12781,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "TypeGPU",
+      "npm": "typegpu",
+      "repo": "software-mansion/TypeGPU",
+      "category": "creative-and-3d",
+      "tags": [
+        "webgpu",
+        "wgsl",
+        "typescript"
+      ],
+      "repo_stars": 3280,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "motion-v",
+      "npm": "motion-v",
+      "repo": "motiondivision/motion-vue",
+      "category": "animation-core",
+      "tags": [
+        "vue",
+        "the-real-motion-vue"
+      ],
+      "repo_stars": 2221,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Mediabunny",
+      "npm": "mediabunny",
+      "repo": "Vanilagy/mediabunny",
+      "category": "code-to-video",
+      "tags": [
+        "muxer",
+        "mp4",
+        "replaces-remotion-muxers",
+        "mpl-2.0"
+      ],
+      "repo_stars": 7336,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Playwright",
+      "npm": "playwright",
+      "repo": "microsoft/playwright",
+      "category": "code-to-video",
+      "tags": [
+        "deterministic-capture",
+        "video"
+      ],
+      "repo_stars": 98147,
+      "repo_resolution": "npm-field",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Puppeteer",
+      "npm": "puppeteer",
+      "repo": "puppeteer/puppeteer",
+      "category": "code-to-video",
+      "tags": [
+        "screencast",
+        "capture"
+      ],
+      "repo_stars": 95731,
+      "repo_resolution": "recorded(canonical)",
       "verified_pkg_name": null
     }
   ]

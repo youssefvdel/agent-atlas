@@ -5,7 +5,7 @@ _66 entries._
 | Library | Package | Version | Stars | DL/wk | License |
 |---|---|---|---|---|---|
 | [xyflow](https://github.com/xyflow/xyflow) | `—` | — | 38.7k | — | MIT |
-| [anatomy](https://github.com/wheresryan22/anatomy) | `—` | — | 17.3k | — | MIT |
+| [anatomy](https://github.com/wheresryan22/anatomy) | `—` | — | 17.4k | — | MIT |
 | [ScrollMagic](https://github.com/janpaepke/ScrollMagic) | `—` | — | 15.0k | — | MIT |
 | [scroll-world](https://github.com/oso95/scroll-world) | `—` | — | 10.3k | — | MIT |
 | [icons](https://github.com/pqoqubbw/icons) | `—` | — | 8.2k | — | MIT |
@@ -35,13 +35,13 @@ _66 entries._
 | [interior](https://github.com/ddoemonn/interior) | `—` | — | 1.1k | — | MIT |
 | [ssgoi](https://github.com/meursyphus/ssgoi) | `—` | — | 1.0k | — | MIT |
 | [anidoodle](https://github.com/alexgreensh/anidoodle) | `—` | — | 1.0k | — | Apache-2.0 |
-| [motion-skills](https://github.com/iart-ai/motion-skills) | `—` | — | 912 | — | MIT |
+| [motion-skills](https://github.com/iart-ai/motion-skills) | `—` | — | 913 | — | MIT |
 | [superdesign-skill](https://github.com/superdesigndev/superdesign-skill) | `—` | — | 860 | — | MIT |
 | [scroll-snap](https://github.com/lucafalasco/scroll-snap) | `—` | — | 854 | — | MIT |
 | [shader-park-core](https://github.com/shader-park/shader-park-core) | `—` | — | 828 | — | MIT |
 | [3dviz-pro-max](https://github.com/viettranx/3dviz-pro-max) | `—` | — | 825 | — | MIT |
 | [ui](https://github.com/bazzalabs/ui) | `—` | — | 814 | — | MIT |
-| [uselayouts](https://github.com/iurvish/uselayouts) | `—` | — | 688 | — | MIT |
+| [uselayouts](https://github.com/iurvish/uselayouts) | `—` | — | 689 | — | MIT |
 | [heerich](https://github.com/meodai/heerich) | `—` | — | 627 | — | MIT |
 | [threejs-architecture-effects](https://github.com/lhlGitHub/threejs-architecture-effects) | `—` | — | 595 | — | MIT |
 | [shader-doodle](https://github.com/mmmerl/shader-doodle) | `—` | — | 588 | — | MIT |
@@ -68,5 +68,5 @@ _66 entries._
 | [gradient-gl](https://github.com/metaory/gradient-gl) | `—` | — | 59 | — | MIT |
 | [web-animation-skills](https://github.com/iart-ai/web-animation-skills) | `—` | — | 46 | — | MIT |
 | [motes](https://github.com/lucasmarkes/motes) | `—` | — | 44 | — | MIT |
-| [holo-card](https://github.com/codeweb-dev/holo-card) | `—` | — | 41 | — | MIT |
+| [holo-card](https://github.com/codeweb-dev/holo-card) | `—` | — | 42 | — | MIT |
 | [ink-graph](https://github.com/qaz1230sp/ink-graph) | `—` | — | 1 | — | MIT |

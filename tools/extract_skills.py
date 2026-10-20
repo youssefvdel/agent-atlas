@@ -46,6 +46,9 @@ DIR_TAXONOMY = {
     "web": ("engineering", "web-and-network"),
     "autonomous-ai-agents": ("agents", "delegation-and-orchestration"),
     "governance": ("agents", "delegation-and-orchestration"),
+    "apple": ("productivity", "apple-ecosystem"),
+    "devops": ("engineering", "platform-and-ops"),
+    "browser": ("engineering", "web-and-network"),
 }
 
 # Explicit overrides for skills that live at the root of ~/.hermes/skills
@@ -85,6 +88,7 @@ ROOT_OVERRIDES = {
     "kowalski-design-eng": ("creative", "motion", "animation-philosophy"),
     "kowalski-improve-animations": ("creative", "motion", "animation-philosophy"),
     "web-design-guidelines": ("creative", "design-and-media", "interface-design"),
+    "vercel-web-design-guidelines": ("creative", "design-and-media", "interface-design"),
     "windows-interop": ("engineering", "desktop-and-mobile", "windows-bridge"),
     "windows-workstation-setup": ("engineering", "desktop-and-mobile", "windows-bridge"),
     "mail-server-ops": ("comms", "email-and-messaging", "mail-infrastructure"),
@@ -95,11 +99,65 @@ ROOT_OVERRIDES = {
     "sdlc-review": ("engineering", "software-development", "code-quality"),
     "riot-client-api": ("engineering", "web-and-network", "api-clients"),
     "riot-client-local-api": ("engineering", "web-and-network", "api-clients"),
+    "agent-atlas": ("creative", "design-and-media", "reference-atlas"),
+    "headed-browser-on-xvfb": ("engineering", "web-and-network", "browser-automation"),
+    "i-have-adhd": ("agents", "delegation-and-orchestration", "reader-preferences"),
 }
 
 FM_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n?", re.DOTALL)
 LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 CODE_FENCE_RE = re.compile(r"^```", re.MULTILINE)
+
+# The Agent Skills spec: name must match the directory, be lowercase-kebab,
+# max 64 chars; description is required and should say WHAT + WHEN.
+# Only these six fields survive the portability boundary (claude.ai upload,
+# package_skill.py): name, description, license, compatibility, metadata,
+# allowed-tools. Anything else is a local/Claude Code extension.
+SPEC_PORTABLE_FIELDS = {"name", "description", "license", "compatibility", "metadata", "allowed-tools"}
+LOCAL_EXTENSION_FIELDS = {
+    "when_to_use", "argument-hint", "arguments", "disable-model-invocation",
+    "user-invocable", "disallowed-tools", "model", "effort", "context", "agent",
+    "background", "hooks", "paths", "shell", "version", "author", "platforms",
+    "prerequisites", "tags", "category", "dependencies", "tools", "mcp",
+}
+
+
+def check_spec(name: str, desc: str, fm: dict, leaf_dir: str) -> dict:
+    """Check a skill's frontmatter against the Agent Skills spec."""
+    issues: list[dict] = []
+    if not name:
+        issues.append({"code": "missing-name", "severity": "error"})
+    else:
+        if name != leaf_dir:
+            issues.append({
+                "code": "name-dir-mismatch",
+                "severity": "warn",
+                "detail": f"name={name!r} but directory={leaf_dir!r}",
+            })
+        if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", name):
+            issues.append({"code": "name-not-kebab-case", "severity": "warn", "detail": name})
+        if len(name) > 64:
+            issues.append({"code": "name-too-long", "severity": "error", "detail": f"{len(name)} > 64"})
+    if not desc:
+        issues.append({"code": "missing-description", "severity": "error"})
+    elif len(desc) > 1024:
+        issues.append({"code": "description-too-long", "severity": "warn", "detail": f"{len(desc)} chars"})
+
+    top_level = set(fm.keys()) - {"name", "description"}
+    leaked = sorted(top_level & LOCAL_EXTENSION_FIELDS - {"license", "metadata", "allowed-tools"})
+    if leaked:
+        issues.append({
+            "code": "extension-fields-at-top-level",
+            "severity": "info",
+            "detail": ", ".join(leaked),
+        })
+
+    return {
+        "ok": not any(i["severity"] == "error" for i in issues),
+        "issues": issues,
+        "portable": sorted(set(fm.keys()) & SPEC_PORTABLE_FIELDS),
+        "extensions": sorted(top_level - SPEC_PORTABLE_FIELDS),
+    }
 
 
 def parse_frontmatter(text: str) -> tuple[dict, str]:
@@ -197,6 +255,7 @@ def extract_skill(path: Path, root: Path) -> dict | None:
         "allowed_tools": fm.get("allowed-tools") or fm.get("allowed_tools"),
         "license": fm.get("license"),
         "metadata": fm.get("metadata") or {},
+        "spec_compliance": check_spec(name, desc, fm, leaf_dir),
         "body": {
             "chars": len(body),
             "lines": body.count("\n") + 1,
@@ -237,6 +296,11 @@ def build_index(skills: list[dict]) -> dict:
             t["capability"], []
         ).append(s["name"])
 
+    issues: dict[str, int] = {}
+    for s in skills:
+        for i in s["spec_compliance"]["issues"]:
+            issues[i["code"]] = issues.get(i["code"], 0) + 1
+
     stats = {
         "total": len(skills),
         "domains": len(tree),
@@ -248,6 +312,8 @@ def build_index(skills: list[dict]) -> dict:
         "avg_description_len": round(
             sum(s["description_len"] for s in skills) / max(1, len(skills)), 1
         ),
+        "spec_clean": sum(1 for s in skills if s["spec_compliance"]["ok"]),
+        "spec_issues": issues,
     }
     return {"tree": tree, "stats": stats}
 

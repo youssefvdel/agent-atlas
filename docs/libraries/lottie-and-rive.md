@@ -4,7 +4,7 @@ _7 entries._
 
 | Library | Package | Version | Stars | DL/wk | License |
 |---|---|---|---|---|---|
-| [Lottie Web](https://github.com/airbnb/lottie-web) | `—` | 5.13.0 | 32.2k | 4.3M | MIT |
+| [Lottie Web](https://github.com/airbnb/lottie-web) | `—` | 5.13.0 | 32.3k | 4.3M | MIT |
 | [Rive React](https://github.com/rive-app/rive-react) | `—` | 4.37.0 | 1.2k | 599.9k | MIT |
 | [Rive Web](https://github.com/rive-app/rive-wasm) | `—` | 2.45.0 | 1.0k | 695.6k | MIT |
 | [Rive WASM](https://github.com/rive-app/rive-wasm) | `—` | 2.45.0 | 1.0k | 695.6k | MIT |

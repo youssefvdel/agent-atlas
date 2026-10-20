@@ -1,6 +1,6 @@
 # Research
 
-_4 skills in this domain._
+_5 skills in this domain._
 
 ## discovery-and-citation
 
@@ -35,3 +35,11 @@ Karpathy's LLM Wiki: build/query interlinked markdown KB.
 - **path**: `/home/youssefvdel/.hermes/skills/research/llm-wiki/SKILL.md`
 - **code blocks**: 24 · **body**: 19,556 chars · **linked files**: 0
 - **sections**: When This Skill Activates, Wiki Location, Architecture: Three Layers, Resuming an Existing Wiki (CRITICAL — do this every session), Initializing a New Wiki, Domain
+
+### `web-platform-support-verification`
+
+Use when verifying browser support or Baseline status.
+
+- **path**: `/home/youssefvdel/.hermes/skills/research/web-platform-support-verification/SKILL.md`
+- **code blocks**: 2 · **body**: 4,625 chars · **linked files**: 0
+- **sections**: When to Use, Sources (all fetchable), Workflow, Traps, Verification script pattern, Writing it up

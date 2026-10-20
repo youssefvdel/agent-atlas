@@ -14,6 +14,8 @@ tree:
       provider-adapters:
       - protocol-translation
       - provider-recon
+      reader-preferences:
+      - i-have-adhd
   comms:
     email-and-messaging:
       custom-domain-email:
@@ -22,6 +24,8 @@ tree:
       - email-inbox-triage
       himalaya:
       - himalaya
+      mail-infrastructure:
+      - mail-server-ops
       self-hosted-mail-server:
       - self-hosted-mail-server
       xurl:
@@ -47,7 +51,6 @@ tree:
       design-systems:
       - apple-design
       - brand-guidelines
-      - theme-factory
       generative-art:
       - algorithmic-art
       - canvas-design
@@ -62,12 +65,15 @@ tree:
       - ui-ux-dev-paid
       - ui-ux-pro-max
       - ux-design-pro-max
+      - web-design-guidelines
       manim-video:
       - manim-video
       p5js:
       - p5js
       popular-web-designs:
       - popular-web-designs
+      reference-atlas:
+      - agent-atlas
       songwriting-and-ai-music:
       - songwriting-and-ai-music
   engineering:
@@ -83,6 +89,8 @@ tree:
       - stealth-browser
       extensions:
       - chromium-extension
+      headed-browser-on-xvfb:
+      - headed-browser-on-xvfb
       networking:
       - recon-pure-vpn
       performance:
@@ -135,10 +143,16 @@ tree:
       - usb-hid-recovery
       webview-desktop-shipping:
       - webview-desktop-shipping
+    platform-and-ops:
+      sdlc-review:
+      - sdlc-review
     desktop-and-mobile:
       tauri:
       - tauri-live-debug
       - tauri-v2
+      windows-bridge:
+      - windows-interop
+      - windows-workstation-setup
   media:
     audio-and-social:
       gif-search:
@@ -185,6 +199,15 @@ tree:
       - word-online-editing
       xlsx:
       - xlsx
+    apple-ecosystem:
+      apple-notes:
+      - apple-notes
+      apple-reminders:
+      - apple-reminders
+      findmy:
+      - findmy
+      imessage:
+      - imessage
   research:
     discovery-and-citation:
       arxiv:
@@ -195,36 +218,22 @@ tree:
       - grounded-citations
       llm-wiki:
       - llm-wiki
-  unclassified:
-    unclassified:
-      apple-notes:
-      - apple-notes
-      apple-reminders:
-      - apple-reminders
-      findmy:
-      - findmy
-      imessage:
-      - imessage
-      mail-server-ops:
-      - mail-server-ops
-      sdlc-review:
-      - sdlc-review
-      vercel-web-design-guidelines:
-      - web-design-guidelines
-      windows-interop:
-      - windows-interop
-      windows-workstation-setup:
-      - windows-workstation-setup
+      web-platform-support-verification:
+      - web-platform-support-verification
 stats:
-  total: 107
-  domains: 8
+  total: 110
+  domains: 7
   with_links: 16
-  with_code: 65
-  total_code_blocks: 1014
-  total_body_chars: 1012430
-  total_linked_files: 310
-  avg_description_len: 110.6
-generated_at: '2026-10-20T10:43:33.114407+00:00'
+  with_code: 69
+  total_code_blocks: 1028
+  total_body_chars: 1057060
+  total_linked_files: 313
+  avg_description_len: 113.5
+  spec_clean: 110
+  spec_issues:
+    extension-fields-at-top-level: 88
+    name-dir-mismatch: 7
+generated_at: '2026-10-20T14:16:10.265268+00:00'
 roots:
 - /home/youssefvdel/.hermes/skills
 - /home/youssefvdel/.hermes/plugins

@@ -1,6 +1,6 @@
 # Communication
 
-_5 skills in this domain._
+_6 skills in this domain._
 
 ## email-and-messaging
 
@@ -27,6 +27,14 @@ Himalaya CLI: IMAP/SMTP email from terminal.
 - **path**: `/home/youssefvdel/.hermes/skills/email/himalaya/SKILL.md`
 - **code blocks**: 56 · **body**: 6,930 chars · **linked files**: 2
 - **sections**: References, Prerequisites, Configuration Setup, Hermes Integration Notes, Common Operations, Multiple Accounts
+
+### `mail-server-ops`
+
+Set up TLS, webmail, and outbound relays on mail VPS.
+
+- **path**: `/home/youssefvdel/.hermes/skills/mail-server-ops/SKILL.md`
+- **code blocks**: 0 · **body**: 6,183 chars · **linked files**: 0
+- **sections**: 1. TLS Certificate Provisioning & File Binding (Let's Encrypt), 2. DNS Propagation, DoH & Browser Socket Cache Gotchas, 3. Webmail Deployment & Root Redirection (Bulwark on Stalwart), 4. Port 80 HTTP-to-HTTPS Automatic Redirect Daemon, 5. Outbound Smart Host Relay (Bypassing Port 25 Blocks), 6. WebUI Reactive Input Traps
 
 ### `self-hosted-mail-server`
 

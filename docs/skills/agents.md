@@ -1,6 +1,6 @@
 # Agents & orchestration
 
-_7 skills in this domain._
+_8 skills in this domain._
 
 ## delegation-and-orchestration
 
@@ -33,8 +33,16 @@ Drive the desktop background-first; escalate on signal.
 Use, configure, theme, extend, and orchestrate Hermes Agent.
 
 - **path**: `/home/youssefvdel/.hermes/skills/autonomous-ai-agents/hermes-agent/SKILL.md`
-- **code blocks**: 12 · **body**: 13,824 chars · **linked files**: 25
+- **code blocks**: 12 · **body**: 14,163 chars · **linked files**: 28
 - **sections**: Scope & Verification, Quick Start, Key Paths, Routing Table — load the reference for the task, Spawning Additional Hermes Instances, Surfaces (quick orientation)
+
+### `i-have-adhd`
+
+Shape output for a reader with ADHD and dyslexia: lead with the next action, number multi-step work, restate state across turns, one idea per sentence, short lines, no preamble/recap/closers. Invoke with /i-have-adhd; stays on until "stop adhd mode".
+
+- **path**: `/home/youssefvdel/.hermes/skills/i-have-adhd/SKILL.md`
+- **code blocks**: 2 · **body**: 8,639 chars · **linked files**: 0
+- **sections**: Persistence, What ADHD changes about reading, Rules, Dyslexia rules, When to break the rules, Pre-send check
 
 ### `opencode`
 

@@ -1,6 +1,6 @@
 # Skill hierarchy
 
-_107 skills · 8 domains · 1014 code blocks · 310 linked files · 1,012,430 body chars_
+_110 skills · 7 domains · 1028 code blocks · 313 linked files · 1,057,060 body chars_
 
 - **agents**
   - **delegation-and-orchestration**
@@ -11,11 +11,13 @@ _107 skills · 8 domains · 1014 code blocks · 310 linked files · 1,012,430 bo
     - **opencode** → `opencode` — Delegate coding to OpenCode CLI (features, PR review)
     - **provider-adapters** → `protocol-translation` — Use when translating between LLM API dialects
     - **provider-adapters** → `provider-recon` — Use when mapping a provider surface for a new adapter
+    - **reader-preferences** → `i-have-adhd` — Shape output for a reader with ADHD and dyslexia: lead with the next action, number multi-ste...
 - **comms**
   - **email-and-messaging**
     - **custom-domain-email** → `custom-domain-email` — Use when setting up or fixing custom domain email routing
     - **email-inbox-triage** → `email-inbox-triage` — Triage an inbox: prioritize threads, draft replies safely
     - **himalaya** → `himalaya` — Himalaya CLI: IMAP/SMTP email from terminal
+    - **mail-infrastructure** → `mail-server-ops` — Set up TLS, webmail, and outbound relays on mail VPS
     - **self-hosted-mail-server** → `self-hosted-mail-server` — Use when setting up self-hosted mail servers on cloud VPS
     - **xurl** → `xurl` — X/Twitter via xurl CLI: raw post search, posting, DM, media
 - **creative**
@@ -27,7 +29,6 @@ _107 skills · 8 domains · 1014 code blocks · 310 linked files · 1,012,430 bo
     - **design-md** → `design-md` — Author/validate/export Google's DESIGN
     - **design-systems** → `apple-design` — 苹果设计原则与流体交互动效知识库，源自 WWDC 设计演讲，为 Web 平台翻译的 17 条交互设计原则
     - **design-systems** → `brand-guidelines` — Applies Anthropic's official brand colors and typography to any sort of artifact that may ben...
-    - **design-systems** → `theme-factory` — Toolkit for styling artifacts with a theme
     - **generative-art** → `algorithmic-art` — Creating algorithmic art using p5
     - **generative-art** → `canvas-design` — Create beautiful visual art in 
     - **humanizer** → `humanizer` — Humanize text: strip AI-isms and add real voice
@@ -38,9 +39,11 @@ _107 skills · 8 domains · 1014 code blocks · 310 linked files · 1,012,430 bo
     - **interface-design** → `ui-ux-dev-paid` — |- 功能涵盖:。Use when 需要代码生成、编程辅助、调试测试、开发部署时使用。不适用于无明确技术栈的模糊需求。适用于独立开发者、企业团队和自动化工作流场景。支持中文交互，无需复杂...
     - **interface-design** → `ui-ux-pro-max` — Professional UI/UX design resource library with searchable design patterns, color palettes, f...
     - **interface-design** → `ux-design-pro-max` — UI/UX design intelligence for web, mobile, and desktop
+    - **interface-design** → `web-design-guidelines` — Review UI code for Web Interface Guidelines compliance
     - **manim-video** → `manim-video` — Manim CE animations: 3Blue1Brown math/algo videos
     - **p5js** → `p5js` — p5
     - **popular-web-designs** → `popular-web-designs` — 54 real design systems (Stripe, Linear, Vercel) as HTML/CSS
+    - **reference-atlas** → `agent-atlas` — Use when choosing an animation library, CSS technique, video-generation tool, or agent skill ...
     - **songwriting-and-ai-music** → `songwriting-and-ai-music` — Songwriting craft and Suno AI music prompts
   - **motion**
     - **animation-philosophy** → `animate` — Build an animation from scratch, making the decisions in the order that determines whether it...
@@ -51,6 +54,10 @@ _107 skills · 8 domains · 1014 code blocks · 310 linked files · 1,012,430 bo
   - **desktop-and-mobile**
     - **tauri** → `tauri-live-debug` — Use when driving a running Tauri desktop app
     - **tauri** → `tauri-v2` — Use when writing Tauri v2 commands, IPC, or capabilities
+    - **windows-bridge** → `windows-interop` — Drive Windows from WSL: shell, screenshots, MCP bridges
+    - **windows-bridge** → `windows-workstation-setup` — Use when setting up Windows 11 dev machines
+  - **platform-and-ops**
+    - **sdlc-review** → `sdlc-review` — Review Kanban handoffs and route verified outcomes
   - **software-development**
     - **architecture** → `system-architect` — Acts as a Senior System Architect to design robust, scalable, and maintainable software archi...
     - **cli-tooling** → `go-cli` — Build cross-platform Go CLI tools
@@ -84,6 +91,7 @@ _107 skills · 8 domains · 1014 code blocks · 310 linked files · 1,012,430 bo
     - **browser-automation** → `browser-file-harvest` — Use when downloading many files via an attached browser
     - **browser-automation** → `stealth-browser` — Use when driving stealth Chromium from Bun via WebView
     - **extensions** → `chromium-extension` — Build MV3 extensions for Brave/Helium/Chrome
+    - **headed-browser-on-xvfb** → `headed-browser-on-xvfb` — Run a real non-headless browser on the Z440 via Xvfb
     - **networking** → `recon-pure-vpn` — Use when working on Recon voice VPN code or UI
     - **performance** → `live-view-flicker` — Use when a live view flickers or re-renders too much
 - **media**
@@ -92,6 +100,11 @@ _107 skills · 8 domains · 1014 code blocks · 310 linked files · 1,012,430 bo
     - **songsee** → `songsee` — Audio spectrograms/features (mel, chroma, MFCC) via CLI
     - **youtube-content** → `youtube-content` — YouTube transcripts to summaries, threads, blogs
 - **productivity**
+  - **apple-ecosystem**
+    - **apple-notes** → `apple-notes` — Manage Apple Notes via memo CLI: create, search, edit
+    - **apple-reminders** → `apple-reminders` — Apple Reminders via remindctl: add, list, complete
+    - **findmy** → `findmy` — Track Apple devices/AirTags via FindMy
+    - **imessage** → `imessage` — Send and receive iMessages/SMS via the imsg CLI on macOS
   - **office-and-docs**
     - **academic-project-delivery** → `academic-project-delivery` — Manage and deliver university coursework projects
     - **airtable** → `airtable` — Airtable REST API via curl
@@ -117,14 +130,4 @@ _107 skills · 8 domains · 1014 code blocks · 310 linked files · 1,012,430 bo
     - **competitor-news-monitor** → `competitor-news-monitor` — Watch named companies for material news; cited digests
     - **grounded-citations** → `grounded-citations` — Ground answers and documents in cited, verifiable sources
     - **llm-wiki** → `llm-wiki` — Karpathy's LLM Wiki: build/query interlinked markdown KB
-- **unclassified**
-  - **unclassified**
-    - **apple-notes** → `apple-notes` — Manage Apple Notes via memo CLI: create, search, edit
-    - **apple-reminders** → `apple-reminders` — Apple Reminders via remindctl: add, list, complete
-    - **findmy** → `findmy` — Track Apple devices/AirTags via FindMy
-    - **imessage** → `imessage` — Send and receive iMessages/SMS via the imsg CLI on macOS
-    - **mail-server-ops** → `mail-server-ops` — Set up TLS, webmail, and outbound relays on mail VPS
-    - **sdlc-review** → `sdlc-review` — Review Kanban handoffs and route verified outcomes
-    - **vercel-web-design-guidelines** → `web-design-guidelines` — Review UI code for Web Interface Guidelines compliance
-    - **windows-interop** → `windows-interop` — Drive Windows from WSL: shell, screenshots, MCP bridges
-    - **windows-workstation-setup** → `windows-workstation-setup` — Use when setting up Windows 11 dev machines
+    - **web-platform-support-verification** → `web-platform-support-verification` — Use when verifying browser support or Baseline status

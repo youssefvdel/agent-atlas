@@ -1,8 +1,16 @@
 # Creative & design
 
-_26 skills in this domain._
+_27 skills in this domain._
 
 ## design-and-media
+
+### `agent-atlas`
+
+Use when choosing an animation library, CSS technique, video-generation tool, or agent skill for a front-end project — or when asked what tool to reach for before starting. Covers GSAP vs Motion vs anime.js, modern CSS (View Transitions, scroll-driven, @starting-style), Lottie/Rive, Remotion/code-to-video, and the Claude Code skill ecosystem, with live-verified versions, stars, licenses, and decision guides. Triggers on "which animation library", "best library for", "before I start building", "design skills for Claude Code", "agent skills for frontend".
+
+- **path**: `/home/youssefvdel/.hermes/skills/agent-atlas/SKILL.md`
+- **code blocks**: 2 · **body**: 4,928 chars · **linked files**: 0
+- **sections**: Use this skill when, The short version, Library routing, The two-clock rule, The hairline study, Where to look
 
 ### `algorithmic-art`
 
@@ -89,8 +97,8 @@ tasteskill v2, the anti-slop frontend skill. Art direction for websites, distill
 Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.
 
 - **path**: `/home/youssefvdel/.hermes/skills/frontend-design/SKILL.md`
-- **code blocks**: 0 · **body**: 9,075 chars · **linked files**: 0
-- **sections**: Ground your designs in the subject matter, Design principles, Process: plan, review against the brief, build, critique, Restraint and self-critique, More on writing in design
+- **code blocks**: 0 · **body**: 12,093 chars · **linked files**: 0
+- **sections**: Ground your designs in the subject matter, Design principles, Process: plan, review against the brief, build, critique, Internal tool pages: dashboards, status, admin, developer tools, Restraint and self-critique, More on writing in design
 
 ### `humanizer`
 
@@ -140,14 +148,6 @@ Songwriting craft and Suno AI music prompts.
 - **code blocks**: 6 · **body**: 10,506 chars · **linked files**: 0
 - **sections**: 1. Song Structure (Pick One or Invent Your Own), 2. Rhyme, Meter, and Sound, 3. Emotional Arc and Dynamics, 4. Writing Lyrics That Work, 5. Parody and Adaptation, 6. Suno AI Prompt Engineering
 
-### `theme-factory`
-
-Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.
-
-- **path**: `/home/youssefvdel/.hermes/skills/theme-factory/SKILL.md`
-- **code blocks**: 0 · **body**: 2,779 chars · **linked files**: 0
-- **sections**: Purpose, Usage Instructions, Themes Available, Theme Details, Application Process, Create your Own Theme
-
 ### `ui-ux-craft-kit`
 
 UI/UX design intelligence for web and mobile. Includes 50+ styles, 161 color palettes, 57 font pairings, 161 product types, 99 UX guidelines, and 25 chart types across 10 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui, and HTML/CSS). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, and check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, and mobile app. Elements: button, modal, navbar, sidebar, card, table, form, and chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, and flat design. Topics: color systems, accessibility, animation, layout, typography, font pairing, spacing, interaction states, shadow, and gradient.
@@ -179,6 +179,14 @@ UI/UX design intelligence for web, mobile, and desktop. This skill should be use
 - **path**: `/home/youssefvdel/.hermes/skills/ux-design-pro-max/SKILL.md`
 - **code blocks**: 18 · **body**: 15,382 chars · **linked files**: 2
 - **sections**: When to Apply, Rule Categories by Priority, Running the search tool, Workflow, Query Contract, If a search returns 0 results
+
+### `web-design-guidelines`
+
+Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".
+
+- **path**: `/home/youssefvdel/.hermes/skills/vercel-web-design-guidelines/SKILL.md`
+- **code blocks**: 2 · **body**: 915 chars · **linked files**: 0
+- **sections**: How It Works, Guidelines Source, Usage
 
 ## motion
 

@@ -1,6 +1,40 @@
 # Productivity
 
-_18 skills in this domain._
+_22 skills in this domain._
+
+## apple-ecosystem
+
+### `apple-notes`
+
+Manage Apple Notes via memo CLI: create, search, edit.
+
+- **path**: `/home/youssefvdel/.hermes/skills/apple/apple-notes/SKILL.md`
+- **code blocks**: 12 · **body**: 2,085 chars · **linked files**: 0
+- **sections**: Prerequisites, When to Use, When NOT to Use, Quick Reference, Limitations, Rules
+
+### `apple-reminders`
+
+Apple Reminders via remindctl: add, list, complete.
+
+- **path**: `/home/youssefvdel/.hermes/skills/apple/apple-reminders/SKILL.md`
+- **code blocks**: 16 · **body**: 3,324 chars · **linked files**: 0
+- **sections**: Prerequisites, When to Use, When NOT to Use, Quick Reference, Date Formats, Rules
+
+### `findmy`
+
+Track Apple devices/AirTags via FindMy.app on macOS.
+
+- **path**: `/home/youssefvdel/.hermes/skills/apple/findmy/SKILL.md`
+- **code blocks**: 12 · **body**: 3,572 chars · **linked files**: 0
+- **sections**: Prerequisites, When to Use, Method 1: AppleScript + Screenshot (Basic), Method 2: Peekaboo UI Automation (Recommended), Workflow: Track AirTag Location Over Time, Limitations
+
+### `imessage`
+
+Send and receive iMessages/SMS via the imsg CLI on macOS.
+
+- **path**: `/home/youssefvdel/.hermes/skills/apple/imessage/SKILL.md`
+- **code blocks**: 10 · **body**: 2,156 chars · **linked files**: 0
+- **sections**: Prerequisites, When to Use, When NOT to Use, Quick Reference, Service Options, Rules
 
 ## office-and-docs
 
@@ -9,7 +43,7 @@ _18 skills in this domain._
 Manage and deliver university coursework projects.
 
 - **path**: `/home/youssefvdel/.hermes/skills/productivity/academic-project-delivery/SKILL.md`
-- **code blocks**: 0 · **body**: 8,516 chars · **linked files**: 0
+- **code blocks**: 0 · **body**: 12,112 chars · **linked files**: 0
 - **sections**: When to Use, Procedures, Pitfalls
 
 ### `airtable`

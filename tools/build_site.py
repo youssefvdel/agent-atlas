@@ -151,6 +151,47 @@ def write_docs(skills_index: dict, libs_payload: dict) -> None:
     for s in skills_raw:
         by_domain[s["taxonomy"]["domain"]].append(s)
 
+    # ---- spec compliance report -----------------------------------------
+    sc = DOCS / "skills" / "spec-compliance.md"
+    sc.parent.mkdir(parents=True, exist_ok=True)
+    lines = [
+        "# Skill spec compliance",
+        "",
+        "Checked against the Agent Skills spec. The portability boundary is narrow:",
+        "only `name`, `description`, `license`, `compatibility`, `metadata` and",
+        "`allowed-tools` survive a claude.ai upload or `package_skill.py`.",
+        "Everything else is a local or Claude Code extension.",
+        "",
+        f"_{skills_index['stats']['spec_clean']} of {skills_index['stats']['total']} skills pass "
+        "with no hard errors._",
+        "",
+        "| Code | Count | Meaning |",
+        "|---|---|---|",
+    ]
+    MEANING = {
+        "name-dir-mismatch": "`name:` in the frontmatter does not match the directory name — the spec expects them equal",
+        "name-not-kebab-case": "`name:` is not lowercase-kebab-case",
+        "name-too-long": "`name:` exceeds 64 characters",
+        "missing-description": "no `description:` field",
+        "missing-name": "no `name:` field",
+        "description-too-long": "`description:` exceeds 1024 characters",
+        "extension-fields-at-top-level": "Claude Code extension fields sit at the top level instead of under `metadata:`",
+    }
+    for code, n in sorted(skills_index["stats"].get("spec_issues", {}).items(), key=lambda kv: -kv[1]):
+        lines.append(f"| `{code}` | {n} | {MEANING.get(code, '—')} |")
+    lines.append("")
+
+    mismatches = [s for s in skills_raw if any(i["code"] == "name-dir-mismatch" for i in s["spec_compliance"]["issues"])]
+    if mismatches:
+        lines.append("## Name / directory mismatches")
+        lines.append("")
+        lines.append("| `name:` | directory | path |")
+        lines.append("|---|---|---|")
+        for s in mismatches:
+            lines.append(f"| `{s['name']}` | `{s['dir']}` | `{s['relative_path']}` |")
+        lines.append("")
+    (sc).write_text("\n".join(lines), encoding="utf-8")
+
     for domain, skills in by_domain.items():
         d = DOCS / "skills"
         d.mkdir(parents=True, exist_ok=True)

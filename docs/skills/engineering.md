@@ -1,6 +1,6 @@
 # Engineering
 
-_35 skills in this domain._
+_39 skills in this domain._
 
 ## desktop-and-mobile
 
@@ -19,6 +19,32 @@ Use when writing Tauri v2 commands, IPC, or capabilities.
 - **path**: `/home/youssefvdel/.hermes/skills/tauri-v2/SKILL.md`
 - **code blocks**: 16 · **body**: 8,632 chars · **linked files**: 6
 - **sections**: When to Use, Before You Start, Critical Rules, Known-Issues Table, Deep-Dive References, Window Access (v2)
+
+### `windows-interop`
+
+Drive Windows from WSL: shell, screenshots, MCP bridges.
+
+- **path**: `/home/youssefvdel/.hermes/skills/windows-interop/SKILL.md`
+- **code blocks**: 0 · **body**: 6,099 chars · **linked files**: 1
+- **sections**: When to Use, Procedure, Pitfalls
+
+### `windows-workstation-setup`
+
+Use when setting up Windows 11 dev machines.
+
+- **path**: `/home/youssefvdel/.hermes/skills/windows-workstation-setup/SKILL.md`
+- **code blocks**: 0 · **body**: 3,533 chars · **linked files**: 1
+- **sections**: When to Use, Procedure, Validation (laptops, day one)
+
+## platform-and-ops
+
+### `sdlc-review`
+
+Review Kanban handoffs and route verified outcomes.
+
+- **path**: `/home/youssefvdel/.hermes/skills/devops/sdlc-review/SKILL.md`
+- **code blocks**: 8 · **body**: 8,711 chars · **linked files**: 0
+- **sections**: When to Use, Prerequisites, How to Run, Quick Reference, Review Lenses, Procedure
 
 ## software-development
 
@@ -123,7 +149,7 @@ Pre-commit review: security scan, quality gates, auto-fix.
 Build Rust CLI tools: spec-first, clippy-clean, tested.
 
 - **path**: `/home/youssefvdel/.hermes/skills/rust-cli/SKILL.md`
-- **code blocks**: 2 · **body**: 3,514 chars · **linked files**: 0
+- **code blocks**: 2 · **body**: 4,357 chars · **linked files**: 0
 - **sections**: When to Use, Project conventions (user-mandated), Toolchain (rustup), Gate (every change), Pitfalls
 
 ### `rust-fuse-filesystem`
@@ -131,7 +157,7 @@ Build Rust CLI tools: spec-first, clippy-clean, tested.
 Build FUSE filesystems in Rust over network backends.
 
 - **path**: `/home/youssefvdel/.hermes/skills/software-development/rust-fuse-filesystem/SKILL.md`
-- **code blocks**: 0 · **body**: 16,423 chars · **linked files**: 0
+- **code blocks**: 0 · **body**: 17,348 chars · **linked files**: 0
 - **sections**: When to Use, Setup, Architecture that works, Pitfalls, Performance (measured on Z440 ↔ Youssef-PC, gigabit LAN, SFTP), Benchmark hygiene (learned the hard way)
 
 ### `simplify-code`
@@ -187,7 +213,7 @@ TDD: enforce RED-GREEN-REFACTOR, tests before code.
 Provision native remote drives on Windows peers (twin).
 
 - **path**: `/home/youssefvdel/.hermes/skills/software-development/twin-drives-windows/SKILL.md`
-- **code blocks**: 0 · **body**: 22,661 chars · **linked files**: 3
+- **code blocks**: 0 · **body**: 32,736 chars · **linked files**: 3
 - **sections**: When to Use, The contract: ZERO manual steps, Pitfalls (all learned the hard way), Multiple peers (one server, several Windows machines), Mirror direction — peer disks ON the Linux server (SFTP, NOT SMB), Auto-run (no terminal)
 
 ### `twin-link`
@@ -247,6 +273,14 @@ Build MV3 extensions for Brave/Helium/Chrome.
 - **path**: `/home/youssefvdel/.hermes/skills/chromium-extension/SKILL.md`
 - **code blocks**: 2 · **body**: 6,745 chars · **linked files**: 1
 - **sections**: When to Use, Check the hard limits BEFORE promising anything, Scaffold, Backend pattern (user-owned cloud, no user-supplied keys), Verify, Depth
+
+### `headed-browser-on-xvfb`
+
+Run a real non-headless browser on the Z440 via Xvfb.
+
+- **path**: `/home/youssefvdel/.hermes/skills/browser/headed-browser-on-xvfb/SKILL.md`
+- **code blocks**: 8 · **body**: 10,421 chars · **linked files**: 0
+- **sections**: CloakBrowser (the real browser now), Historical: the Chrome-for-Testing setup (removed, kept for the lessons), Stack, Install (already done on Z440), Run, Verified behaviour
 
 ### `live-view-flicker`
 

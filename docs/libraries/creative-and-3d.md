@@ -1,11 +1,11 @@
 # Creative & 3D
 
-_33 entries._
+_34 entries._
 
 | Library | Package | Version | Stars | DL/wk | License |
 |---|---|---|---|---|---|
-| [Three.js examples](https://github.com/mrdoob/three.js) | `—` | 0.186.1 | 116.7k | 14.1M | MIT |
 | [Three.js](https://github.com/mrdoob/three.js) | `—` | 0.186.1 | 116.7k | 14.1M | MIT |
+| [Three.js examples](https://github.com/mrdoob/three.js) | `—` | 0.186.1 | 116.7k | 14.1M | MIT |
 | [Three.js Journey (types)](https://github.com/DefinitelyTyped/DefinitelyTyped) | `—` | 0.186.0 | 51.4k | 9.2M | MIT |
 | [PixiJS](https://github.com/pixijs/pixijs) | `—` | 8.22.0 | 48.4k | 845.6k | MIT |
 | [Pixi.js v8](https://github.com/pixijs/pixijs) | `—` | 8.22.0 | 48.4k | 845.6k | MIT |
@@ -35,5 +35,6 @@ _33 entries._
 | [OGL](https://github.com/oframe/ogl) | `—` | 1.0.11 | 4.7k | 449.7k | Unlicense |
 | [Tweakpane](https://github.com/cocopon/tweakpane) | `—` | 4.0.5 | 4.6k | 193.5k | MIT |
 | [Tweakpane (npm alt)](https://github.com/cocopon/tweakpane) | `—` | 4.0.5 | 4.6k | 193.5k | MIT |
+| [TypeGPU](https://github.com/software-mansion/TypeGPU) | `—` | 0.12.8 | 3.3k | 160.5k | MIT |
 | [lil-gui](https://github.com/georgealways/lil-gui) | `—` | 0.21.0 | 1.6k | 132.8k | MIT |
 | [Pixi Filters](https://github.com/pixijs/filters) | `—` | 6.1.5 | 1.1k | 67.7k | MIT |

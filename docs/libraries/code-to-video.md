@@ -1,9 +1,11 @@
 # Code → video
 
-_15 entries._
+_18 entries._
 
 | Library | Package | Version | Stars | DL/wk | License |
 |---|---|---|---|---|---|
+| [Playwright](https://github.com/microsoft/playwright) | `—` | 1.64.1 | 98.1k | 69.8M | Apache-2.0 |
+| [Puppeteer](https://github.com/puppeteer/puppeteer) | `—` | 25.15.0 | 95.7k | 6.7M | Apache-2.0 |
 | [Remotion](https://github.com/remotion-dev/remotion) | `—` | 4.0.537 | 65.5k | 1.4M | SEE LICENSE IN LICENSE.md |
 | [@remotion/player](https://github.com/remotion-dev/remotion) | `—` | 4.0.537 | 65.5k | 1.3M | SEE LICENSE IN LICENSE.md |
 | [Pug-slides](https://github.com/pugjs/pug) | `—` | — | 21.8k | — | — |
@@ -11,6 +13,7 @@ _15 entries._
 | [Motion Canvas (npm alt)](https://github.com/motion-canvas/motion-canvas) | `—` | 3.17.2 | 19.4k | 5.7k | MIT |
 | [@ffmpeg/ffmpeg](https://github.com/ffmpegwasm/ffmpeg.wasm) | `—` | 0.12.15 | 17.9k | 469.3k | MIT |
 | [@ffmpeg/core](https://github.com/ffmpegwasm/ffmpeg.wasm) | `—` | 0.12.10 | 17.9k | 168.2k | GPL-2.0-or-later |
+| [Mediabunny](https://github.com/Vanilagy/mediabunny) | `—` | 1.61.6 | 7.3k | 2.5M | MPL-2.0 |
 | [Revideo](https://github.com/midrender/revideo) | `—` | 0.11.0 | 4.1k | 22.5k | MIT |
 | [Revideo (npm alt)](https://github.com/midrender/revideo) | `—` | 0.11.0 | 4.1k | 22.5k | MIT |
 | [ffmpeg.js](https://github.com/Kagami/ffmpeg.js) | `—` | 4.2.9003 | 3.5k | 1.2k | (LGPL-2.1+ OR GPL-2.0) |
