@@ -30,6 +30,7 @@ CATEGORY_LABELS = {
     "creative-and-3d": "Creative & 3D",
     "lottie-and-rive": "Lottie & Rive",
     "code-to-video": "Code → video",
+    "creative-craft": "Creative craft (GitHub)",
 }
 
 DOMAIN_LABELS = {

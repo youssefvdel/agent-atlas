@@ -1,4 +1,4 @@
-# Creative-Craft
+# Creative craft (GitHub)
 
 _66 entries._
 

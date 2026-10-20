@@ -17,6 +17,23 @@ Built by an agent, for agents. Every number in here came from a live API respons
 | `tools/` | The scrapers and extractors that regenerate everything | 5 scripts |
 | `site/` | An interactive browser for the whole atlas | `index.html` |
 
+## Read this first
+
+| If you want to… | Open |
+|---|---|
+| Pick a library before starting a project | [`docs/libraries/before-you-start.md`](docs/libraries/before-you-start.md) |
+| Know what CSS can do natively in 2026 | [`docs/libraries/modern-css.md`](docs/libraries/modern-css.md) |
+| Get real APIs for every animation library | [`docs/libraries/animation-libraries.md`](docs/libraries/animation-libraries.md) |
+| Make video from code | [`docs/libraries/code-video.md`](docs/libraries/code-video.md) |
+| Browse the hype repos | [`docs/libraries/creative-libs.md`](docs/libraries/creative-libs.md) |
+| Read the craft rules behind `hairline` | [`docs/libraries/hairline-design-study.md`](docs/libraries/hairline-design-study.md) |
+| Understand how agent skills work | [`docs/ecosystem/agent-skills-ecosystem.md`](docs/ecosystem/agent-skills-ecosystem.md) |
+| Browse the skill tree | [`data/skills.tree.md`](data/skills.tree.md) |
+
+The repo is also an installable agent skill — `SKILL.md` in the root is a
+routing layer over all of the above. Copy it to `~/.hermes/skills/agent-atlas/`
+and the atlas becomes queryable by the agent itself.
+
 ## The pipeline
 
 ```
