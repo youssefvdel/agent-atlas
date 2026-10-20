@@ -1,5 +1,8 @@
 # agent-atlas
 
+> **Live browser:** <https://youssefvdel.github.io/agent-atlas/>
+> **Start here:** [`docs/start-here.md`](docs/start-here.md) — the 2026 stack in one page
+
 A living knowledge base for **web animation, code-to-video, creative front-end libraries, and the agent-skill ecosystem** — everything scraped and verified live, then organised as a hierarchy you can actually navigate.
 
 Built by an agent, for agents. Every number in here came from a live API response; nothing is remembered from training data.
