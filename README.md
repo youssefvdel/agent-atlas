@@ -9,6 +9,31 @@ Built by an agent, for agents. Every number in here came from a live API respons
 
 ---
 
+## The site
+
+The front end is a **React 19 + Vite 7 + Tailwind v4** app in [`web/`](web/).
+
+| | |
+|---|---|
+| **The hero is the anchor library, running.** | `@lucasmarkes/hairline` — 33 isometric line figures that answer the pointer. The page documents the library and runs it at the same time. |
+| **The palette is the anchor repo's own tokens.** | `plate` / `hi` / `edge` / `mid` / `lo`, straight from `hairline`'s public theme. The site and the thing it documents share a visual world. |
+| **The library table splits by data shape.** | 78 npm packages get versions, downloads and sizes. 169 GitHub-only repos get owner, licence and push date. One shape of table per shape of thing. |
+| **The skills tree is a real tree.** | 110 skills, four levels, disclosure triangles, per-skill code-block and file counts. |
+| **Both themes pass WCAG AA.** | `ink-soft` is 8.8:1 on light and 10.1:1 on dark. `signal` is 5.3:1 and 6.3:1. |
+| **Responsive from 360px.** | No horizontal overflow at any width. On a phone the figure leads and the copy follows. |
+
+Build it:
+
+```sh
+cd web
+npm ci
+bash build.sh      # writes ../site
+```
+
+CI does this on every push and deploys to GitHub Pages.
+
+---
+
 ## What's in it
 
 | Part | What it is | Live count |
