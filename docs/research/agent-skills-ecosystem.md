@@ -67,7 +67,7 @@ From `agentskills.io/specification#progressive-disclosure`:
 Hard rules that fall out of this:
 - **Keep `SKILL.md` under 500 lines.** Move reference material to `references/`.
 - **File references one level deep** from `SKILL.md`; avoid deeply nested reference chains.
-- Reference files use **relative paths from the skill root**: `[the reference guide](references/REFERENCE.md)`.
+- Reference files use **relative paths from the skill root**: `the reference guide at references/REFERENCE.md` (path example).
 - Tell the agent *when* to read each file — *"Read `references/api-errors.md` if the API returns a non-200 status code"* — not a generic "see references/".
 
 ### 1.4 The length guidance — correction to the brief

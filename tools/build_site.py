@@ -17,7 +17,25 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 DOCS = ROOT / "docs"
+VERIFIED_ON = "2026-10-20"
 SITE = ROOT / "site"
+
+CATEGORY_BLURBS = {
+    "animation-core": "The engines. GSAP for timelines, Motion for React, anime.js for vanilla.",
+    "scroll-and-reveal": "Smooth scrolling and scroll-triggered reveals.",
+    "carousel-and-ui": "Carousels, drawers, sheets.",
+    "gesture-and-drag": "Pointer, drag, pinch, reorder.",
+    "lottie-and-rive": "Designer-exported and interactive runtime animation.",
+    "page-transitions": "Route and page transitions.",
+    "creative-and-3d": "Three.js, R3F, PixiJS, shaders.",
+    "data-and-visualization": "Charts and graphs.",
+    "text-and-svg": "Text splitting, SVG drawing, hand-drawn type.",
+    "code-to-video": "Render video from code, capture frames from a page.",
+    "design-skills": "Agent skills that change design output quality.",
+    "ux-craft-2026": "The carefully-made web repos of 2026.",
+    "creative-craft": "Isometric illustration, shaders, doodles, icons.",
+    "tiktok-pushed": "What the design crowd is pushing right now.",
+}
 
 CATEGORY_LABELS = {
     "animation-core": "Animation core",
@@ -282,7 +300,7 @@ def write_docs(skills_index: dict, libs_payload: dict) -> None:
     by_cat: dict[str, list[dict]] = defaultdict(list)
     for l in libs_payload["libraries"]:
         by_cat[l.get("category") or "misc"].append(l)
-    d = DOCS / "libraries"
+    d = DOCS / "links"
     d.mkdir(parents=True, exist_ok=True)
     index = [
         "# Library catalog",
@@ -293,26 +311,39 @@ def write_docs(skills_index: dict, libs_payload: dict) -> None:
         "|---|---|",
     ]
     for cat in sorted(by_cat):
-        index.append(f"| [{CATEGORY_LABELS.get(cat, cat)}](libraries/{cat}.md) | {len(by_cat[cat])} |")
-    (d / "README.md").write_text("\n".join(index) + "\n", encoding="utf-8")
+        index.append(f"| [{CATEGORY_LABELS.get(cat, cat)}]({cat}.md) | {len(by_cat[cat])} |")
+    (DOCS / "links" / "README.md").write_text("\n".join(index) + "\n", encoding="utf-8")
 
     for cat, items in by_cat.items():
-        lines = [
-            f"# {CATEGORY_LABELS.get(cat, cat.title())}",
+        title = CATEGORY_LABELS.get(cat, cat.title())
+        blurb = CATEGORY_BLURBS.get(cat, "")
+        lines = [f"# {title} — links", ""]
+        if blurb:
+            lines += [blurb, ""]
+        lines += [
+            f"_{len(items)} entries. Stars and versions read live on {VERIFIED_ON}._",
             "",
-            f"_{len(items)} entries._",
-            "",
-            "| Library | Package | Version | Stars | DL/wk | License |",
-            "|---|---|---|---|---|---|",
         ]
         for l in sorted(items, key=lambda x: -(x.get("stars") or 0)):
             repo = l.get("repo")
-            label = f"[{l['name']}](https://github.com/{repo})" if repo else l["name"]
-            lines.append(
-                f"| {label} | `{l.get('npm') or '—'}` | {l.get('version') or '—'} | "
-                f"{fmt(l.get('stars'))} | {fmt(l.get('dl'))} | {l.get('license') or '—'} |"
-            )
-        lines.append("")
+            url = f"https://github.com/{repo}" if repo else (l.get("homepage") or "")
+            label = f"[{l['name']}]({url})" if url else l["name"]
+            desc = (l.get("description") or "").strip()
+            if len(desc) > 150:
+                desc = desc[:147].rsplit(" ", 1)[0] + "…"
+            bits = []
+            if l.get("npm"):
+                bits.append(f"`{l['npm']}`")
+            lic = (l.get("license") or "").strip()
+            if lic and lic not in ("NOT FOUND", "None", "null"):
+                if ":" in lic and len(lic) > 28:
+                    lic = lic.split(":")[0].strip()
+                bits.append(lic)
+            if l.get("version"):
+                bits.append(f"v{l['version']}")
+            bits.append(f"{l['stars']:,}★" if l.get("stars") else "—★")
+            lines.append(f"- **{label}** — {desc}  ")
+            lines.append(f"  {' · '.join(bits)}")
         (d / f"{cat}.md").write_text("\n".join(lines), encoding="utf-8")
 
     print(f"docs written : {DOCS}")

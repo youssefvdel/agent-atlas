@@ -5,73 +5,101 @@ version, license, or install count in these documents came from memory.
 
 ---
 
-## Pick a tool before you start
+## The catalog
+
+**247 entries across 14 files.** One line each: name, link, description, live
+facts.
+
+| File | Entries | What it covers |
+|---|---|---|
+| **[links/animation-core.md](links/animation-core.md)** | 29 | GSAP, Motion, anime.js, react-spring, Theatre, Svelte/Vue/Solid transitions |
+| **[links/scroll-and-reveal.md](links/scroll-and-reveal.md)** | 5 | Lenis, AOS, ScrollReveal, Locomotive, smooth-scrollbar |
+| **[links/carousel-and-ui.md](links/carousel-and-ui.md)** | 3 | Embla, Swiper, Vaul |
+| **[links/gesture-and-drag.md](links/gesture-and-drag.md)** | 3 | SortableJS, Auto-Animate, use-gesture |
+| **[links/lottie-and-rive.md](links/lottie-and-rive.md)** | 5 | Lottie, dotLottie, Rive |
+| **[links/page-transitions.md](links/page-transitions.md)** | 3 | Barba.js, Astro View Transitions, polyfill |
+| **[links/creative-and-3d.md](links/creative-and-3d.md)** | 16 | Three.js, R3F, Drei, PixiJS, OGL, regl, TypeGPU, Zdog, Rough.js |
+| **[links/data-and-visualization.md](links/data-and-visualization.md)** | 4 | D3, ECharts |
+| **[links/text-and-svg.md](links/text-and-svg.md)** | 3 | SplitType, SVG drawing, svgedit |
+| **[links/code-to-video.md](links/code-to-video.md)** | 11 | Remotion, Revideo, Motion Canvas, Manim, Playwright, Puppeteer, ffmpeg.wasm, Mediabunny |
+| **[links/design-skills.md](links/design-skills.md)** | 41 | Agent skills that change design output quality |
+| **[links/ux-craft-2026.md](links/ux-craft-2026.md)** | 35 | The carefully-made web repos |
+| **[links/creative-craft.md](links/creative-craft.md)** | 61 | Isometric illustration, shaders, doodles, icons, CSS art |
+| **[links/tiktok-pushed.md](links/tiktok-pushed.md)** | 28 | What the design crowd is pushing right now |
+
+---
+
+## Start here
 
 | Document | What it answers |
 |---|---|
-| [**start-here.md**](start-here.md) | **The 2026 stack in one page** — what to install, what is hype, what is real, the 10 repos worth reading the source of |
-| [**claude-code-tooling.md**](ecosystem/claude-code-tooling.md) | The 5-minute baseline setup, the decision table, and the pitfalls. Read this one first if you are about to start a project |
-| [**before-you-start.md**](libraries/before-you-start.md) | Which library for which job — CSS-first routing tables, anti-patterns |
-| [**design-skills.md**](ecosystem/design-skills.md) | Which AI design skills are real, and the `SKILL.md` vs component-code distinction |
+| [**choosing.md**](choosing.md) | **Which library for which job** — CSS-first routing tables, alternatives, anti-patterns, the two-clock rule |
+| [**start-here.md**](start-here.md) | The 2026 stack in one page — what to install, what is hype, what is real |
+| [**../README.md**](../README.md) | The front page — the links, the corrections, the agent rules |
 
-## Libraries
+---
+
+## Research documents
+
+Long-form references. Read them when you need the exact API of a library you
+already chose, not before.
 
 | Document | What it answers |
 |---|---|
-| [**animation-libraries.md**](libraries/animation-libraries.md) | 50 libraries, deep-dive, with real API signatures read from the shipped `.d.ts` files |
-| [**modern-css.md**](libraries/modern-css.md) | What CSS can do natively in 2026 — verified against MDN browser-compat-data |
-| [**code-video.md**](libraries/code-video.md) | Making video from code — 41 tools, 22 experiments actually run on this machine |
-| [**creative-libs.md**](libraries/creative-libs.md) | 67 "hairline class" repos with live stars and install commands |
-| [**ux-craft-2026.md**](libraries/ux-craft-2026.md) | The high-craft web repos of 2026, tiered by craft |
-| [**anchor-hairline.md**](libraries/anchor-hairline.md) | The reference repo, fully documented |
-| [**hairline-design-study.md**](libraries/hairline-design-study.md) | The ten rules for pointer-reactive interface figures |
+| [**research/animation-libraries.md**](research/animation-libraries.md) | 50 libraries, deep-dive, with real API signatures read from the shipped `.d.ts` files — 144 code blocks |
+| [**research/modern-css.md**](research/modern-css.md) | What CSS can do natively in 2026 — verified against MDN browser-compat-data |
+| [**research/code-video.md**](research/code-video.md) | Making video from code — 41 tools, 22 experiments actually run on this machine |
+| [**research/creative-libs.md**](research/creative-libs.md) | 67 "hairline class" repos with live stars and install commands |
+| [**research/ux-craft-2026.md**](research/ux-craft-2026.md) | The high-craft web repos of 2026, tiered by craft |
+| [**research/hairline-design-study.md**](research/hairline-design-study.md) | The ten rules for pointer-reactive interface figures |
+| [**research/anchor-hairline.md**](research/anchor-hairline.md) | The reference repo, fully documented |
+| [**research/creative-craft.md**](research/creative-craft.md) | Creative-craft repos, tiered |
+| [**research/tiktok-pushed.md**](research/tiktok-pushed.md) | The repos the TikTok design crowd is actually pushing |
 
 ## The skill ecosystem
 
 | Document | What it answers |
 |---|---|
-| [**agent-skills-ecosystem.md**](ecosystem/agent-skills-ecosystem.md) | How the spec works, client conventions, MCP registries, verified ecosystem repos |
-| [**design-skills.md**](ecosystem/design-skills.md) | The AI-design skill tier, ranked by installs (not stars — see below) |
-| [**youtube-design.md**](ecosystem/youtube-design.md) | 80 verified videos, with the concrete techniques each one teaches |
-| [**tiktok-hyped.md**](ecosystem/tiktok-hyped.md) | What is actually being hyped, and which claims are substance |
-
-## This machine's skills
-
-| Document | What it answers |
-|---|---|
-| **[../data/skills.tree.md](../data/skills.tree.md)** | The rendered hierarchy of all 110 installed skills |
-| **[spec-compliance.md](skills/spec-compliance.md)** | Which skills violate the spec, and which fields are portable |
-| `skills/engineering.md`, `skills/creative.md`, … | Per-domain breakdowns with section lists and code-block counts |
+| [**research/agent-skills-ecosystem.md**](research/agent-skills-ecosystem.md) | How agent skills actually work — the spec, the formats, the install paths |
+| [**research/claude-code-tooling.md**](research/claude-code-tooling.md) | The 5-minute baseline setup, the decision table, and the pitfalls |
+| [**research/design-skills.md**](research/design-skills.md) | Which AI design skills are real, and the `SKILL.md` vs component-code distinction |
+| [**research/youtube-design.md**](research/youtube-design.md) | 80 video transcripts, mined for techniques and tools |
+| [**research/tiktok-hyped.md**](research/tiktok-hyped.md) | The hype repos, and which ones hold up |
 
 ---
 
-## Three findings worth knowing before you read anything else
+## The skills on this machine
 
-**1. Stars and installs disagree, and installs are the better signal.**
-`designed-by-ai/skills` has 19 stars and 916,408 installs — but its README
-tells you to run `npx skills add sleekdotdesign/agent-skills`, so those installs
-belong to a *different* repo. Install counters are attributable and resellable;
-star counts are not. Rank by installs and shipped `SKILL.md` files.
+110 skills parsed from `~/.hermes/skills` and filed into a taxonomy.
 
-**2. The `skills` CLI is not Anthropic's.**
-`npx skills add <owner>/<repo>` is [vercel-labs/skills](https://github.com/vercel-labs/skills)
-(MIT, 35.8k stars, 22.9M downloads/month). Anthropic publishes *skills*; the CLI
-is harness-agnostic and installs into 75+ agents.
+| Document | What it covers |
+|---|---|
+| [**skills/creative.md**](skills/creative.md) | Design, animation, illustration, video, image work |
+| [**skills/engineering.md**](skills/engineering.md) | Rust, Go, Python, testing, code review, debugging |
+| [**skills/research.md**](skills/research.md) | Papers, citations, monitoring, scraping |
+| [**skills/productivity.md**](skills/productivity.md) | Notes, spreadsheets, documents, meetings |
+| [**skills/media.md**](skills/media.md) | YouTube, GIFs, music, spectrograms |
+| [**skills/agents.md**](skills/agents.md) | Multi-agent orchestration and delegation |
+| [**skills/comms.md**](skills/comms.md) | Email, social platforms |
+| [**skills/spec-compliance.md**](skills/spec-compliance.md) | Which skill fields are portable across harnesses |
 
-**3. GSAP is entirely free now.**
-Since 3.13 (2025-04-29) every plugin — SplitText, MorphSVG, DrawSVG,
-ScrollSmoother, InertiaPlugin — is free for commercial use. Club GSAP wound
-down. Advice that says otherwise is out of date.
+The full tree: [`../data/skills.tree.md`](../data/skills.tree.md)
 
 ---
 
-## The numbers
+## How the data is produced
 
-| | |
-|---|---|
-| Skills indexed | **110** across 7 domains, 12 subdomains, 0 unclassified |
-| Code blocks in those skills | **1,028** |
-| Linked files (references/, scripts/, assets/) | **313** |
-| Libraries catalogued | **249** (88 npm-backed + 161 GitHub-only) |
-| npm packages resolved to a canonical repo | **88 / 88**, 0 unresolved |
-| Research documents | **9**, ~450 KB |
+```sh
+cd ~/Projects/agent-atlas
+export GITHUB_TOKEN=$(gh auth token)
+
+python3 tools/extract_skills.py --out data/                    # local skills
+python3 tools/resolve_repos.py  --spec data/libs.spec.json \
+        --out data/libs.spec.final.json                         # canonical repos
+python3 tools/scrape_libs.py    --spec data/libs.spec.final.json \
+        --out data/libs.live.json                                # live npm + GitHub
+python3 tools/build_site.py                                      # site + counts
+```
+
+Live data lives in [`../data/`](../data/). The link files are generated from
+it, and every one of them carries a `verified_on` date.

@@ -1,188 +1,187 @@
 ---
 name: agent-atlas
-description: Use when choosing an animation library, CSS technique, video-generation tool, or agent skill for a front-end project — or when asked what tool to reach for before starting. Covers GSAP vs Motion vs anime.js, modern CSS (View Transitions, scroll-driven, @starting-style), Lottie/Rive, Remotion/code-to-video, and the Claude Code skill ecosystem, with live-verified versions, stars, licenses, and decision guides. Triggers on "which animation library", "best library for", "before I start building", "design skills for Claude Code", "agent skills for frontend".
+description: Use when building or choosing front-end code — picking an animation library, CSS technique, carousel, scroll library, 3D or video tool, UI component set, or an agent/design skill. Covers GSAP vs Motion vs anime.js, modern CSS (View Transitions, scroll-driven, @starting-style), Lottie/Rive, Remotion/code-to-video, shadcn/Base UI/Ark UI, and the design-skill ecosystem, with live-verified versions, licenses, and decision guides. Triggers on "which animation library", "best library for", "what should I use for a carousel", "before I start building", "design skills for Claude Code", "make my site look good", "agent skills for frontend".
 ---
 
 # agent-atlas
 
-A live-verified knowledge base for front-end craft. The full catalog lives at
-`~/Projects/agent-atlas`; this skill is the routing layer.
+A live-verified catalog of the front-end libraries and agent skills worth
+using. Full repo: `~/Projects/agent-atlas` (or
+<https://github.com/youssefvdel/agent-atlas>).
 
-## Use this skill when
+## The rule for this skill
 
-- Picking an animation / scroll / carousel / vector-animation library
-- Deciding whether a technique is CSS-only or needs JS
-- Choosing a code-to-video tool (Remotion / Revideo / Manim / WebCodecs)
-- Looking for a Claude Code / agent skill that does design or front-end work
-- Answering "what should I use to build X" for a web UI
+**Read `docs/choosing.md` before you add any dependency.**
 
-## The short version
+Modern CSS (2024–2026) covers most of what people reach for GSAP to do. A
+27 kB dependency for a fade is a real cost, and it is a cost you maintain.
 
-**Check CSS first.** Modern CSS (2024–2026) covers most transitions, reveals,
-and page transitions without a dependency:
+## How to use the catalog
 
-| Need | Technique |
+```
+1. docs/choosing.md            "I want a carousel"  →  Embla
+2. docs/links/<category>.md     the links for that category
+3. docs/research/<topic>.md     only if you need the exact API
+```
+
+Never start at layer 3. Never read a 130 KB document when a link file
+answers the question.
+
+**Every entry in a link file is one line:**
+
+```
+- **[GSAP](https://github.com/greensock/GSAP)** — GSAP is a framework-agnostic JS animation library…  
+  `gsap` · Standard 'no charge' license · v3.15.0 · 29,523★
+```
+
+Name, link, what it is, package, license, version, stars. If you need the
+API, that's layer 3.
+
+## The routing table
+
+| Need | Reach for | Page |
+|---|---|---|
+| Complex timelines, scroll choreography | **GSAP** | `docs/links/animation-core.md` |
+| React layout animation, shared elements | **Motion** | `docs/links/animation-core.md` |
+| Vanilla timeline, small footprint | **anime.js v4** | `docs/links/animation-core.md` |
+| React + physics | **react-spring** | `docs/links/animation-core.md` |
+| Smooth scroll | **Lenis** | `docs/links/scroll-and-reveal.md` |
+| Accessible carousel | **Embla** | `docs/links/carousel-and-ui.md` |
+| Bottom sheet, gesture dismiss | **Vaul** | `docs/links/carousel-and-ui.md` |
+| Drag-to-reorder | **SortableJS** | `docs/links/gesture-and-drag.md` |
+| Animate list changes | **Auto-Animate** | `docs/links/gesture-and-drag.md` |
+| Designer-exported vector animation | **Lottie** | `docs/links/lottie-and-rive.md` |
+| Interactive, state-machine animation | **Rive** | `docs/links/lottie-and-rive.md` |
+| React → MP4 | **Remotion** | `docs/links/code-to-video.md` |
+| 3D in React | **React Three Fiber** | `docs/links/creative-and-3d.md` |
+| 2D WebGL, many sprites | **PixiJS** | `docs/links/creative-and-3d.md` |
+| Component set you own | **shadcn/ui** | `docs/links/creative-craft.md` |
+| Unstyled accessible primitives | **Base UI** / **Ark UI** | `docs/links/creative-craft.md` |
+| Data visualisation | **D3** | `docs/links/data-and-visualization.md` |
+
+**Do not use:** `smooth-scrollbar` (untouched since 2023) or `ScrollReveal`
+(GPL-3.0, unmaintained since 2021). Lenis replaced both.
+
+## The CSS-first table
+
+Check this before you install anything.
+
+| Need | Use this, not a library |
 |---|---|
 | Scroll reveal / parallax | `animation-timeline: view()` + `animation-range` |
-| Page & modal transition | View Transitions API (`@view-transition`, `startViewTransition`) |
+| Page / modal transition | View Transitions API (`@view-transition`, `startViewTransition`) |
 | Entry animation for new elements | `@starting-style` + `transition-behavior: allow-discrete` |
-| Animatable custom property | `@property` |
-| Component-aware layout | `@container` + `cqi`/`cqw` units |
+| Animating a custom property | `@property` |
+| Component-aware layout | `@container` + `cqi` / `cqw` units |
+| Tabular figures, resting states | `color-mix()`, `oklch()`, `light-dark()` |
 
-Only reach for JS when you need **sequencing**, **interruption handling**, or
-**scrubbed scroll timelines**.
-
-## Library routing
-
-| Need | Reach for |
-|---|---|
-| Complex timelines, scroll choreography | **GSAP** (all Club plugins free since 3.13) |
-| React layout animation, shared-element | **Motion** (`motion.dev`) |
-| Vanilla timeline control, tiny | **anime.js v4** |
-| React + physics | **react-spring** |
-| Smooth scroll | **Lenis** (not `smooth-scrollbar` — dead since 2023) |
-| Accessible carousel | **Embla** |
-| Bottom drawer, gesture dismiss | **Vaul** |
-| Designer-exported vector animation | **Lottie** / **dotLottie** |
-| Interactive, state-machine animation | **Rive** |
-| React → MP4 | **Remotion** (or **Revideo** for MIT) |
-| Math / LaTeX animation | **Manim Community** |
-| Low-level in-browser encode | **WebCodecs** + `mp4box.js` |
+Full reference: `docs/research/modern-css.md`
 
 ## The two-clock rule
 
-Applies to every animation you write:
+Applies to every animation. It is the most common production animation bug.
 
-- **Discrete** change (which item is active) → long ease-out, ~700ms on
-  `(.32, .72, 0, 1)`
-- **Continuous** input (pointer position) → **spring**, never a timed ease —
-  the target moves every frame and a timed ease is always chasing it
+- **Discrete** change (which item is active) → long ease-out, ~700 ms on
+  `(.32, 0.72, 0, 1)`
+- **Continuous** input (where the pointer is) → **spring**, never a timed
+  ease, because the target moves every frame and a timed ease is always
+  chasing it
 
-Mixing them is the most common production animation bug.
+## Things that get reported wrong
 
-## The hairline study
+**GSAP's Club plugins are free.** Since 3.13 (2025-04-29) every plugin —
+SplitText, MorphSVG, DrawSVG, ScrollSmoother, InertiaPlugin — is free for
+commercial use. Club GSAP wound down. Advice saying they're paid is out of
+date.
 
-`lucasmarkes/hairline` (MIT, zero deps) documents ten rules for pointer-reactive
-interface figures. The most transferable:
+**GSAP is not MIT.** Its license is the "Standard 'no charge' license" — free
+for commercial use, but not OSI open source. Every other library in this
+catalog is MIT, ISC, Apache-2.0, or equivalent.
 
-1. **Hit areas don't move** — test the pointer against the rest or target
-   pose, never the current pose, or you get a flicker loop
-2. **Stagger by distance** — `delay = |i − a| × step`, 30–60ms
-3. **Clamp the reach** — the figure must stay composed at the slider's far end
-4. **The stroke is the only highlight** — colour means information
-5. **Rest is designed, never flat** — the still frame is the thumbnail
-6. **Two clocks** — see above
-7. **No words inside the figure** — geometry carries identity
+**The `skills` CLI is not Anthropic's.** `npx skills add <owner>/<repo>` is
+`vercel-labs/skills` — MIT, harness-agnostic, installs into 75+ agents.
+Anthropic publishes *skills*; that CLI installs them.
 
-Full text: `docs/libraries/hairline-design-study.md`
+**Stars lie, installs don't.** `designed-by-ai/skills` has 19 stars and
+916,408 installs — but its README points at a *different* repo, so those
+installs belong to `sleekdotdesign/agent-skills`. Rank by installs and
+shipped `SKILL.md` files.
 
-## Three corrections that change the advice
+**A repo with 80k stars is not automatically a skill.** `DavidHDev/react-bits`
+has 49.8k stars and ships **zero** `SKILL.md` files — its `skill-*.webp`
+files are marketing images. Check with:
 
-**1. The `skills` CLI is not Anthropic's.**
-`npx skills add <owner>/<repo>` is **vercel-labs/skills** (MIT, 35.8k stars,
-22.9M downloads/month). Anthropic publishes *skills*; that CLI is
-harness-agnostic and installs into 75+ agents. Official Anthropic skills are
-installed via the plugin marketplace: `/plugin marketplace add anthropics/skills`.
+```sh
+gh api repos/<owner>/<repo>/git/trees/HEAD?recursive=1 \
+  --jq '[.tree[].path | select(test("SKILL.md$"))] | length'
+```
 
-**2. Stars lie, installs don't.**
-`designed-by-ai/skills` has 19 stars and 916,408 installs — but its README
-points at a *different* repo, so those installs belong to
-`sleekdotdesign/agent-skills` (589 stars). Install counters are attributable
-and resellable; star counts are not. Rank by installs and shipped `SKILL.md`
-files.
+**`AGENTS.md` silently stops loading.** Claude Code v2.1.277+ reads
+`AGENTS.md` natively, but **only if no `CLAUDE.md` or `CLAUDE.local.md`
+exists anywhere above it**. Adding a `CLAUDE.local.md` kills `AGENTS.md`
+loading with no error.
 
-**3. GSAP is entirely free now.**
-Since 3.13 (2025-04-29) every plugin — SplitText, MorphSVG, DrawSVG,
-ScrollSmoother, InertiaPlugin — is free for commercial use. Club GSAP wound
-down and the private npm was retired. Advice that says those are paid is out
-of date.
+## The design skills that change output quality
 
-## The two skills that matter most
+If the complaint is that the agent produces generic output, these are the
+fix. Full list: `docs/links/design-skills.md` (41 entries).
 
-**`frontend-design`** (Anthropic, `anthropics/skills`) — 1,007,521 installs.
-A plain markdown file. Its body explicitly bans "Roboto, Inter, Arial… purple
-gradients on white backgrounds". A 6-agent bake-off found Opus 4.5 *worst* on
-raw output but *best* with the skill loaded — **the skill supplies taste, not
-the model**.
+| Skill | Repo | What it gives you |
+|---|---|---|
+| `frontend-design` | `anthropics/skills` | 1,007,521 installs. A plain markdown file that bans the exact defaults models reach for. A 6-agent bake-off found Opus **worst** raw and **best** with it loaded. |
+| `web-design-guidelines` | `vercel-labs/agent-skills` | 760,123 installs. A linter that reads your own UI code. |
+| `taste-skill` | `Leonxlnx/taste-skill` | 640,624 installs. A design-sensibility layer. |
+| `impeccable` | `pbakaus/impeccable` | Design-craft rules with a working launcher and a `critique` command. |
 
-**`web-design-guidelines`** (Vercel, `vercel-labs/agent-skills`) — 760,123
-installs. A linter for your own UI.
+**The skill supplies taste, not the model.** That is the single most useful
+fact in this catalog for anyone who complains that agents make slop.
 
-**`taste-skill`** (`Leonxlnx/taste-skill`) — 640,624 installs.
+## The craft floor
 
-## The SKILL.md vs component-code distinction
+Whatever you build, these are the numbers. They are what separates a page
+that looks considered from one that looks generated.
 
-A repo with 80k stars is not automatically a skill. Verified by walking git
-trees:
+- Body text ≥ 4.5:1 contrast
+- Display type ≤ 6rem
+- Body measure 65–75 characters
+- One `h1`, no heading-level skips
+- Visible focus ring on every interactive element
+- `prefers-reduced-motion` honored
+- No horizontal overflow at 390px
+- Headline ≤ 2 lines at every viewport
 
-**Zero `SKILL.md` — component code only:**
-`ibelick/motion-primitives` · `DavidHDev/react-bits` (its `skill-*.webp` files
-are marketing images) · `Trystan-SA/claude-design-system-prompt` (plain `.md`
-prompt library) · `wilwaldon/Claude-Code-Frontend-Design-Toolkit` (README
-pointer) · `figma/community-resources` (index) · `shadcn-ui/lint` (npm linter) ·
-`iart-ai/motion-skills` (hub README claiming "50 skills" that live in 18
-sibling repos)
+## Rules
 
-**Real skills:** `nexu-io/open-design` (549) · `educlopez/ui-craft` (217) ·
-`wshobson/agents` (185) · `Owl-Listener/designer-skills` (111) ·
-`figma/mcp-server-guide` (32) · `plugin87/ux-ui-agent-skills` (27) ·
-`pbakaus/impeccable` (25 — but only **2 unique** skills vendored into 19
-harness folders)
-
-**Third format:** `DESIGN.md` as a separate channel.
-
-## Two traps in the ecosystem
-
-**`AGENTS.md` silently stops loading.**
-Claude Code v2.1.277+ reads `AGENTS.md` natively — but **only if there is no
-`CLAUDE.md` or `CLAUDE.local.md` anywhere above it**. Adding a
-`CLAUDE.local.md` kills `AGENTS.md` loading with no error.
-
-**The methodology layer conflicts with itself.**
-ECC's own manifest says *"YOU MUST UNINSTALL OTHER VERSIONS OF SUPERPOWERS"*.
-Superpowers / ECC / gstack / mattpocock / addyosmani are genuinely competing.
-Same for 4 competing memory layers and 5 browser layers. Pick one.
+1. **Never quote a version, download count, or star count from memory.** Read
+   the library page — it carries a `verified_on` date.
+2. **Check the CSS table before adding a dependency.**
+3. **Read the "Skip it when" section.** That is the part that saves a
+   rebuild.
+4. **Prefer the canonical repo.** Some packages have same-named impostors
+   with a fraction of the stars.
+5. **Report the license.** It is in the frontmatter, copied from the
+   registry, not paraphrased.
+6. **Animate `transform` and `opacity`,** never `width`/`height`/`top`/`left`.
+7. **Honor `prefers-reduced-motion`.** It is an accessibility requirement,
+   not a nice-to-have.
 
 ## Where to look
 
 | Question | File |
 |---|---|
-| What do I install before starting a project? | `docs/ecosystem/claude-code-tooling.md` |
-| Which library, and what are its real APIs? | `docs/libraries/animation-libraries.md` |
-| What can CSS do natively in 2026? | `docs/libraries/modern-css.md` |
-| How do I make video from code? | `docs/libraries/code-video.md` |
-| Which AI design skills are real? | `docs/ecosystem/design-skills.md` |
-| What are the hype repos? | `docs/libraries/creative-libs.md` |
-| What do I reach for before starting? | `docs/libraries/before-you-start.md` |
-| How do agent skills work? | `docs/ecosystem/agent-skills-ecosystem.md` |
+| What do I reach for before starting? | `docs/choosing.md` |
+| Which library, and what are its real APIs? | `docs/research/animation-libraries.md` |
+| What can CSS do natively in 2026? | `docs/research/modern-css.md` |
+| How do I make video from code? | `docs/research/code-video.md` |
+| Which AI design skills are real? | `docs/research/design-skills.md` |
 | What skills are on this machine? | `data/skills.tree.md` |
-| Live stars/versions/licenses | `data/libs.live.json` |
+| Live stars / versions / licenses | `data/libs.live.json` |
+| Every link, by category | `docs/links/*.md` |
 
-## Regenerating the data
+## Install this skill
 
 ```sh
-cd ~/Projects/agent-atlas
-export GITHUB_TOKEN=$(gh auth token)
-python3 tools/extract_skills.py --out data/                       # local skills
-python3 tools/resolve_repos.py --spec data/libs.spec.json \
-        --out data/libs.spec.final.json                            # verify repos
-python3 tools/scrape_libs.py --spec data/libs.spec.final.json \
-        --out data/libs.live.json                                 # live npm+GitHub
-python3 tools/build_site.py                                        # site + docs
+npx skills add youssefvdel/agent-atlas
 ```
 
-The site is `site/index.html` (open it directly, or serve the folder).
-
-## Rules
-
-1. **Never quote a star count or version from memory** — read
-   `data/libs.live.json` or hit the API.
-2. **A repo is only canonical if it is non-fork, non-archived, and the package
-   name matches.** npm's `repository` field usually wins, but it sometimes
-   points at an impersonator (`dmiller9911/react-bits`, 5★, vs the real
-   49k★ one) — the resolver checks stars for that reason.
-3. **Before recommending a library, check the CSS table above.** Shipping a
-   27 kB dependency for a fade is a real cost.
-4. **Every recommendation must include its license and maintenance status.**
-   `smooth-scrollbar` has 3.3k stars and is abandoned; `ScrollReveal` is
-   GPL-3.0 and dead since 2021.
+Or copy `SKILL.md` into your agent's skills directory.
