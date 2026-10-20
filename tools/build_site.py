@@ -31,6 +31,9 @@ CATEGORY_LABELS = {
     "lottie-and-rive": "Lottie & Rive",
     "code-to-video": "Code → video",
     "creative-craft": "Creative craft (GitHub)",
+    "design-skills": "AI design skills",
+    "ux-craft-2026": "High-craft web 2026",
+    "tiktok-pushed": "Pushed on TikTok",
 }
 
 DOMAIN_LABELS = {
@@ -101,6 +104,44 @@ def build_libs_payload(libs: list[dict]) -> dict:
     return {"libraries": out}
 
 
+DOC_MANIFEST = [
+    # (path, group, title, blurb)
+    ("docs/README.md", "Index", "Documentation index", "Everything, and the three findings worth knowing first"),
+    ("docs/start-here.md", "Start here", "Start here", "The 2026 stack in one page: what to install, what is hype, what is real"),
+    ("docs/libraries/before-you-start.md", "Start here", "Before you start", "Which library for which job — CSS-first routing tables and anti-patterns"),
+    ("docs/ecosystem/claude-code-tooling.md", "Start here", "Claude Code tooling", "The 5-minute baseline setup, the decision table, and the pitfalls"),
+    ("docs/ecosystem/design-skills.md", "Start here", "AI design skills", "Which design skills are real, ranked by installs rather than stars"),
+    ("docs/libraries/animation-libraries.md", "Libraries", "Animation libraries", "50 libraries with real API signatures from the shipped .d.ts files"),
+    ("docs/libraries/modern-css.md", "Libraries", "Modern CSS 2026", "What CSS can do natively, verified against MDN browser-compat-data"),
+    ("docs/libraries/code-video.md", "Libraries", "Code to video", "41 tools; 22 experiments actually run on this machine"),
+    ("docs/libraries/creative-libs.md", "Libraries", "Creative craft repos", "67 hairline-class repos with live stars and install commands"),
+    ("docs/libraries/ux-craft-2026.md", "Libraries", "High-craft web 2026", "The repos worth reading the source of, tiered by craft"),
+    ("docs/libraries/anchor-hairline.md", "Libraries", "Anchor: hairline", "The reference repo, fully documented"),
+    ("docs/libraries/hairline-design-study.md", "Libraries", "The ten rules", "Design rules for pointer-reactive interface figures"),
+    ("docs/ecosystem/agent-skills-ecosystem.md", "Ecosystem", "Agent skills ecosystem", "The spec, client conventions, MCP registries, verified repos"),
+    ("docs/ecosystem/youtube-design.md", "Ecosystem", "YouTube: AI design", "80 verified videos and the concrete techniques each teaches"),
+    ("docs/ecosystem/tiktok-hyped.md", "Ecosystem", "TikTok: the hype", "What is actually being hyped, and which claims are substance"),
+    ("docs/skills/spec-compliance.md", "This machine", "Skill spec compliance", "Which skills violate the spec, and which fields are portable"),
+    ("data/skills.tree.md", "This machine", "Skill tree", "The rendered hierarchy of all 110 installed skills"),
+]
+
+
+def build_doc_manifest() -> list[dict]:
+    out = []
+    for rel, group, title, blurb in DOC_MANIFEST:
+        p = ROOT / rel
+        if not p.exists():
+            continue
+        out.append({
+            "path": rel,
+            "group": group,
+            "title": title,
+            "blurb": blurb,
+            "kb": round(p.stat().st_size / 1024, 1),
+        })
+    return out
+
+
 def write_site(skills_index: dict, libs_payload: dict) -> None:
     SITE.mkdir(parents=True, exist_ok=True)
     (SITE / "assets").mkdir(exist_ok=True)
@@ -112,6 +153,7 @@ def write_site(skills_index: dict, libs_payload: dict) -> None:
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "stats": skills_index.get("stats", {}),
         "tree": skills_index.get("tree", {}),
+        "docs": build_doc_manifest(),
         "skills": [
             {
                 "name": s["name"],
@@ -141,6 +183,7 @@ def write_site(skills_index: dict, libs_payload: dict) -> None:
     html = html.replace("__DOMLAB__", json.dumps(DOMAIN_LABELS)).replace(
         "__CATLAB__", json.dumps(CATEGORY_LABELS)
     )
+    html = html.replace("__DOCS__", json.dumps(payload["docs"], ensure_ascii=False))
     (SITE / "index.html").write_text(html, encoding="utf-8")
     print(f"site written : {SITE / 'index.html'}")
 
@@ -357,6 +400,7 @@ HTML_TEMPLATE = r"""<!doctype html>
     <button data-v="overview" class="on">Overview</button>
     <button data-v="skills">Skill tree</button>
     <button data-v="libs">Libraries</button>
+    <button data-v="docs">Docs</button>
   </nav>
 </header>
 
@@ -408,6 +452,10 @@ HTML_TEMPLATE = r"""<!doctype html>
       </tr></thead>
       <tbody id="lib-rows"></tbody>
     </table>
+  </section>
+
+  <section id="v-docs" class="hide">
+    <div class="tree" id="doc-list"></div>
   </section>
 </main>
 
@@ -526,11 +574,23 @@ renderLibs();
 catSel.addEventListener('change', renderLibs);
 document.getElementById('sort-by').addEventListener('change', renderLibs);
 
+// --- docs
+const DOCS = __DOCS__;
+const byGroup = {};
+DOCS.forEach(d => { (byGroup[d.group] ||= []).push(d); });
+document.getElementById('doc-list').innerHTML = Object.entries(byGroup).map(([g, list]) =>
+  `<div class="dom"><h3>${esc(g)}<em>${list.length} docs</em></h3>` +
+  `<div style="padding:11px 15px">` + list.map(d =>
+    `<div style="margin-bottom:11px"><a href="${esc(d.path)}" style="font-weight:600">${esc(d.title)}</a>
+      <div class="m" style="color:var(--muted);font-size:12px;margin-top:2px">${esc(d.blurb)}</div>
+      <div class="m" style="color:#5f6b7d;font-size:11px;font-family:var(--mono);margin-top:2px">${esc(d.path)} · ${d.kb} KB</div>
+    </div>`).join('') + `</div></div>`).join('');
+
 // --- nav
 document.querySelectorAll('nav button').forEach(b => b.addEventListener('click', () => {
   document.querySelectorAll('nav button').forEach(x => x.classList.remove('on'));
   b.classList.add('on');
-  ['overview','skills','libs'].forEach(v => document.getElementById('v-'+v).classList.toggle('hide', v !== b.dataset.v));
+  ['overview','skills','libs','docs'].forEach(v => document.getElementById('v-'+v).classList.toggle('hide', v !== b.dataset.v));
 }));
 
 // global search jumps to libs

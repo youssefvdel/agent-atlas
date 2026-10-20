@@ -21,18 +21,52 @@ Built by an agent, for agents. Every number in here came from a live API respons
 
 | If you want to… | Open |
 |---|---|
-| Pick a library before starting a project | [`docs/libraries/before-you-start.md`](docs/libraries/before-you-start.md) |
+| **Get the whole 2026 stack in one page** | [`docs/start-here.md`](docs/start-here.md) — what to install, what is hype, what is real |
+| Know what to install before starting a project | [`docs/ecosystem/claude-code-tooling.md`](docs/ecosystem/claude-code-tooling.md) — the 5-minute baseline, the decision table, the pitfalls |
+| Pick an animation / CSS / video library | [`docs/libraries/before-you-start.md`](docs/libraries/before-you-start.md) |
 | Know what CSS can do natively in 2026 | [`docs/libraries/modern-css.md`](docs/libraries/modern-css.md) |
 | Get real APIs for every animation library | [`docs/libraries/animation-libraries.md`](docs/libraries/animation-libraries.md) |
 | Make video from code | [`docs/libraries/code-video.md`](docs/libraries/code-video.md) |
-| Browse the hype repos | [`docs/libraries/creative-libs.md`](docs/libraries/creative-libs.md) |
-| Read the craft rules behind `hairline` | [`docs/libraries/hairline-design-study.md`](docs/libraries/hairline-design-study.md) |
+| Find AI design skills that actually work | [`docs/ecosystem/design-skills.md`](docs/ecosystem/design-skills.md) |
+| Browse the hype repos | [`docs/libraries/creative-libs.md`](docs/libraries/creative-libs.md) · [`docs/ecosystem/tiktok-hyped.md`](docs/ecosystem/tiktok-hyped.md) |
+| Learn the craft behind `hairline` | [`docs/libraries/hairline-design-study.md`](docs/libraries/hairline-design-study.md) |
 | Understand how agent skills work | [`docs/ecosystem/agent-skills-ecosystem.md`](docs/ecosystem/agent-skills-ecosystem.md) |
 | Browse the skill tree | [`data/skills.tree.md`](data/skills.tree.md) |
+
+Full index: [`docs/README.md`](docs/README.md)
 
 The repo is also an installable agent skill — `SKILL.md` in the root is a
 routing layer over all of the above. Copy it to `~/.hermes/skills/agent-atlas/`
 and the atlas becomes queryable by the agent itself.
+
+## Five findings that change the advice
+
+**1. Stars lie, installs don't.**
+`designed-by-ai/skills` has 19 stars and 916,408 installs — but its README
+points you at a *different* repo. Install counters are attributable; star
+counts are not. Rank by installs and shipped `SKILL.md` files.
+
+**2. The `skills` CLI is not Anthropic's.**
+`npx skills add <owner>/<repo>` is [vercel-labs/skills](https://github.com/vercel-labs/skills)
+(MIT, 35.8k stars, 22.9M downloads/month). Anthropic publishes *skills*; that
+CLI is harness-agnostic and installs into 75+ agents.
+
+**3. GSAP is entirely free now.**
+Since 3.13 (2025-04-29) every plugin — SplitText, MorphSVG, DrawSVG,
+ScrollSmoother, InertiaPlugin — is free for commercial use. Club GSAP wound
+down. Advice saying otherwise is out of date.
+
+**4. A repo with 80k stars is not automatically a skill.**
+`DavidHDev/react-bits` (49.8k stars) ships **zero** `SKILL.md` files — its
+`skill-*.webp` files are marketing images. Check with:
+```sh
+gh api repos/<owner>/<repo>/git/trees/HEAD?recursive=1 \
+  --jq '[.tree[].path | select(test("SKILL.md$"))] | length'
+```
+
+**5. `AGENTS.md` silently stops loading.**
+Claude Code v2.1.277+ reads `AGENTS.md` natively — but only if no
+`CLAUDE.md`/`CLAUDE.local.md` exists anywhere above it.
 
 ## The pipeline
 

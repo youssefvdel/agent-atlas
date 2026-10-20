@@ -11,7 +11,7 @@
         "scrolltrigger",
         "commercial-plugin-tier"
       ],
-      "repo_stars": 29519,
+      "repo_stars": 29522,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -25,22 +25,8 @@
         "vanilla",
         "hybrid"
       ],
-      "repo_stars": 34380,
+      "repo_stars": 34381,
       "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Motion One",
-      "npm": "@motionone/dom",
-      "repo": "motiondivision/motion",
-      "category": "animation-core",
-      "tags": [
-        "web-animations",
-        "legacy-lineage"
-      ],
-      "notes": "@motionone/dom is ARCHIVED - Motion One is dead. Use the `motion` package instead.",
-      "repo_stars": 34380,
-      "repo_resolution": "recorded(canonical)",
       "verified_pkg_name": null
     },
     {
@@ -53,7 +39,7 @@
         "svg",
         "waapi"
       ],
-      "repo_stars": 73727,
+      "repo_stars": 73729,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -71,19 +57,6 @@
       "verified_pkg_name": null
     },
     {
-      "name": "@react-spring/three",
-      "npm": "@react-spring/three",
-      "repo": "pmndrs/react-spring",
-      "category": "animation-core",
-      "tags": [
-        "react",
-        "3d"
-      ],
-      "repo_stars": 29176,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
       "name": "Popmotion",
       "npm": "popmotion",
       "repo": "Popmotion/popmotion",
@@ -94,32 +67,6 @@
       ],
       "repo_stars": 20150,
       "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Tween.js",
-      "npm": "@tweenjs/tween.js",
-      "repo": "tweenjs/tween.js",
-      "category": "animation-core",
-      "tags": [
-        "tweening",
-        "maintained-fork"
-      ],
-      "repo_stars": 10149,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "TweenMax (legacy)",
-      "npm": "greensock",
-      "repo": "greensock/GSAP",
-      "category": "animation-core",
-      "tags": [
-        "legacy",
-        "free-only"
-      ],
-      "repo_stars": 29519,
-      "repo_resolution": "npm-field/fork->greensock/GSAP",
       "verified_pkg_name": null
     },
     {
@@ -148,19 +95,6 @@
       "verified_pkg_name": null
     },
     {
-      "name": "mo.js",
-      "npm": "mo-js",
-      "repo": "legomushroom/mojs",
-      "category": "animation-core",
-      "tags": [
-        "timeline",
-        "older"
-      ],
-      "repo_stars": 18821,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
       "name": "ScrollReveal",
       "npm": "scrollreveal",
       "repo": "jlmakes/scrollreveal",
@@ -182,7 +116,7 @@
         "smooth-scroll",
         "modern"
       ],
-      "repo_stars": 16740,
+      "repo_stars": 16743,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -195,7 +129,7 @@
         "scroll",
         "v4"
       ],
-      "repo_stars": 8882,
+      "repo_stars": 8883,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -234,7 +168,7 @@
         "carousel",
         "mature"
       ],
-      "repo_stars": 41903,
+      "repo_stars": 41904,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -295,20 +229,6 @@
       "verified_pkg_name": null
     },
     {
-      "name": "Draggable (interact.js)",
-      "npm": "interactjs",
-      "repo": "taye/interact.js",
-      "category": "gesture-and-drag",
-      "tags": [
-        "drag",
-        "resize",
-        "pointer"
-      ],
-      "repo_stars": 12938,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
       "name": "SortableJS",
       "npm": "sortablejs",
       "repo": "SortableJS/Sortable",
@@ -331,46 +251,6 @@
         "commercial"
       ],
       "repo_stars": 733,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "GSAP SplitText (club)",
-      "npm": "gsap",
-      "repo": "greensock/GSAP",
-      "category": "text-and-svg",
-      "tags": [
-        "text-split",
-        "club-plugin"
-      ],
-      "repo_stars": 29519,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "svg.js",
-      "npm": "svg.js",
-      "repo": "svgdotjs/svg.js",
-      "category": "text-and-svg",
-      "tags": [
-        "svg",
-        "manipulation"
-      ],
-      "repo_stars": 11836,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Two.js",
-      "npm": "two.js",
-      "repo": "jonobr1/two.js",
-      "category": "text-and-svg",
-      "tags": [
-        "svg",
-        "canvas",
-        "renderer-agnostic"
-      ],
-      "repo_stars": 8672,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -409,33 +289,6 @@
         "transitions"
       ],
       "repo_stars": 226,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "p5.js",
-      "npm": "p5",
-      "repo": "processing/p5.js",
-      "category": "creative-and-3d",
-      "tags": [
-        "generative",
-        "canvas",
-        "education"
-      ],
-      "repo_stars": 24149,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Three.js",
-      "npm": "three",
-      "repo": "mrdoob/three.js",
-      "category": "creative-and-3d",
-      "tags": [
-        "webgl",
-        "3d"
-      ],
-      "repo_stars": 116660,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -535,19 +388,6 @@
       "verified_pkg_name": null
     },
     {
-      "name": "dotlottie-web",
-      "npm": "@lottiefiles/dotlottie-web",
-      "repo": "LottieFiles/dotlottie-web",
-      "category": "lottie-and-rive",
-      "tags": [
-        "lottie",
-        "wasm"
-      ],
-      "repo_stars": 920,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
       "name": "Rive React",
       "npm": "@rive-app/react-canvas",
       "repo": "rive-app/rive-react",
@@ -584,20 +424,7 @@
         "programmatic",
         "commercial-tier"
       ],
-      "repo_stars": 65521,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "@remotion/player",
-      "npm": "@remotion/player",
-      "repo": "remotion-dev/remotion",
-      "category": "code-to-video",
-      "tags": [
-        "react-to-video",
-        "playback"
-      ],
-      "repo_stars": 65521,
+      "repo_stars": 65541,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -631,45 +458,6 @@
       "verified_pkg_name": null
     },
     {
-      "name": "@ffmpeg/core",
-      "npm": "@ffmpeg/core",
-      "repo": "ffmpegwasm/ffmpeg.wasm",
-      "category": "code-to-video",
-      "tags": [
-        "wasm",
-        "codec-core"
-      ],
-      "repo_stars": 17891,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "ffmpeg.js",
-      "npm": "ffmpeg.js",
-      "repo": "Kagami/ffmpeg.js",
-      "category": "code-to-video",
-      "tags": [
-        "wasm",
-        "older"
-      ],
-      "repo_stars": 3460,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "mp4box.js",
-      "npm": "mp4box",
-      "repo": "gpac/mp4box.js",
-      "category": "code-to-video",
-      "tags": [
-        "muxing",
-        "webcodecs"
-      ],
-      "repo_stars": 2475,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
       "name": "MediaRecorder polyfill",
       "npm": "media-recorder-stream",
       "repo": "mafintosh/media-recorder-stream",
@@ -691,7 +479,7 @@
         "3d",
         "three"
       ],
-      "repo_stars": 33099,
+      "repo_stars": 33101,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -718,57 +506,6 @@
         "types"
       ],
       "repo_stars": 51448,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "GSAP Draggable",
-      "npm": "gsap",
-      "repo": "greensock/GSAP",
-      "category": "gesture-and-drag",
-      "tags": [
-        "drag",
-        "club-plugin"
-      ],
-      "repo_stars": 29519,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "anime.js v3 (legacy)",
-      "npm": "animejs",
-      "repo": "juliangarnier/anime",
-      "category": "animation-core",
-      "tags": [
-        "legacy",
-        "v3"
-      ],
-      "repo_stars": 73727,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Motion One (legacy pkg)",
-      "npm": "motion",
-      "repo": "motiondivision/motion",
-      "category": "animation-core",
-      "tags": [
-        "legacy-lineage"
-      ],
-      "notes": "@motionone/dom is ARCHIVED - Motion One is dead. Use the `motion` package instead.",
-      "repo_stars": 34380,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "animejs-easing",
-      "npm": "animejs",
-      "repo": "juliangarnier/anime",
-      "category": "animation-core",
-      "tags": [
-        "easing"
-      ],
-      "repo_stars": 73727,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -819,146 +556,8 @@
         "astro",
         "view-transitions"
       ],
-      "repo_stars": 63346,
+      "repo_stars": 63349,
       "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Framer Motion (legacy name)",
-      "npm": "framer-motion",
-      "repo": "motiondivision/motion",
-      "category": "animation-core",
-      "tags": [
-        "react",
-        "legacy-name"
-      ],
-      "repo_stars": 34380,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Popmotion legacy v11",
-      "npm": "popmotion",
-      "repo": "Popmotion/popmotion",
-      "category": "animation-core",
-      "tags": [
-        "legacy"
-      ],
-      "repo_stars": 20150,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Tween.js v18",
-      "npm": "@tweenjs/tween.js",
-      "repo": "tweenjs/tween.js",
-      "category": "animation-core",
-      "tags": [
-        "tweening"
-      ],
-      "repo_stars": 10149,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "ScrollSmoother (club)",
-      "npm": "gsap",
-      "repo": "greensock/GSAP",
-      "category": "scroll-and-reveal",
-      "tags": [
-        "club-plugin",
-        "scroll"
-      ],
-      "repo_stars": 29519,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "ScrollToPlugin (club)",
-      "npm": "gsap",
-      "repo": "greensock/GSAP",
-      "category": "scroll-and-reveal",
-      "tags": [
-        "club-plugin"
-      ],
-      "repo_stars": 29519,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Observer (club)",
-      "npm": "gsap",
-      "repo": "greensock/GSAP",
-      "category": "scroll-and-reveal",
-      "tags": [
-        "club-plugin"
-      ],
-      "repo_stars": 29519,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "SplitText v3.13 free",
-      "npm": "gsap",
-      "repo": "greensock/GSAP",
-      "category": "text-and-svg",
-      "tags": [
-        "now-free",
-        "gsap-3-13"
-      ],
-      "repo_stars": 29519,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "MorphSVG (club)",
-      "npm": "gsap",
-      "repo": "greensock/GSAP",
-      "category": "text-and-svg",
-      "tags": [
-        "club-plugin",
-        "svg"
-      ],
-      "repo_stars": 29519,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "DrawSVG (club)",
-      "npm": "gsap",
-      "repo": "greensock/GSAP",
-      "category": "text-and-svg",
-      "tags": [
-        "club-plugin",
-        "svg"
-      ],
-      "repo_stars": 29519,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "InertiaPlugin (club)",
-      "npm": "gsap",
-      "repo": "greensock/GSAP",
-      "category": "gesture-and-drag",
-      "tags": [
-        "club-plugin"
-      ],
-      "repo_stars": 29519,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Motion One Dom",
-      "npm": "@motionone/dom",
-      "repo": "motiondivision/motion",
-      "category": "animation-core",
-      "tags": [
-        "legacy-lineage"
-      ],
-      "notes": "@motionone/dom is ARCHIVED - Motion One is dead. Use the `motion` package instead.",
-      "repo_stars": 34380,
-      "repo_resolution": "recorded(canonical)",
       "verified_pkg_name": null
     },
     {
@@ -971,18 +570,6 @@
         "spring"
       ],
       "repo_stars": 2768,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "anime v4 esm",
-      "npm": "animejs",
-      "repo": "juliangarnier/anime",
-      "category": "animation-core",
-      "tags": [
-        "esm"
-      ],
-      "repo_stars": 73727,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -1021,7 +608,7 @@
         "realtime",
         "multiplayer"
       ],
-      "repo_stars": 5733,
+      "repo_stars": 5734,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -1054,19 +641,6 @@
       "verified_pkg_name": null
     },
     {
-      "name": "Rough.js canvas",
-      "npm": "roughjs",
-      "repo": "pshihn/rough",
-      "category": "creative-and-3d",
-      "tags": [
-        "sketchy",
-        "canvas"
-      ],
-      "repo_stars": 21294,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
       "name": "ECharts",
       "npm": "echarts",
       "repo": "apache/echarts",
@@ -1075,31 +649,7 @@
         "charts",
         "animation"
       ],
-      "repo_stars": 67552,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Framer Motion canvas",
-      "npm": "framer-motion",
-      "repo": "motiondivision/motion",
-      "category": "data-and-visualization",
-      "tags": [
-        "legacy"
-      ],
-      "repo_stars": 34380,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "GSAP easings",
-      "npm": "gsap",
-      "repo": "greensock/GSAP",
-      "category": "animation-core",
-      "tags": [
-        "easing"
-      ],
-      "repo_stars": 29519,
+      "repo_stars": 67556,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -1126,19 +676,6 @@
         "react"
       ],
       "repo_stars": 6257,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Stats.js",
-      "npm": "stats.js",
-      "repo": "mrdoob/stats.js",
-      "category": "creative-and-3d",
-      "tags": [
-        "perf",
-        "debug"
-      ],
-      "repo_stars": 9150,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -1197,18 +734,6 @@
       "verified_pkg_name": null
     },
     {
-      "name": "Rive WASM",
-      "npm": "@rive-app/canvas",
-      "repo": "rive-app/rive-wasm",
-      "category": "lottie-and-rive",
-      "tags": [
-        "wasm"
-      ],
-      "repo_stars": 1008,
-      "repo_resolution": "recorded(canonical)",
-      "verified_pkg_name": null
-    },
-    {
       "name": "SVG Animation (svg-animation)",
       "npm": null,
       "repo": "SVG-Edit/svgedit",
@@ -1231,70 +756,6 @@
         "draw"
       ],
       "repo_stars": 7,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "animejs v4 timer",
-      "npm": "animejs",
-      "repo": "juliangarnier/anime",
-      "category": "animation-core",
-      "tags": [
-        "timer",
-        "engine"
-      ],
-      "repo_stars": 73727,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "ScrollTrigger (npm)",
-      "npm": "gsap",
-      "repo": "greensock/GSAP",
-      "category": "scroll-and-reveal",
-      "tags": [
-        "scrolltrigger"
-      ],
-      "repo_stars": 29519,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Flip (npm)",
-      "npm": "gsap",
-      "repo": "greensock/GSAP",
-      "category": "animation-core",
-      "tags": [
-        "flip",
-        "layout"
-      ],
-      "repo_stars": 29519,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "MotionPathPlugin (npm)",
-      "npm": "gsap",
-      "repo": "greensock/GSAP",
-      "category": "creative-and-3d",
-      "tags": [
-        "motionpath",
-        "club"
-      ],
-      "repo_stars": 29519,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Custom Easing (npm)",
-      "npm": "gsap",
-      "repo": "greensock/GSAP",
-      "category": "animation-core",
-      "tags": [
-        "easing",
-        "club"
-      ],
-      "repo_stars": 29519,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -1324,19 +785,6 @@
       "verified_pkg_name": null
     },
     {
-      "name": "same-document VT helper",
-      "npm": null,
-      "repo": "shuding/next-view-transitions",
-      "category": "page-transitions",
-      "tags": [
-        "view-transitions",
-        "modern"
-      ],
-      "repo_stars": 2382,
-      "repo_resolution": "manual",
-      "verified_pkg_name": null
-    },
-    {
       "name": "Pug-slides",
       "npm": null,
       "repo": "pugjs/pug",
@@ -1346,31 +794,6 @@
       ],
       "repo_stars": 21826,
       "repo_resolution": "manual",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Mark.js",
-      "npm": "mark.js",
-      "repo": "julmot/mark.js",
-      "category": "text-and-svg",
-      "tags": [
-        "text",
-        "highlight"
-      ],
-      "repo_stars": 2590,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Popmotion legacy",
-      "npm": "popmotion",
-      "repo": "Popmotion/popmotion",
-      "category": "animation-core",
-      "tags": [
-        "legacy"
-      ],
-      "repo_stars": 20150,
-      "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
     {
@@ -1397,20 +820,7 @@
         "modern",
         "hairline-adjacent"
       ],
-      "repo_stars": 6763,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Motion Primitives (npm alt)",
-      "npm": "motion-primitives",
-      "repo": "ibelick/motion-primitives",
-      "category": "animation-core",
-      "tags": [
-        "react",
-        "modern"
-      ],
-      "repo_stars": 6763,
+      "repo_stars": 6766,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -1439,7 +849,7 @@
         "hairline-adjacent"
       ],
       "repo_override": "canonical-upstream (npm repository field points at an impersonator/low-signal repo)",
-      "repo_stars": 49773,
+      "repo_stars": 49781,
       "repo_resolution": "recorded(canonical)",
       "verified_pkg_name": null
     },
@@ -1469,19 +879,6 @@
       ],
       "repo_stars": 6628,
       "repo_resolution": "manual",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Motion Primitives (ibelick)",
-      "npm": "motion-primitives",
-      "repo": "ibelick/motion-primitives",
-      "category": "animation-core",
-      "tags": [
-        "react",
-        "shadcn"
-      ],
-      "repo_stars": 6763,
-      "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
     {
@@ -1520,7 +917,7 @@
         "react",
         "headless"
       ],
-      "repo_stars": 11186,
+      "repo_stars": 11187,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -1564,258 +961,6 @@
       "verified_pkg_name": null
     },
     {
-      "name": "Motion Vue",
-      "npm": "motion-vue",
-      "repo": "motiondivision/motion",
-      "category": "animation-core",
-      "tags": [
-        "vue",
-        "modern"
-      ],
-      "repo_stars": 34380,
-      "repo_resolution": "recorded(canonical)",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Motion One Dom pkg",
-      "npm": "@motionone/dom",
-      "repo": "motiondivision/motion",
-      "category": "animation-core",
-      "tags": [
-        "legacy"
-      ],
-      "notes": "@motionone/dom is ARCHIVED - Motion One is dead. Use the `motion` package instead.",
-      "repo_stars": 34380,
-      "repo_resolution": "recorded(canonical)",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Popmotion (npm v11)",
-      "npm": "popmotion",
-      "repo": "Popmotion/popmotion",
-      "category": "animation-core",
-      "tags": [
-        "legacy"
-      ],
-      "repo_stars": 20150,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Rough.js bin",
-      "npm": "roughjs",
-      "repo": "pshihn/rough",
-      "category": "creative-and-3d",
-      "tags": [
-        "sketchy"
-      ],
-      "repo_stars": 21294,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Zdog (npm alt)",
-      "npm": "zdog",
-      "repo": "metafizzy/zdog",
-      "category": "creative-and-3d",
-      "tags": [
-        "3d",
-        "svg"
-      ],
-      "repo_stars": 10674,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "tsParticles Slim",
-      "npm": "@tsparticles/slim",
-      "repo": "tsparticles/tsparticles",
-      "category": "creative-and-3d",
-      "tags": [
-        "particles",
-        "slim"
-      ],
-      "repo_stars": 8996,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "tsParticles Three",
-      "npm": "@tsparticles/engine",
-      "repo": "tsparticles/tsparticles",
-      "category": "creative-and-3d",
-      "tags": [
-        "particles",
-        "three"
-      ],
-      "repo_stars": 8996,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "p5js (npm alias)",
-      "npm": "p5",
-      "repo": "processing/p5.js",
-      "category": "creative-and-3d",
-      "tags": [
-        "generative"
-      ],
-      "repo_stars": 24149,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Pixi.js v8",
-      "npm": "pixi.js",
-      "repo": "pixijs/pixijs",
-      "category": "creative-and-3d",
-      "tags": [
-        "webgl",
-        "v8"
-      ],
-      "repo_stars": 48429,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Three.js examples",
-      "npm": "three",
-      "repo": "mrdoob/three.js",
-      "category": "creative-and-3d",
-      "tags": [
-        "3d"
-      ],
-      "repo_stars": 116660,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Stats.js (npm alt)",
-      "npm": "stats.js",
-      "repo": "mrdoob/stats.js",
-      "category": "creative-and-3d",
-      "tags": [
-        "perf"
-      ],
-      "repo_stars": 9150,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Tweakpane (npm alt)",
-      "npm": "tweakpane",
-      "repo": "cocopon/tweakpane",
-      "category": "creative-and-3d",
-      "tags": [
-        "gui"
-      ],
-      "repo_stars": 4609,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Leva (npm alt)",
-      "npm": "leva",
-      "repo": "pmndrs/leva",
-      "category": "creative-and-3d",
-      "tags": [
-        "gui"
-      ],
-      "repo_stars": 6257,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Drei (npm alt)",
-      "npm": "@react-three/drei",
-      "repo": "pmndrs/drei",
-      "category": "creative-and-3d",
-      "tags": [
-        "3d",
-        "helpers"
-      ],
-      "repo_stars": 10007,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "R3F (npm alt)",
-      "npm": "@react-three/fiber",
-      "repo": "pmndrs/react-three-fiber",
-      "category": "creative-and-3d",
-      "tags": [
-        "react",
-        "3d"
-      ],
-      "repo_stars": 33099,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "ECharts (npm alt)",
-      "npm": "echarts",
-      "repo": "apache/echarts",
-      "category": "data-and-visualization",
-      "tags": [
-        "charts"
-      ],
-      "repo_stars": 67552,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Rough.js (npm alt)",
-      "npm": "roughjs",
-      "repo": "pshihn/rough",
-      "category": "creative-and-3d",
-      "tags": [
-        "sketchy"
-      ],
-      "repo_stars": 21294,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Motion Canvas (npm alt)",
-      "npm": "@motion-canvas/core",
-      "repo": "motion-canvas/motion-canvas",
-      "category": "code-to-video",
-      "tags": [
-        "scripted-animation"
-      ],
-      "repo_stars": 19398,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "mp4box (npm alt)",
-      "npm": "mp4box",
-      "repo": "gpac/mp4box.js",
-      "category": "code-to-video",
-      "tags": [
-        "muxing"
-      ],
-      "repo_stars": 2475,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Revideo (npm alt)",
-      "npm": "@revideo/core",
-      "repo": "midrender/revideo",
-      "category": "code-to-video",
-      "tags": [
-        "react-to-video",
-        "open-source",
-        "motion-canvas-lineage",
-        "renamed-from-redotblue"
-      ],
-      "notes": "Repo was redotblue/revideo, renamed to midrender/revideo. NOT a Remotion fork - it is a Motion Canvas fork / independent TS rendering engine. MIT.",
-      "repo_stars": 4124,
-      "repo_resolution": "npm-field",
-      "verified_pkg_name": null
-    },
-    {
       "name": "xyflow",
       "npm": null,
       "repo": "xyflow/xyflow",
@@ -1847,7 +992,7 @@
         "vizualization"
       ],
       "notes": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
-      "repo_stars": 17350,
+      "repo_stars": 17379,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -1875,7 +1020,7 @@
         "JavaScript"
       ],
       "notes": "A skill that turn any brand into a scrollable 3D world landing page",
-      "repo_stars": 10294,
+      "repo_stars": 10296,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -1925,12 +1070,12 @@
         "product"
       ],
       "notes": "UI motion agent, a library of 43+ crafted transitions, a skill that fits your workflow.",
-      "repo_stars": 5435,
+      "repo_stars": 5437,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
     {
-      "name": "shaders",
+      "name": "shaders (shader-effects-inc)",
       "npm": null,
       "repo": "shader-effects-inc/shaders",
       "category": "creative-craft",
@@ -1943,7 +1088,7 @@
         "react"
       ],
       "notes": "WebGPU components for React, Vue, Svelte, Solid, JS & Framer",
-      "repo_stars": 5203,
+      "repo_stars": 5211,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -1961,7 +1106,7 @@
         "glow"
       ],
       "notes": "High-crafted UI libraries for AI agents: Border beam, Orbs, Metal, Gooey, Voice, Image, Avatar bots",
-      "repo_stars": 4371,
+      "repo_stars": 4372,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -1984,7 +1129,7 @@
       "verified_pkg_name": null
     },
     {
-      "name": "shaders",
+      "name": "shaders (paper-design)",
       "npm": null,
       "repo": "paper-design/shaders",
       "category": "creative-craft",
@@ -1996,7 +1141,7 @@
         "webgl"
       ],
       "notes": "Zero-dependency canvas shaders that can be installed from npm or designed in Paper",
-      "repo_stars": 3788,
+      "repo_stars": 3790,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -2014,23 +1159,7 @@
         "anthropic"
       ],
       "notes": "An agent skill for building premium, immersive, scroll-driven websites. Works with Codex, Claude Code, and other coding agents. Also available as a Claude Code plugin.",
-      "repo_stars": 3741,
-      "repo_resolution": "manual",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "jump.js",
-      "npm": null,
-      "repo": "callmecavs/jump.js",
-      "category": "creative-craft",
-      "tags": [
-        "creative-libs",
-        "JavaScript",
-        "scroll",
-        "smooth"
-      ],
-      "notes": "A modern smooth scrolling library.",
-      "repo_stars": 3422,
+      "repo_stars": 3742,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -2102,7 +1231,7 @@
         "react"
       ],
       "notes": "Any icon morphs into any other — universal morphing for stroke-based icons with spring physics. Zero dependencies, ~7 KB gzip.",
-      "repo_stars": 2893,
+      "repo_stars": 2894,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -2170,7 +1299,7 @@
         "shadcn"
       ],
       "notes": "Six isometric line figures that answer the pointer. For React and for anything with a DOM.",
-      "repo_stars": 2490,
+      "repo_stars": 2495,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -2211,24 +1340,6 @@
       "verified_pkg_name": null
     },
     {
-      "name": "meteocons",
-      "npm": null,
-      "repo": "basmilius/meteocons",
-      "category": "creative-craft",
-      "tags": [
-        "creative-libs",
-        "TypeScript",
-        "animations",
-        "figma",
-        "icon",
-        "icon-pack"
-      ],
-      "notes": "Beautiful, hand-crafted animated weather icons that feel alive.",
-      "repo_stars": 1675,
-      "repo_resolution": "manual",
-      "verified_pkg_name": null
-    },
-    {
       "name": "goey-toast",
       "npm": null,
       "repo": "anl331/goey-toast",
@@ -2242,7 +1353,7 @@
         "framer-motion"
       ],
       "notes": "A gooey, morphing toast component built on Sonner with Framer Motion animations",
-      "repo_stars": 1340,
+      "repo_stars": 1341,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -2278,7 +1389,7 @@
         "icons"
       ],
       "notes": "1,170 animated SVG icons with hover and imperative triggers, and configurable size, color and duration. Built on motion.",
-      "repo_stars": 1316,
+      "repo_stars": 1317,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -2310,7 +1421,7 @@
         "react"
       ],
       "notes": "micro-interactions for react, built for the half-second after a click",
-      "repo_stars": 1120,
+      "repo_stars": 1121,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -2364,7 +1475,7 @@
         "remotion"
       ],
       "notes": "50 open-source skills that teach your AI coding agent to make motion graphics, animation & video — kinetic typography, data-viz, explainers, TikTok/Reels, WebGL, Manim. 14 installable packs. By iart.ai, the AI motion agent.",
-      "repo_stars": 912,
+      "repo_stars": 913,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -2382,7 +1493,7 @@
         "claude-skill"
       ],
       "notes": "The design skill for Claude Code, Cursor and any coding agent. Stop shipping AI-slop UI: turn it into shippable, tasteful frontend. Install: npx skills add superdesigndev/superdesign-skill. Powered by superdesign.dev",
-      "repo_stars": 860,
+      "repo_stars": 862,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -2436,12 +1547,12 @@
         "claude-code"
       ],
       "notes": "Agent skill for creative 3D visualization: turn an idea into a Three.js/Blender scene worth exploring. Claude Code + Codex plugin, 223 recipes, 440 knowledge records, 22 proved kits, 37 runnable studies.",
-      "repo_stars": 825,
+      "repo_stars": 828,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
     {
-      "name": "ui",
+      "name": "ui (bazzalabs)",
       "npm": null,
       "repo": "bazzalabs/ui",
       "category": "creative-craft",
@@ -2472,7 +1583,7 @@
         "open-source"
       ],
       "notes": "Free premium animated React components and micro-interactions built with Framer Motion and Tailwind CSS",
-      "repo_stars": 688,
+      "repo_stars": 690,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -2600,7 +1711,7 @@
         "generative-ai"
       ],
       "notes": "A free, open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy 7.1 on fal). 20 example sites.",
-      "repo_stars": 382,
+      "repo_stars": 384,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -2650,7 +1761,7 @@
         "TypeScript"
       ],
       "notes": "Particle Based Fluids (PBF) library for Three.js",
-      "repo_stars": 312,
+      "repo_stars": 313,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -2686,7 +1797,7 @@
         "isometric"
       ],
       "notes": "Claude skill that draws interactive isometric figures in a single HTML file",
-      "repo_stars": 256,
+      "repo_stars": 257,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -2705,24 +1816,6 @@
       ],
       "notes": "A lightweight JavaScript library, written in TypeScript, to create isometric projections using SVGs",
       "repo_stars": 242,
-      "repo_resolution": "manual",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "Kinesis.js",
-      "npm": null,
-      "repo": "amineyarman/Kinesis.js",
-      "category": "creative-craft",
-      "tags": [
-        "creative-libs",
-        "TypeScript",
-        "animation",
-        "css",
-        "css-custom-properties",
-        "drag"
-      ],
-      "notes": "Interactive motion, written in CSS. Tilt, parallax, magnetic, drag, and scroll effects as CSS properties, animated with springs. 14 KB, no dependencies.",
-      "repo_stars": 239,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -2759,24 +1852,6 @@
       ],
       "notes": "Blue Archive-inspired web click effects, mouse effects & cursor trail｜蔚蓝档案风格网页点击特效、鼠标特效与光标拖尾｜WebGL2 · WebGPU · Canvas 2D · npm/CDN",
       "repo_stars": 205,
-      "repo_resolution": "manual",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "textmode.js",
-      "npm": null,
-      "repo": "humanbydefinition/textmode.js",
-      "category": "creative-craft",
-      "tags": [
-        "creative-libs",
-        "TypeScript",
-        "art",
-        "ascii",
-        "canvas",
-        "creative-coding"
-      ],
-      "notes": "textmode.js is a lightweight creative coding library for creating real-time ASCII art on the web.",
-      "repo_stars": 174,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -2831,24 +1906,6 @@
       ],
       "notes": "Turn images into flowing particle animations. Built with js, webgl / glsl, and html5 canvas",
       "repo_stars": 159,
-      "repo_resolution": "manual",
-      "verified_pkg_name": null
-    },
-    {
-      "name": "c2.js",
-      "npm": null,
-      "repo": "ren-yuan/c2.js",
-      "category": "creative-craft",
-      "tags": [
-        "creative-libs",
-        "TypeScript",
-        "algorithm",
-        "convexhull",
-        "delaunay",
-        "evolution"
-      ],
-      "notes": "JavaScript library for creative coding",
-      "repo_stars": 154,
       "repo_resolution": "manual",
       "verified_pkg_name": null
     },
@@ -3081,7 +2138,7 @@
         "deterministic-capture",
         "video"
       ],
-      "repo_stars": 98147,
+      "repo_stars": 98150,
       "repo_resolution": "npm-field",
       "verified_pkg_name": null
     },
@@ -3096,6 +2153,1609 @@
       ],
       "repo_stars": 95731,
       "repo_resolution": "recorded(canonical)",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "impeccable",
+      "npm": null,
+      "repo": "pbakaus/impeccable",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 83604,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "taste-skill (Leonxlnx)",
+      "npm": null,
+      "repo": "Leonxlnx/taste-skill",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 99718,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "open-design",
+      "npm": null,
+      "repo": "nexu-io/open-design",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 102732,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "skills (Mattpocock)",
+      "npm": null,
+      "repo": "Mattpocock/skills",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 298299,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "skills (emilkowalski)",
+      "npm": null,
+      "repo": "emilkowalski/skills",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 47914,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "stitch-skills",
+      "npm": null,
+      "repo": "google-labs-code/stitch-skills",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 8550,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "gsap-skills",
+      "npm": null,
+      "repo": "greensock/gsap-skills",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 16728,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "ui-ux-pro-max-skill",
+      "npm": null,
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 137869,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "skills (remotion-dev)",
+      "npm": null,
+      "repo": "remotion-dev/skills",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 5425,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "SwiftUI-Agent-Skill",
+      "npm": null,
+      "repo": "twostraws/SwiftUI-Agent-Skill",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 6272,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "mcp-server-guide",
+      "npm": null,
+      "repo": "figma/mcp-server-guide",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 2090,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "ux-ui-agent-skills",
+      "npm": null,
+      "repo": "plugin87/ux-ui-agent-skills",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 2461,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "design-extract",
+      "npm": null,
+      "repo": "Manavarya09/design-extract",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 4271,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "skills (anthropics)",
+      "npm": null,
+      "repo": "anthropics/skills",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 182421,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "agent-skills",
+      "npm": null,
+      "repo": "vercel-labs/agent-skills",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 32704,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "skills (mattpocock)",
+      "npm": null,
+      "repo": "mattpocock/skills",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 298300,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "swiftui-agent-skill",
+      "npm": null,
+      "repo": "twostraws/swiftui-agent-skill",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 6272,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "archify",
+      "npm": null,
+      "repo": "tt-a1i/archify",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 86198,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "diagram-design",
+      "npm": null,
+      "repo": "cathrynlavery/diagram-design",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 58827,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "huashu-design",
+      "npm": null,
+      "repo": "alchaincyf/huashu-design",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 25525,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "baoyu-design",
+      "npm": null,
+      "repo": "JimLiu/baoyu-design",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 4423,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "logo-design-skill",
+      "npm": null,
+      "repo": "kaankiziltug/logo-design-skill",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 3822,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "designer-skills",
+      "npm": null,
+      "repo": "Owl-Listener/designer-skills",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 2978,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "motion-design-skill",
+      "npm": null,
+      "repo": "LottieFiles/motion-design-skill",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 2362,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "awesome-design-skills",
+      "npm": null,
+      "repo": "bergside/awesome-design-skills",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 3275,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "design.how",
+      "npm": null,
+      "repo": "arla6ka/design.how",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 142,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "ui-craft",
+      "npm": null,
+      "repo": "educlopez/ui-craft",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 393,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "styleseed",
+      "npm": null,
+      "repo": "bitjaru/styleseed",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 981,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "oil-ui",
+      "npm": null,
+      "repo": "oil-oil/oil-ui",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 1906,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "apple-design-skill",
+      "npm": null,
+      "repo": "dickwu/apple-design-skill",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 1678,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "hue",
+      "npm": null,
+      "repo": "dominikmartn/hue",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 843,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "nothing-design-skill",
+      "npm": null,
+      "repo": "dominikmartn/nothing-design-skill",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 2832,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "HIGAgentSkills",
+      "npm": null,
+      "repo": "justinwetch/HIGAgentSkills",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 662,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "typeui",
+      "npm": null,
+      "repo": "bergside/typeui",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 2095,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "stylekit-skill",
+      "npm": null,
+      "repo": "AnxForever/stylekit-skill",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 33,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "claude-design-system-prompt",
+      "npm": null,
+      "repo": "Trystan-SA/claude-design-system-prompt",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 2006,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "Claude-Code-Frontend-Design-Toolkit",
+      "npm": null,
+      "repo": "wilwaldon/Claude-Code-Frontend-Design-Toolkit",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 1204,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "lint",
+      "npm": null,
+      "repo": "shadcn-ui/lint",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 3234,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "community-resources",
+      "npm": null,
+      "repo": "figma/community-resources",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "design",
+        "claude-code"
+      ],
+      "notes": "AI design / design-system skill for Claude Code (see docs/ecosystem/design-skills.md)",
+      "repo_stars": 857,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "anatomy-figures",
+      "npm": null,
+      "repo": "wheresryan22/anatomy-figures",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 20,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "isometric-contributions",
+      "npm": null,
+      "repo": "jasonlong/isometric-contributions",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 3702,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "github-breakout",
+      "npm": null,
+      "repo": "cyprieng/github-breakout",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 849,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "abyssal-ocean",
+      "npm": null,
+      "repo": "squall01337/abyssal-ocean",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 55,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "ascii",
+      "npm": null,
+      "repo": "bas3line/ascii",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 947,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "liquid-glass",
+      "npm": null,
+      "repo": "archisvaze/liquid-glass",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 807,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "orb",
+      "npm": null,
+      "repo": "LerSent001/orb",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 736,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "webgl-crt-shader",
+      "npm": null,
+      "repo": "gingerbeardman/webgl-crt-shader",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 187,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "react-useanimations",
+      "npm": null,
+      "repo": "useAnimations/react-useanimations",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 1252,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "number-flow",
+      "npm": null,
+      "repo": "barvian/number-flow",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 7756,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "fluid-tailwind",
+      "npm": null,
+      "repo": "barvian/fluid-tailwind",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 1781,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "postcss-motion-spring",
+      "npm": null,
+      "repo": "barvian/postcss-motion-spring",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 0,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "rolling-number",
+      "npm": null,
+      "repo": "kitlangton/rolling-number",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 135,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "griffo",
+      "npm": null,
+      "repo": "dimicx/griffo",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 119,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "view-transitions-toolkit",
+      "npm": null,
+      "repo": "GoogleChromeLabs/view-transitions-toolkit",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 192,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "ie-page-transitions",
+      "npm": null,
+      "repo": "bramus/ie-page-transitions",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 37,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "orbit",
+      "npm": null,
+      "repo": "zumerlab/orbit",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 765,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "snapdom",
+      "npm": null,
+      "repo": "zumerlab/snapdom",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 8194,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "glacex",
+      "npm": null,
+      "repo": "artemtsitronov/glacex",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 125,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "GSS",
+      "npm": null,
+      "repo": "LukyVj/GSS",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 108,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "dembrandt",
+      "npm": null,
+      "repo": "dembrandt/dembrandt",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 3752,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "svg-diagram",
+      "npm": null,
+      "repo": "bybit-exchange/svg-diagram",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 629,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "AW-2025-Portfolio",
+      "npm": null,
+      "repo": "AntoineW/AW-2025-Portfolio",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 609,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "musabhassan.com",
+      "npm": null,
+      "repo": "Musab-Hassan/musabhassan.com",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 220,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "animata",
+      "npm": null,
+      "repo": "codse/animata",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 2973,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "tailwindcss-motion",
+      "npm": null,
+      "repo": "romboHQ/tailwindcss-motion",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 3328,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "canvas-ui",
+      "npm": null,
+      "repo": "DavidHDev/canvas-ui",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 5031,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "react-kino",
+      "npm": null,
+      "repo": "btahir/react-kino",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 221,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "timeline",
+      "npm": null,
+      "repo": "pmndrs/timeline",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 162,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "uikit",
+      "npm": null,
+      "repo": "pmndrs/uikit",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 3249,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "postprocessing",
+      "npm": null,
+      "repo": "pmndrs/postprocessing",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 2887,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "cobe",
+      "npm": null,
+      "repo": "shuding/cobe",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 5992,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "ai-office",
+      "npm": null,
+      "repo": "Gaurav2693/ai-office",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 63,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "factory",
+      "npm": null,
+      "repo": "Khalidabdi1/factory",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 141,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "doom-portal-in-webgl",
+      "npm": null,
+      "repo": "brunosimon/doom-portal-in-webgl",
+      "category": "ux-craft-2026",
+      "tags": [
+        "high-craft",
+        "web",
+        "2026"
+      ],
+      "notes": "High-craft web repo, 2026 (see docs/libraries/ux-craft-2026.md)",
+      "repo_stars": 164,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "superpowers",
+      "npm": null,
+      "repo": "obra/superpowers",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 302465,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "marketingskills",
+      "npm": null,
+      "repo": "coreyhaines31/marketingskills",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 55634,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "skills (google)",
+      "npm": null,
+      "repo": "google/skills",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 21435,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "awesome-design-md",
+      "npm": null,
+      "repo": "VoltAgent/awesome-design-md",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 122468,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "claude-mem",
+      "npm": null,
+      "repo": "thedotmack/claude-mem",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 101916,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "OmniRoute",
+      "npm": null,
+      "repo": "diegosouzapw/OmniRoute",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 78814,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "awesome-freellm-apis",
+      "npm": null,
+      "repo": "open-free-llm-api/awesome-freellm-apis",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 4477,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "magic-mcp",
+      "npm": null,
+      "repo": "21st-dev/magic-mcp",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 6141,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "ui (shadcn-ui)",
+      "npm": null,
+      "repo": "shadcn-ui/ui",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 126046,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "supermemory",
+      "npm": null,
+      "repo": "supermemoryai/supermemory",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 31333,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "brainless",
+      "npm": null,
+      "repo": "theswerd/brainless",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 840,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "youtube-agent-skill",
+      "npm": null,
+      "repo": "Jakeschincariol/youtube-agent-skill",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 1997,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "vibe-coder-survival-guide",
+      "npm": null,
+      "repo": "ismail9k/vibe-coder-survival-guide",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 51,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "VibeSec-Skill",
+      "npm": null,
+      "repo": "BehiSecc/VibeSec-Skill",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 1360,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "hyperframes",
+      "npm": null,
+      "repo": "heygen-com/hyperframes",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 68219,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "claude-motion",
+      "npm": null,
+      "repo": "whaleyxbt/claude-motion",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 538,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "taste-skill (senlindesign)",
+      "npm": null,
+      "repo": "senlindesign/taste-skill",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 409,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "react",
+      "npm": null,
+      "repo": "react/react",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 251527,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "agentic-awesome-skills",
+      "npm": null,
+      "repo": "sickn33/agentic-awesome-skills",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 48058,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "scientific-agent-skills",
+      "npm": null,
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 53187,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "awesome-claude-skills",
+      "npm": null,
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 77494,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "awesome-agent-skills",
+      "npm": null,
+      "repo": "VoltAgent/awesome-agent-skills",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 36055,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "claude-skills",
+      "npm": null,
+      "repo": "alirezarezvani/claude-skills",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 28449,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "agents",
+      "npm": null,
+      "repo": "wshobson/agents",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 41227,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "awesome-claude-code",
+      "npm": null,
+      "repo": "hesreallyhim/awesome-claude-code",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 56084,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "claude-code-templates",
+      "npm": null,
+      "repo": "davila7/claude-code-templates",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 32782,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "spec-kit",
+      "npm": null,
+      "repo": "github/spec-kit",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 142080,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "oh-my-design",
+      "npm": null,
+      "repo": "kwakseongjae/oh-my-design",
+      "category": "tiktok-pushed",
+      "tags": [
+        "agent-skill",
+        "tiktok",
+        "trending"
+      ],
+      "notes": "Repo pushed by a TikTok creator (see docs/ecosystem/tiktok-hyped.md)",
+      "repo_stars": 542,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "awesome-ios-design-md",
+      "npm": null,
+      "repo": "Meliwat/awesome-ios-design-md",
+      "category": "design-skills",
+      "tags": [
+        "design-md",
+        "design-system"
+      ],
+      "notes": "Surfaced in the wave-2 research wave (see docs/ecosystem/ and docs/libraries/)",
+      "repo_stars": 609,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "html-anything",
+      "npm": null,
+      "repo": "nexu-io/html-anything",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "html"
+      ],
+      "notes": "Surfaced in the wave-2 research wave (see docs/ecosystem/ and docs/libraries/)",
+      "repo_stars": 9187,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "agent-skills",
+      "npm": null,
+      "repo": "sleekdotdesign/agent-skills",
+      "category": "design-skills",
+      "tags": [
+        "agent-skill",
+        "589-stars",
+        "real-owner-of-916k-installs"
+      ],
+      "notes": "Surfaced in the wave-2 research wave (see docs/ecosystem/ and docs/libraries/)",
+      "repo_stars": 589,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "ScrollMagic",
+      "npm": null,
+      "repo": "Janpaepke/ScrollMagic",
+      "category": "ux-craft-2026",
+      "tags": [
+        "scroll"
+      ],
+      "notes": "Surfaced in the wave-2 research wave (see docs/ecosystem/ and docs/libraries/)",
+      "repo_stars": 14952,
+      "repo_resolution": "manual",
+      "verified_pkg_name": null
+    },
+    {
+      "name": "skills (vercel-labs)",
+      "npm": "skills",
+      "repo": "vercel-labs/skills",
+      "category": "design-skills",
+      "tags": [
+        "cli",
+        "skills",
+        "22.9m-downloads",
+        "35.8k-stars",
+        "not-anthropic"
+      ],
+      "notes": "The `npx skills add <owner>/<repo>` CLI. NOT Anthropic's - Anthropic publishes skills, this is the harness-agnostic installer for 75+ agents. 22.9M downloads/month.",
+      "repo_stars": 35792,
+      "repo_resolution": "npm-field",
       "verified_pkg_name": null
     }
   ]

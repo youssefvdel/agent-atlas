@@ -1,0 +1,317 @@
+{
+ "mattpocock/skills": {
+  "repo": "mattpocock/skills",
+  "stars": 298237,
+  "forks": 25048,
+  "created": "2026-02-03",
+  "pushed": "2026-10-19",
+  "license": "MIT",
+  "desc": "Skills for Real Engineers. Straight from my .agents directory."
+ },
+ "obra/superpowers": {
+  "repo": "obra/superpowers",
+  "stars": 302441,
+  "forks": 27005,
+  "created": "2025-10-09",
+  "pushed": "2026-10-20",
+  "license": "MIT",
+  "desc": "An agentic skills framework & software development methodology that works."
+ },
+ "anthropics/skills": {
+  "repo": "anthropics/skills",
+  "stars": 182407,
+  "forks": 21612,
+  "created": "2025-09-22",
+  "pushed": "2026-10-09",
+  "license": null,
+  "desc": "Public repository for Agent Skills"
+ },
+ "pbakaus/impeccable": {
+  "repo": "pbakaus/impeccable",
+  "stars": 83588,
+  "forks": 5056,
+  "created": "2025-11-16",
+  "pushed": "2026-10-20",
+  "license": "Apache-2.0",
+  "desc": "The design language that makes your AI harness better at design."
+ },
+ "emilkowalski/skills": {
+  "repo": "emilkowalski/skills",
+  "stars": 47898,
+  "forks": 2765,
+  "created": "2026-03-16",
+  "pushed": "2026-10-11",
+  "license": "MIT",
+  "desc": "Skills for Designers and Engineers."
+ },
+ "coreyhaines31/marketingskills": {
+  "repo": "coreyhaines31/marketingskills",
+  "stars": 55627,
+  "forks": 8234,
+  "created": "2026-01-15",
+  "pushed": "2026-10-19",
+  "license": "MIT",
+  "desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering."
+ },
+ "google/skills": {
+  "repo": "google/skills",
+  "stars": 21435,
+  "forks": 1808,
+  "created": "2026-03-31",
+  "pushed": "2026-10-19",
+  "license": "Apache-2.0",
+  "desc": "Agent Skills for Google products and technologies"
+ },
+ "VoltAgent/awesome-design-md": {
+  "repo": "VoltAgent/awesome-design-md",
+  "stars": 122457,
+  "forks": 13603,
+  "created": "2026-03-31",
+  "pushed": "2026-10-14",
+  "license": "MIT",
+  "desc": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI."
+ },
+ "thedotmack/claude-mem": {
+  "repo": "thedotmack/claude-mem",
+  "stars": 101909,
+  "forks": 8970,
+  "created": "2025-08-31",
+  "pushed": "2026-10-20",
+  "license": "Apache-2.0",
+  "desc": "Persistent Context Across Sessions for Every Agent \u2013  Captures everything your agent does during sessions, compresses it with AI, and injects relevant"
+ },
+ "diegosouzapw/OmniRoute": {
+  "repo": "diegosouzapw/OmniRoute",
+  "stars": 78785,
+  "forks": 11475,
+  "created": "2026-02-13",
+  "pushed": "2026-10-20",
+  "license": "MIT",
+  "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Work"
+ },
+ "open-free-llm-api/awesome-freellm-apis": {
+  "repo": "open-free-llm-api/awesome-freellm-apis",
+  "stars": 4474,
+  "forks": 705,
+  "created": "2026-05-10",
+  "pushed": "2026-10-20",
+  "license": "MIT",
+  "desc": "134+ free LLM APIs & AI API keys from 40+ providers. Google Gemini, NVIDIA NIM, Groq, OpenRouter & more. One-click setup for Claude Code, Cursor and C"
+ },
+ "21st-dev/magic-mcp": {
+  "repo": "21st-dev/magic-mcp",
+  "stars": 6140,
+  "forks": 499,
+  "created": "2025-02-19",
+  "pushed": "2026-09-09",
+  "license": "ISC",
+  "desc": "It's like v0, but in your Cursor / Claude Code / Windsurf: search 10,000+ React/Tailwind components, generate new UI with AI, and publish your own \u2014 r"
+ },
+ "shadcn-ui/ui": {
+  "repo": "shadcn-ui/ui",
+  "stars": 126039,
+  "forks": 13663,
+  "created": "2023-01-04",
+  "pushed": "2026-10-19",
+  "license": "MIT",
+  "desc": "Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own."
+ },
+ "remotion-dev/remotion": {
+  "repo": "remotion-dev/remotion",
+  "stars": 65525,
+  "forks": 5224,
+  "created": "2020-06-23",
+  "pushed": "2026-10-20",
+  "license": "NOASSERTION",
+  "desc": "\ud83c\udfa5      Make videos programmatically with React"
+ },
+ "supermemoryai/supermemory": {
+  "repo": "supermemoryai/supermemory",
+  "stars": 31334,
+  "forks": 2750,
+  "created": "2024-02-27",
+  "pushed": "2026-10-20",
+  "license": "MIT",
+  "desc": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era."
+ },
+ "theswerd/brainless": {
+  "repo": "theswerd/brainless",
+  "stars": 840,
+  "forks": 58,
+  "created": "2026-07-11",
+  "pushed": "2026-09-25",
+  "license": "MIT",
+  "desc": "Claude Code, Codex, and Grok interfaces as shadcn components"
+ },
+ "Jakeschincariol/youtube-agent-skill": {
+  "repo": "Jakeschincariol/youtube-agent-skill",
+  "stars": 1989,
+  "forks": 631,
+  "created": "2026-09-16",
+  "pushed": "2026-09-16",
+  "license": "MIT",
+  "desc": "Eleven Claude skills that run a YouTube channel: scripts off 21 hook formulas with a scored hook, title and thumbnail linted as one pairing, an edit d"
+ },
+ "ismail9k/vibe-coder-survival-guide": {
+  "repo": "ismail9k/vibe-coder-survival-guide",
+  "stars": 51,
+  "forks": 7,
+  "created": "2026-06-29",
+  "pushed": "2026-07-01",
+  "license": null,
+  "desc": "An opinionated, beginner-friendly stack and learning path for people who build software with AI \u2014 for those who don't know what they don't know."
+ },
+ "BehiSecc/VibeSec-Skill": {
+  "repo": "BehiSecc/VibeSec-Skill",
+  "stars": 1360,
+  "forks": 115,
+  "created": "2026-02-02",
+  "pushed": "2026-02-17",
+  "license": "Apache-2.0",
+  "desc": "This skill helps Claude write secure code and prevent common vulnerabilities."
+ },
+ "heygen-com/hyperframes": {
+  "repo": "heygen-com/hyperframes",
+  "stars": 68181,
+  "forks": 6159,
+  "created": "2026-03-10",
+  "pushed": "2026-10-20",
+  "license": "Apache-2.0",
+  "desc": "Write HTML. Render video. Built for agents."
+ },
+ "whaleyxbt/claude-motion": {
+  "repo": "whaleyxbt/claude-motion",
+  "stars": 536,
+  "forks": 70,
+  "created": "2026-09-29",
+  "pushed": "2026-10-09",
+  "license": "MIT",
+  "desc": "A motion design toolkit for coding agents."
+ },
+ "senlindesign/taste-skill": {
+  "repo": "senlindesign/taste-skill",
+  "stars": 408,
+  "forks": 33,
+  "created": "2026-05-24",
+  "pushed": "2026-07-07",
+  "license": null,
+  "desc": "Claude Code skill \u2014 reverse-engineer any website's design taste: concrete tokens + opinionated trade-offs (WHY, not just WHAT)"
+ },
+ "ibelick/motion-primitives": {
+  "repo": "ibelick/motion-primitives",
+  "stars": 6763,
+  "forks": 293,
+  "created": "2024-07-03",
+  "pushed": "2026-09-28",
+  "license": "MIT",
+  "desc": "UI kit to make beautiful, animated interfaces, faster. Customizable. Open Source."
+ },
+ "react/react": {
+  "repo": "react/react",
+  "stars": 251512,
+  "forks": 51558,
+  "created": "2013-05-24",
+  "pushed": "2026-10-19",
+  "license": "MIT",
+  "desc": "The library for web and native user interfaces."
+ },
+ "sickn33/agentic-awesome-skills": {
+  "repo": "sickn33/agentic-awesome-skills",
+  "stars": 48042,
+  "forks": 7010,
+  "created": "2026-01-14",
+  "pushed": "2026-10-19",
+  "license": "MIT",
+  "desc": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,60"
+ },
+ "K-Dense-AI/scientific-agent-skills": {
+  "repo": "K-Dense-AI/scientific-agent-skills",
+  "stars": 53170,
+  "forks": 4701,
+  "created": "2025-10-19",
+  "pushed": "2026-10-19",
+  "license": "MIT",
+  "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated ski"
+ },
+ "ComposioHQ/awesome-claude-skills": {
+  "repo": "ComposioHQ/awesome-claude-skills",
+  "stars": 77491,
+  "forks": 9226,
+  "created": "2025-10-17",
+  "pushed": "2026-09-18",
+  "license": null,
+  "desc": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows"
+ },
+ "VoltAgent/awesome-agent-skills": {
+  "repo": "VoltAgent/awesome-agent-skills",
+  "stars": 36052,
+  "forks": 3924,
+  "created": "2025-10-28",
+  "pushed": "2026-10-19",
+  "license": "MIT",
+  "desc": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more"
+ },
+ "alirezarezvani/claude-skills": {
+  "repo": "alirezarezvani/claude-skills",
+  "stars": 28447,
+  "forks": 4104,
+  "created": "2025-10-19",
+  "pushed": "2026-08-30",
+  "license": "MIT",
+  "desc": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex"
+ },
+ "wshobson/agents": {
+  "repo": "wshobson/agents",
+  "stars": 41223,
+  "forks": 4391,
+  "created": "2025-07-24",
+  "pushed": "2026-10-19",
+  "license": "MIT",
+  "desc": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi"
+ },
+ "hesreallyhim/awesome-claude-code": {
+  "repo": "hesreallyhim/awesome-claude-code",
+  "stars": 56081,
+  "forks": 4846,
+  "created": "2025-04-19",
+  "pushed": "2026-10-20",
+  "license": "NOASSERTION",
+  "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from th"
+ },
+ "davila7/claude-code-templates": {
+  "repo": "davila7/claude-code-templates",
+  "stars": 32780,
+  "forks": 3804,
+  "created": "2025-07-04",
+  "pushed": "2026-10-20",
+  "license": "MIT",
+  "desc": "CLI tool for configuring and monitoring Claude Code"
+ },
+ "github/spec-kit": {
+  "repo": "github/spec-kit",
+  "stars": 142074,
+  "forks": 12710,
+  "created": "2025-08-21",
+  "pushed": "2026-10-20",
+  "license": "MIT",
+  "desc": "\ud83d\udcab Toolkit to help you get started with SDD or any other process!"
+ },
+ "bergside/awesome-design-skills": {
+  "repo": "bergside/awesome-design-skills",
+  "stars": 3275,
+  "forks": 337,
+  "created": "2026-03-09",
+  "pushed": "2026-06-28",
+  "license": "MIT",
+  "desc": "List of 67 awesome DESIGN.md and SKILL.md design skill files for agentic tools like Claude Design, Google Stitch, Codex, Cursor, and other AI tools"
+ },
+ "kwakseongjae/oh-my-design": {
+  "repo": "kwakseongjae/oh-my-design",
+  "stars": 542,
+  "forks": 48,
+  "created": "2026-04-13",
+  "pushed": "2026-10-20",
+  "license": "MIT",
+  "desc": "Give your AI coding agent a design system. One command installs 500+ quality-graded company DESIGN.md references + skills into Claude Code, Codex, Cur"
+ }
+}

@@ -275,6 +275,27 @@ def main() -> None:
     spec = json.loads(Path(args.spec).read_text(encoding="utf-8"))
     libs = spec["libraries"] if isinstance(spec, dict) else spec
 
+    # GitHub repo names are case-insensitive: Mattpocock/skills and
+    # mattpocock/skills are the same repo. Dedupe case-insensitively, keeping
+    # whichever entry carries more metadata.
+    by_repo: dict[str, dict] = {}
+    ordered: list[dict] = []
+    for e in libs:
+        r = (e.get("repo") or "").lower()
+        if not r:
+            ordered.append(e)
+            continue
+        if r not in by_repo:
+            by_repo[r] = e
+            ordered.append(e)
+            continue
+        prev = by_repo[r]
+        score = lambda x: (1 if x.get("npm") else 0) + len(str(x.get("notes") or ""))
+        if score(e) > score(prev):
+            ordered[ordered.index(prev)] = e
+            by_repo[r] = e
+    libs = ordered
+
     pkgs: dict[str, str | None] = {}
     for e in libs:
         p = e.get("npm")
